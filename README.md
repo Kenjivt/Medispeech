@@ -21,6 +21,7 @@ Op basis van deze uitgangspunten werden vier verschillende ontwerpvarianten ontw
 Gedurende dit proces werd het ontwerp niet alleen verfijnd op basis van de oorspronkelijke criteria, maar werden ook nieuwe criteria toegevoegd. Zo kwamen tijdens de evaluaties nieuwe vereisten naar voren, zoals de noodzaak van veiligheid, hygiëne en veelzijdigheid in het bevestigingssysteem (bijvoorbeeld de mogelijkheid om het device aan een borstzakje te bevestigen of magnetisch op een computer te plaatsen). Het ontwerp moest nu voldoen aan deze aanvullende eisen, wat de complexiteit van de oplossing vergrootte, maar tegelijkertijd ook het product verder optimaliseerde.
 
 Het iteratieve proces werd herhaald na elke evaluatie, met als doel uiteindelijk een oplossing te bereiken die voldoet aan de oorspronkelijke en de nieuwe criteria, en waarbij (bijna) geen negatieve ervaringen meer optreden. Dit cyclische proces van analyseren, ontwerpen, evalueren en aanpassen zorgt ervoor dat het uiteindelijke product niet alleen voldoet aan de behoeften van de gebruikers, maar ook optimaal presteert in de praktijk.
+
 ![Visuele voorstelling](https://github.com/user-attachments/assets/75fe8201-f61c-4cce-a928-04943af44272)
 
 
