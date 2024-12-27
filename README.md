@@ -3,16 +3,10 @@
 
 *Projectteam: Kenji Van Thuyne; Marit Hocedez*
 
-Datum
+7/01/2025
 
 ## Samenvatting
-Max 200 woorden. Beschrijf je project in het kort, waarbij je deze vragen zeker beantwoordt:
-
-- Wat is het probleem?
-- Hoe heb je dit onderzocht?
-- Wat is jouw oplossing?
-- Hoe lost jouw oplossing het probleem op?
-- Hero sketch/render/image
+Het probleem in de zorg is de enorme hoeveelheid administratie die verpleegkundigen moeten uitvoeren, wat veel tijd in beslag neemt en ten koste gaat van de tijd die zij met hun patiënten kunnen doorbrengen. Alles moet gedetailleerd worden vastgelegd, zelfs de kleinste handelingen. Dit probleem werd onderzocht door middel van drie interviews met zorgprofessionals en een enquête (N = 156), waarin 63,5% aangaf dat de administratieve druk extra stress veroorzaakt en 73,7% van de respondenten het tijdrovend vond. De oplossing, Medispeech, is een apparaat dat de gebruiker aan zijn/haar borstzakje of computer bevestigt. Dit apparaat maakt gebruik van spraakherkenning, waarmee de gebruiker handsfree handelingen kan inspreken die direct omgezet worden in tekst. Spraak is veel sneller dan typen, en doordat verpleegkundigen hun handelingen kunnen inspreken terwijl ze andere zorgverrichtingen uitvoeren, wordt kostbare tijd bespaard. Zo kunnen ze meer tijd aan hun patiënten besteden, wat de werkdruk verlicht en zorgt voor meer interactie met patiënten en minder stress. Medispeech biedt dus een efficiënte manier om de administratieve last te verminderen en tegelijkertijd de zorgkwaliteit te verbeteren.
 
 ## Introductie
 Max 300 woorden.
