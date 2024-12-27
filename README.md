@@ -59,8 +59,10 @@ Definieer de belangrijkste designbeslissingen
 - Prototype
 
 ## Kritische reflectie
-Max. 500 woorden
+Kenji Van Thuyne:
+Ik vond het soms lastig om onderscheid te maken tussen "form follows function" en "function follows form." Dit kwam doordat een belangrijk criterium was dat het device zeer compact, licht en gemakkelijk te gebruiken moest zijn. Hierdoor lagen de afmetingen en grootte al grotendeels vast of hadden in ieder geval een duidelijke limiet. Dit maakte het moeilijk om te bepalen of de vorm nu de functie volgde of andersom. Naarmate het proces vorderde, werd echter steeds duidelijker dat je eerst afzonderlijk naar de functies en componenten moet kijken en deze als zelfstandige elementen moet beschouwen. Pas daarna combineer je alles zo compact en licht mogelijk, en niet omgekeerd. In het begin van de waves vond ik dit concept moeilijk te begrijpen.
 
+Over het algemeen ben ik tevreden met het verloop van het project, al hadden we met wat extra tijd en enkele extra waves wellicht meer vooruitgang geboekt. Door de blokperiode is het echter niet haalbaar om verder te werken aan de waves. Tijdens de interviews heb ik veel geleerd, met name over het doorvragen. Bij gebruiker 4-5 ging dit in wave 1 nog wat moeizaam, omdat ik nog niet goed wist hoe ik dit moest aanpakken. Als team vind ik dat we goed samenwerken en elkaar goed aanvullen. Ik kijk erg uit naar semester 2, omdat ik me volledig wil inzetten om ervoor te zorgen dat het device echt functioneert zoals gehoopt en gepresenteerd.
 ## Bronnen
 Voeg je volledige bibliografie toe van bronnen naarwaar je verwees.
 
