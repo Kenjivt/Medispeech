@@ -22,7 +22,7 @@ Gedurende dit proces werd het ontwerp niet alleen verfijnd op basis van de oorsp
 
 Het iteratieve proces werd herhaald na elke evaluatie, met als doel uiteindelijk een oplossing te bereiken die voldoet aan de oorspronkelijke en de nieuwe criteria, en waarbij (bijna) geen negatieve ervaringen meer optreden. Dit cyclische proces van analyseren, ontwerpen, evalueren en aanpassen zorgt ervoor dat het uiteindelijke product niet alleen voldoet aan de behoeften van de gebruikers, maar ook optimaal presteert in de praktijk.
 
-![Visuele voorstelling](https://github.com/user-attachments/assets/75fe8201-f61c-4cce-a928-04943af44272)
+![Visuele voorstelling](https://github.com/user-attachments/assets/1f569bc6-096e-4721-a5f6-6ac174f5f4df)
 
 
 ## Discovery
