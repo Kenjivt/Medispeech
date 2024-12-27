@@ -1,7 +1,7 @@
 # Projecttitel
-*Omschrijving van je concept in 1 zin* 
+*Medispeech is een apparaat dat spraak omzet in tekst, waardoor de administratieve druk in de zorg afneemt en zorgmedewerkers meer tijd aan patiënten kunnen besteden.* 
 
-*Projectteam: Naam 1; Naam 2*
+*Projectteam: Kenji Van Thuyne; Marit Hocedez*
 
 Datum
 
