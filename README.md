@@ -48,11 +48,11 @@ Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
 Definieer de belangrijkste designbeslissingen
 
 ## Bill of materials
-- Welk
-- Materiaal
-- Heb
-- Je
-- Nu
+- Arduino nano 33 BLE sense of Raspberry pi zero (Rekenkracht)
+- PLA (misschien later ander materiaal, zonder 3D-printer) (Materiaal)
+- Harmony XB5 (Aan-uitknop)
+- I2C OLED Display Modules 7/8 Inch Blue (Scherm)
+- TE Connectivity 118259104 of Youmile 6x6x4.3mm Tactile Switch (Verwijderknop)
 - Nodig
 - Voor
 - Je
