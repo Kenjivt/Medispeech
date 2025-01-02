@@ -52,9 +52,11 @@ Dit onderdeel werd onderverdeeld in 2 waves. Elke wave telde 5 respondenten werk
 Max. 1000 woorden
 ### Doestellingen
 In de eerste wave wilden we vooral te weten komen welke vorm, knop en bevestiging het product nodig heeft voor een optimale werking. Welk silhouet (hoofdvorm) is het beste om mee te werken (eerder verticaal of horizontaal of nog anders). Is de knop om in te duwen, met touch (vingerherkenning?), om te draaien of om te schuiven? Kan de bevestiging gebeuren bij het zakje van de verpleegkundigen of moet het ergens anders bevestigd worden? Welke bevestiging lijkt het beste?
+
 In wave twee hebben we gefocust op het speech-to-text systeem. We wilden weten welke categorisering hier belangrijk is die in het systeem aanwezig moet zijn. Wat er moest gebeuren als er een foute opname gebeurde of als een opname toch per ongeluk gestart werd. Wat als er foute zaken werden geregistreerd. Hoe moet het  feedbacksysteem werken (licht, geluid, met trilling)?
 ### Materiaal & methoden
 In wave 1 werden er 5 respondenten ondervraagd die werken in een woonzorgcentrum of ziekenhuis.  Bepaalde werden gerekruteerd door mails te sturen naar woonzorgcentra en ziekenhuizen, andere waren kennissen. Er werden op voorhand 4 prototypes gemaakt met telkens een verschillende vorm, bevestigingssysteem en knop (zie foto’s hieronder). Eerst werden ze snel uit karton geprototyped, daarna ge-3D-print. Deze werden dan voorgelegd aan de respondenten. Zij konden dan een tabel invullen om zo overzichtelijk weer te geven welk systeem voor elk onderdeel (vorm, knop, bevestiging)  het beste leek en welke de positieve en negatieve punten waren aan elk systeem. Dit deden we om te achterhalen welke reden er precies achter zat waarom ze het ene boven het andere verkozen. We vroegen hen om er een actie mee uit te voeren die ze tijdens het werk ook zouden doen. Zo konden zij de beste keuze maken en konden wij zien hoe er gehandeld werd met het product en hoe vlot dat ging. Daarna werd ook besproken wat ze zelf zouden veranderen aan de prototypes. 
+
 In wave 2 werden de prototypes verbeterd op basis van de zaken die we geleerd hadden in wave 1. De zaken uit wave 1 werden opnieuw bevraagd ter controle of de aangepaste/gekozen systemen als positief werden ontvangen. Dit maal werd er meer doorgevraagd naar hoe het systeem achter het product dient te werken. Er werd opnieuw gevraagd om na te spelen hoe ze het tijdens hun werk zouden doen. Tijdens het interview werd er genoteerd wat er belangrijk was. 
 We vergeleken de ingevulde tabellen en notities van elk interview met elkaar. Hieruit konden we dan een conclusie trekken en ons toespitsen op een bepaald systeem en dat verder uitwerken. 
 
@@ -62,29 +64,46 @@ We vergeleken de ingevulde tabellen en notities van elk interview met elkaar. Hi
 
 ### Resultaten
 De belangrijke resultaten uit de interviews van wave 1:
+
 Formaat: Het apparaat moet compact en licht zijn, maar ook stevig en merkbaar aanwezig. Afgeronde hoeken zorgen voor een veiligere uitstraling. Het horizontaal georiënteerde en cirkelvormige prototype leken het beste. 
+
 Quote_1 : “Patiënten zouden zich kunnen bezeren aan de scherpe randen in model 1.”
+
 Bevestiging: Het apparaat moet stevig blijven zitten, zelfs bij intensieve bewegingen, maar mag niet hinderlijk zijn. Opties voor bevestiging op verschillende plekken, zoals borstzakjes of direct aan kleding, worden geïntegreerd. De ketting, het schuifsysteem en de veiligheidsspeld worden als minder goed aanvaren. Alleen de magneetjes worden als een goede optie aanzien. 
+
 Quote_1 : “Ouderen kunnen nog altijd sterk zijn en in agressie durven grijpen naar de ketting…”
+
 Quote_2 : “We hadden vroeger ook naamkaartjes die bevestigd werden op onze schort, maar we vonden die dan steeds terug bij het verversen van het beddengoed.”
+
 Knop: De knop is intuïtief, stevig en goed zichtbaar, met visuele en tactiele feedback. Het moet simpel te gebruiken zijn. Zo weinig mogelijk stappen doorlopen om iets op te nemen. Het materiaal van de knop moet van kwaliteit zijn omdat die veel gebruikt zal worden. 
+
 Quote_1: “Als we per ongeluk erg haperen mag de opname niet gestart worden.”
+
 Extra: Hygiëne + batterij: Het product moet bestand zijn tegen regelmatige schoonmaakbeurten met ontsmettingsmiddelen, zonder verkleuring of schade. Er wordt het best gewerkt met een oplaadbakje zodat dit snel in en uit te halen is. Wanneer de batterij bijna plat is wordt een melding gegeven aan de hand van een knipperend lichtje of een trilling. 
 
 De belangrijkste nieuwe resultaten uit de interviews van wave 2: 
-Knop: Er is brede overeenstemming over de voorkeur voor een fysieke aan-uitknop, waarbij per ongeluk inschakelen wordt voorkomen, en visuele en/of tactiele feedback essentieel is om de status van het apparaat duidelijk te maken. Een duidelijk klikgeluid is wenselijk bij het indrukken. 
-Feedback: Een groen licht voor 'aan' en een rood licht voor 'uit' dat een paar tellen aanhoud, daarna mag het volledig uitgaan.  
+
+Knop: Er is brede overeenstemming over de voorkeur voor een fysieke aan-uitknop, waarbij per ongeluk inschakelen wordt voorkomen, en visuele en/of tactiele feedback essentieel is om de status van het apparaat duidelijk te maken. Een duidelijk klikgeluid is wenselijk bij het indrukken.
+
+Feedback: Een groen licht voor 'aan' en een rood licht voor 'uit' dat een paar tellen aanhoud, daarna mag het volledig uitgaan.
+
 Verwijderknop: Een verwijderknop wordt als essentieel beschouwd om foutieve opnames snel te corrigeren, met duidelijke visuele of auditieve feedback om aan te geven of de actie succesvol was. 
+
 Boomstructuur: Het zou makkelijk zijn als alles in een logische structuur wordt geordend zodat alle informatie makkelijk terug te vinden is. Er is ook een voorkeur voor het apparaat om gegevens op een centrale locatie te laten controleren, zoals via een app of computerinterface, zodat verpleegkundigen hun informatie na de shift kunnen verifiëren. 
  
 
 Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
 ### Conclusies & implicaties
 Formaat: Er wordt gewerkt met het horizontaal georiënteerde model met afgeronde hoeken. 
+
 Knop: Er wordt gekozen voor een ronde fysieke aan/uit knop. Hij is goed zichtbaar en heeft een tactiele feedback, een klikgeluid bij het aan- en uitzetten. De knop zit verzonken in het product zodat hij minder makkelijk per ongeluk ingeschakeld kan worden en ook makkelijker gereinigd kan worden. 
+
 Verwijderknop: Bovenaan zit er een verwijderknop die mislukte of per ongeluk opgenomen opnames kan verwijderen. Door de plaatsing bovenaan kan er geen verwarring ontstaat met de aan/uit knop. 
-Bevestiging: Er wordt gewerkt met een combinatie van een schuif- of knijpersysteem dat nog eens extra wordt bevestigd met behulp van magneetjes. Dit zodat het product er zeker niet af kan vallen
+
+Bevestiging: Er wordt gewerkt met een combinatie van een schuif- of knijpersysteem dat nog eens extra wordt bevestigd met behulp van magneetjes. Dit zodat het product er zeker niet af kan vallen.
+
 Feedback: Bovenaan komt er een display die groen oplicht tijdens het opnemen en rood bij het afleggen. De plaatsing bovenaan zorgt ervoor dat het goed zichtbaar is. 
+
 Batterij: Het batterijpercentage zal ook zichtbaar zijn bovenaan op de display. 
 
 ## Bill of materials
