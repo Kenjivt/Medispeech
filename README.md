@@ -57,6 +57,20 @@ In wave twee hebben we gefocust op het speech-to-text systeem. We wilden weten w
 In wave 1 werden er 5 respondenten ondervraagd die werken in een woonzorgcentrum of ziekenhuis.  Bepaalde werden gerekruteerd door mails te sturen naar woonzorgcentra en ziekenhuizen, andere waren kennissen. Er werden op voorhand 4 prototypes gemaakt met telkens een verschillende vorm, bevestigingssysteem en knop (zie foto’s hieronder). Eerst werden ze snel uit karton geprototyped, daarna ge-3D-print. Deze werden dan voorgelegd aan de respondenten. Zij konden dan een tabel invullen om zo overzichtelijk weer te geven welk systeem voor elk onderdeel (vorm, knop, bevestiging)  het beste leek en welke de positieve en negatieve punten waren aan elk systeem. Dit deden we om te achterhalen welke reden er precies achter zat waarom ze het ene boven het andere verkozen. We vroegen hen om er een actie mee uit te voeren die ze tijdens het werk ook zouden doen. Zo konden zij de beste keuze maken en konden wij zien hoe er gehandeld werd met het product en hoe vlot dat ging. Daarna werd ook besproken wat ze zelf zouden veranderen aan de prototypes. 
 In wave 2 werden de prototypes verbeterd op basis van de zaken die we geleerd hadden in wave 1. De zaken uit wave 1 werden opnieuw bevraagd ter controle of de aangepaste/gekozen systemen als positief werden ontvangen. Dit maal werd er meer doorgevraagd naar hoe het systeem achter het product dient te werken. Er werd opnieuw gevraagd om na te spelen hoe ze het tijdens hun werk zouden doen. Tijdens het interview werd er genoteerd wat er belangrijk was. 
 We vergeleken de ingevulde tabellen en notities van elk interview met elkaar. Hieruit konden we dan een conclusie trekken en ons toespitsen op een bepaald systeem en dat verder uitwerken. 
+
+Afbeelding met overdekt, vloer
+
+Automatisch gegenereerde beschrijving
+
+Afbeelding met tekst, cirkel, bal, vloer
+
+Automatisch gegenereerde beschrijving
+Afbeelding met tekst, Algemene voorraad, handschrift, accessoire
+
+Automatisch gegenereerde beschrijving
+Afbeelding met tekst, overdekt, vloer, schaar
+
+Automatisch gegenereerde beschrijving
 ### Resultaten
 De belangrijke resultaten uit de interviews van wave 1:
 Formaat: Het apparaat moet compact en licht zijn, maar ook stevig en merkbaar aanwezig. Afgeronde hoeken zorgen voor een veiligere uitstraling. Het horizontaal georiënteerde en cirkelvormige prototype leken het beste. 
