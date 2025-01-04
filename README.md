@@ -9,11 +9,11 @@
 Het probleem in de zorg is de enorme hoeveelheid administratie die verpleegkundigen moeten uitvoeren, wat veel tijd in beslag neemt en ten koste gaat van de tijd die zij met hun patiënten kunnen doorbrengen. Alles moet gedetailleerd worden vastgelegd, zelfs de kleinste handelingen. Dit probleem werd onderzocht door middel van drie interviews met zorgprofessionals en een enquête (N = 156), waarin 63,5% aangaf dat de administratieve druk extra stress veroorzaakt en 73,7% van de respondenten het tijdrovend vond. De oplossing, Medispeech, is een apparaat dat de gebruiker aan zijn/haar borstzakje of computer bevestigt. Dit apparaat maakt gebruik van spraakherkenning, waarmee de gebruiker handsfree handelingen kan inspreken die direct omgezet worden in tekst. Spraak is veel sneller dan typen, en doordat verpleegkundigen hun handelingen kunnen inspreken terwijl ze andere zorgverrichtingen uitvoeren, wordt kostbare tijd bespaard. Zo kunnen ze meer tijd aan hun patiënten besteden, wat de werkdruk verlicht en zorgt voor meer interactie met patiënten en minder stress. Medispeech biedt dus een efficiënte manier om de administratieve last te verminderen en tegelijkertijd de zorgkwaliteit te verbeteren.
 
 ## Introductie
-Probleemstelling
+### Probleemstelling
 Verpleegkundigen besteden dagelijks een aanzienlijke hoeveelheid tijd aan het invoeren van patiënt- en bewonersgegevens in computersystemen. Dit administratieve werk verlaagt niet alleen hun efficiëntie, maar beperkt ook de tijd die ze kunnen besteden aan directe zorgverlening. Onze doelgroep focust zich hierbij vooral op woonzorgcentra en ziekenhuizen. 
 Doelstelling
 Ons doel is om de administratieve last van verpleegkundigen te verminderen door een efficiëntere manier te introduceren om gegevens in te voeren, waardoor ze meer tijd en aandacht kunnen besteden aan hun kerntaken.
-Oplossing
+### Oplossing
 Wij stellen een innovatief systeem voor dat gebruik maakt van speech-to-text-technologie. Het systeem stelt verpleegkundigen in staat om na elke taak eenvoudig mondeling te rapporteren wat ze normaal zouden typen. Deze spraakopnames worden automatisch omgezet in tekst en direct naar een centraal platform gestuurd, waar de gegevens op de juiste plaats terechtkomen in het computersysteem.
 Het product moet compact en draagbaar zijn, zodat het gemakkelijk aan de schort van de verpleegkundige kan worden bevestigd. Dit maakt het mogelijk om direct na een taak gegevens in te voeren, waardoor belangrijke informatie niet vergeten wordt en het werkproces naadloos verloopt.
 Boundary Conditions
@@ -37,52 +37,54 @@ Het iteratieve proces werd herhaald na elke evaluatie, met als doel uiteindelijk
 
 
 ## Discovery
-Doelstellingen
+### Doelstellingen
 Het project "Werkbaar werk in de zorg" heeft als doel de administratieve werkdruk in de zorgsector aanzienlijk te verlichten. Zorgverleners, waaronder verpleegkundigen en verzorgenden, worden dagelijks geconfronteerd met een toenemende hoeveelheid administratieve en praktische taken, gecombineerd met een groeiend aantal patiënten. Dit leidt tot hoge fysieke en mentale belasting en resulteert in minder tijd voor directe zorg en persoonlijke interactie met patiënten. Het project streeft naar een oplossing die niet alleen de efficiëntie verhoogt, maar ook bijdraagt aan het welzijn van zorgmedewerkers.
 De belangrijkste doelstellingen van het project zijn:
-•	Het identificeren van de taken die de grootste administratieve last vormen.
-•	Het evalueren van bestaande technologische oplossingen voor administratieve ondersteuning.
-•	Het ontwikkelen van een fysiek apparaat dat administratie automatiseert, gebruiksvriendelijk is en past binnen de dagelijkse workflow van zorgverleners.
-•	Het verminderen van werkdruk, zodat zorgmedewerkers meer tijd kunnen besteden aan persoonlijke zorg en sociale interactie.
+1. Het identificeren van de taken die de grootste administratieve last vormen.
+2. Het evalueren van bestaande technologische oplossingen voor administratieve ondersteuning.
+3. Het ontwikkelen van een fysiek apparaat dat administratie automatiseert, gebruiksvriendelijk is en past binnen de dagelijkse workflow van zorgverleners.
+4. Het verminderen van werkdruk, zodat zorgmedewerkers meer tijd kunnen besteden aan persoonlijke zorg en sociale interactie.
 
-Materiaal & Methodologie
-1. Enquête
+### Materiaal & Methodologie
+#### Enquête
 Een uitgebreide enquête werd afgenomen onder 156 zorgverleners met diverse functies, zoals verpleegkundigen, verzorgenden en thuiszorgmedewerkers. De vragen richtten zich op de oorzaken van werkdruk, de meest tijdrovende taken en de impact hiervan op hun dagelijks werk. De verzamelde data gaf inzicht in de algemene knelpunten binnen de zorgsector en diende als basis voor verdere analyses.
-2. Benchmarking
+#### Benchmarking
 Een benchmarkingstudie analyseerde bestaande technologische oplossingen in de zorgsector, zoals spraakherkenningssoftware en digitale documentatieplatforms. Elk product werd beoordeeld op sterkte- en zwaktepunten, zoals efficiëntie, gebruiksvriendelijkheid, en technische beperkingen. De benchmarking hielp bij het identificeren van technologische hiaten en verbeterpunten.
-3. Interviews
+#### Interviews
 Drie zorgverleners met verschillende werkcontexten werden geïnterviewd om dieper inzicht te krijgen in hun dagelijkse uitdagingen en behoeften. Het interviewprotocol richtte zich op frustraties, de acceptatie van technologie en specifieke kenmerken die een technologische oplossing zou moeten hebben. De interviews boden een kwalitatieve dimensie aan de kwantitatieve gegevens uit de enquête.
 
-Resultaten
-1. Enquête
+### Resultaten
+#### Enquête
 Uit de enquête bleek dat administratieve taken veruit de grootste bron van werkdruk zijn, volgens 73,7% van de respondenten. Andere factoren die bijdroegen aan de tijdsdruk waren hygiënische zorg (59%) en medicatiebeheer (24,4%). Patiëntentekorten en onregelmatige werktijden versterkten deze problemen.
 Patiëntendossiers invullen, afspraken plannen en medicatielijsten bijhouden werden als de meest tijdrovende administratieve taken genoemd. Zorgverleners benadrukten dat deze administratieve verplichtingen vaak ten koste gaan van persoonlijke aandacht voor patiënten.
-2. Benchmarking
+#### Benchmarking
 De benchmarkingstudie leverde een overzicht van bestaande technologische oplossingen:
-•	Positieve aspecten: Spraakherkenningstechnologieën zoals Dragon Medical One en ValueCare besparen tijd en verhogen de nauwkeurigheid van documentatie. Cloud-gebaseerde systemen zoals Nexuzhealth verbeteren samenwerking door gegevens op meerdere locaties toegankelijk te maken.
-•	Negatieve aspecten: Veel oplossingen zijn uitsluitend software-gebaseerd, hebben hoge initiële kosten, en vereisen een steile leercurve. Daarnaast brengen sommige technologieën privacyzorgen met zich mee, vooral bij gebruik in openbare ruimtes.
+##### Positieve aspecten: 
+Spraakherkenningstechnologieën zoals Dragon Medical One en ValueCare besparen tijd en verhogen de nauwkeurigheid van documentatie. Cloud-gebaseerde systemen zoals Nexuzhealth verbeteren samenwerking door gegevens op meerdere locaties toegankelijk te maken.
+##### Negatieve aspecten: 
+Veel oplossingen zijn uitsluitend software-gebaseerd, hebben hoge initiële kosten, en vereisen een steile leercurve. Daarnaast brengen sommige technologieën privacyzorgen met zich mee, vooral bij gebruik in openbare ruimtes.
 
-3. Interviews
-Gebruiker 1  (Thuisverpleegkundige)
+#### Interviews
+##### Gebruiker 1  (Thuisverpleegkundige)
 Gebruiker 1 ervaart tijdsdruk door het grote aantal patiënten dat ze dagelijks bezoekt. Administratie, zoals patiëntendossiers bijwerken, vormt een groot struikelblok. Ze ziet potentie in spraaktechnologie om tijd te besparen en stelt voor om medicatiebeheer en valdetectie te automatiseren.
 
-Gebruiker 2  (Verpleegkundige Short Stay-afdeling)
+##### Gebruiker 2  (Verpleegkundige Short Stay-afdeling)
 Gebruiker 2 besteedt meer tijd achter de computer dan aan patiënten, wat leidt tot kritiek van patiënten. Ze staat open voor technologie, mits deze intuïtief en accuraat is. Ze benadrukt dat technologie moet worden ontworpen met zorgverleners als primaire gebruikers.
 
-Gebruiker 3  (Vlinder Woonzorgcentrum)
+##### Gebruiker 3  (Vlinder Woonzorgcentrum)
 Gebruiker 3 waardeert technologie, zoals spraakinvoer, om administratieve lasten te verminderen, maar benadrukt het belang van nauwkeurigheid en privacy. Ze wijst ook op het risico dat technologie de menselijke interactie met bewoners kan verminderen.
 
-Conclusies & Implicaties
-Belangrijkste inzichten
+### Conclusies & Implicaties
+#### Belangrijkste inzichten
 1.	Administratieve lasten als kernprobleem: De resultaten van zowel de enquête als de interviews bevestigen dat administratieve taken de grootste oorzaak zijn van werkdruk in de zorgsector. Deze lasten leiden tot minder tijd voor directe patiëntenzorg, wat de tevredenheid van zowel zorgverleners als patiënten schaadt.
 2.	Behoefte aan gebruiksvriendelijke technologie: Zorgverleners willen technologie die eenvoudig te gebruiken is, minimale training vereist en geïntegreerd kan worden in hun bestaande workflow.
 3.	Privacy en ethische overwegingen: Hoewel spraaktechnologie veelbelovend is, moeten privacyzorgen en ethische aspecten zorgvuldig worden aangepakt om vertrouwen bij zorgverleners en patiënten te waarborgen.
-Designbeslissingen
-•	Spraak-naar-tekst-functionaliteit: Het product zal real-time spraakherkenning ondersteunen om administratieve taken te automatiseren.
-•	Fysiek en draagbaar ontwerp: Het apparaat wordt compact en eenvoudig te dragen, bijvoorbeeld als clip-on of met magneetjes in kleding.
-•	Privacybescherming: Strikte beveiligingsprotocollen en lokale verwerking van gegevens zullen zorgen voor maximale privacy.
-•	Eenvoudige onboarding: Een intuïtieve interface en minimale training zorgen voor snelle acceptatie en implementatie.
-Toekomstige implicaties
+#### Designbeslissingen
+1.	Spraak-naar-tekst-functionaliteit: Het product zal real-time spraakherkenning ondersteunen om administratieve taken te automatiseren.
+2.	Fysiek en draagbaar ontwerp: Het apparaat wordt compact en eenvoudig te dragen, bijvoorbeeld als clip-on of met magneetjes in kleding.
+3.	Privacybescherming: Strikte beveiligingsprotocollen en lokale verwerking van gegevens zullen zorgen voor maximale privacy.
+4.	Eenvoudige onboarding: Een intuïtieve interface en minimale training zorgen voor snelle acceptatie en implementatie.
+### Toekomstige implicaties
 Het Medispeech-apparaat heeft het potentieel om een belangrijke verandering teweeg te brengen in de manier waarop zorgverleners administratieve taken uitvoeren. Door efficiëntere workflows en minder werkdruk kunnen zorgverleners meer tijd besteden aan persoonlijke zorg, wat zowel hun eigen welzijn als de kwaliteit van zorg ten goede komt. Bovendien biedt het project waardevolle lessen voor het ontwikkelen van technologische oplossingen die de unieke uitdagingen van de zorgsector aanpakken.
 
 
