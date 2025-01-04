@@ -84,8 +84,7 @@ Gebruiker 3 waardeert technologie, zoals spraakinvoer, om administratieve lasten
 2.	Fysiek en draagbaar ontwerp: Het apparaat wordt compact en eenvoudig te dragen, bijvoorbeeld als clip-on of met magneetjes in kleding.
 3.	Privacybescherming: Strikte beveiligingsprotocollen en lokale verwerking van gegevens zullen zorgen voor maximale privacy.
 4.	Eenvoudige onboarding: Een intuïtieve interface en minimale training zorgen voor snelle acceptatie en implementatie.
-### Toekomstige implicaties
-Het Medispeech-apparaat heeft het potentieel om een belangrijke verandering teweeg te brengen in de manier waarop zorgverleners administratieve taken uitvoeren. Door efficiëntere workflows en minder werkdruk kunnen zorgverleners meer tijd besteden aan persoonlijke zorg, wat zowel hun eigen welzijn als de kwaliteit van zorg ten goede komt. Bovendien biedt het project waardevolle lessen voor het ontwikkelen van technologische oplossingen die de unieke uitdagingen van de zorgsector aanpakken.
+
 
 
 ## Definition
