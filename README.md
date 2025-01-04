@@ -39,8 +39,8 @@ Het iteratieve proces werd herhaald na elke evaluatie, met als doel uiteindelijk
 ## Discovery
 ### Doelstellingen
 Het project "Werkbaar werk in de zorg" heeft als doel de administratieve werkdruk in de zorgsector aanzienlijk te verlichten. Zorgverleners, waaronder verpleegkundigen en verzorgenden, worden dagelijks geconfronteerd met een toenemende hoeveelheid administratieve en praktische taken, gecombineerd met een groeiend aantal patiënten. Dit leidt tot hoge fysieke en mentale belasting en resulteert in minder tijd voor directe zorg en persoonlijke interactie met patiënten. Het project streeft naar een oplossing die niet alleen de efficiëntie verhoogt, maar ook bijdraagt aan het welzijn van zorgmedewerkers.
-De belangrijkste doelstellingen van het project zijn:
-1. Het identificeren van de taken die de grootste administratieve last vormen.
+#### De belangrijkste doelstellingen van het project zijn:
+1. Het identificeren van de taken die de grootste last vormen.
 2. Het evalueren van bestaande technologische oplossingen voor administratieve ondersteuning.
 3. Het ontwikkelen van een fysiek apparaat dat administratie automatiseert, gebruiksvriendelijk is en past binnen de dagelijkse workflow van zorgverleners.
 4. Het verminderen van werkdruk, zodat zorgmedewerkers meer tijd kunnen besteden aan persoonlijke zorg en sociale interactie.
@@ -57,6 +57,9 @@ Drie zorgverleners met verschillende werkcontexten werden geïnterviewd om diepe
 #### Enquête
 Uit de enquête bleek dat administratieve taken veruit de grootste bron van werkdruk zijn, volgens 73,7% van de respondenten. Andere factoren die bijdroegen aan de tijdsdruk waren hygiënische zorg (59%) en medicatiebeheer (24,4%). Patiëntentekorten en onregelmatige werktijden versterkten deze problemen.
 Patiëntendossiers invullen, afspraken plannen en medicatielijsten bijhouden werden als de meest tijdrovende administratieve taken genoemd. Zorgverleners benadrukten dat deze administratieve verplichtingen vaak ten koste gaan van persoonlijke aandacht voor patiënten.
+![grafiek 1 ](https://github.com/user-attachments/assets/37f4b431-bd4a-4d27-954e-d0e29b857ce5)  ![grafiek 2](https://github.com/user-attachments/assets/229fab67-dba5-49e5-bbc4-cbe2bdefe54a)
+
+
 #### Benchmarking
 De benchmarkingstudie leverde een overzicht van bestaande technologische oplossingen:
 ##### Positieve aspecten: 
@@ -79,6 +82,7 @@ Gebruiker 3 waardeert technologie, zoals spraakinvoer, om administratieve lasten
 1.	Administratieve lasten als kernprobleem: De resultaten van zowel de enquête als de interviews bevestigen dat administratieve taken de grootste oorzaak zijn van werkdruk in de zorgsector. Deze lasten leiden tot minder tijd voor directe patiëntenzorg, wat de tevredenheid van zowel zorgverleners als patiënten schaadt.
 2.	Behoefte aan gebruiksvriendelijke technologie: Zorgverleners willen technologie die eenvoudig te gebruiken is, minimale training vereist en geïntegreerd kan worden in hun bestaande workflow.
 3.	Privacy en ethische overwegingen: Hoewel spraaktechnologie veelbelovend is, moeten privacyzorgen en ethische aspecten zorgvuldig worden aangepakt om vertrouwen bij zorgverleners en patiënten te waarborgen.
+
 #### Designbeslissingen
 1.	Spraak-naar-tekst-functionaliteit: Het product zal real-time spraakherkenning ondersteunen om administratieve taken te automatiseren.
 2.	Fysiek en draagbaar ontwerp: Het apparaat wordt compact en eenvoudig te dragen, bijvoorbeeld als clip-on of met magneetjes in kleding.
