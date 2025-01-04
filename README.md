@@ -57,7 +57,8 @@ Drie zorgverleners met verschillende werkcontexten werden geïnterviewd om diepe
 #### Enquête
 Uit de enquête bleek dat administratieve taken veruit de grootste bron van werkdruk zijn, volgens 73,7% van de respondenten. Andere factoren die bijdroegen aan de tijdsdruk waren hygiënische zorg (59%) en medicatiebeheer (24,4%). Patiëntentekorten en onregelmatige werktijden versterkten deze problemen.
 Patiëntendossiers invullen, afspraken plannen en medicatielijsten bijhouden werden als de meest tijdrovende administratieve taken genoemd. Zorgverleners benadrukten dat deze administratieve verplichtingen vaak ten koste gaan van persoonlijke aandacht voor patiënten.
-![grafiek 1 ](https://github.com/user-attachments/assets/37f4b431-bd4a-4d27-954e-d0e29b857ce5)  ![grafiek 2](https://github.com/user-attachments/assets/229fab67-dba5-49e5-bbc4-cbe2bdefe54a)
+![afbeelding](https://github.com/user-attachments/assets/3f00b8f8-ed72-4499-8c5b-3d5b6d45e49b)
+
 
 
 #### Benchmarking
