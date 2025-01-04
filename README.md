@@ -20,9 +20,6 @@ Boundary Conditions
 1.	Technologische Limieten: Het speech-to-text-systeem moet een hoge mate van nauwkeurigheid hebben. Hoewel het nodig zal zijn om de tekst aan het einde van een shift te controleren, moet het aantal fouten aanzienlijk lager zijn dan bij handmatige invoer.
 2.	Batterijduur: Het apparaat moet minimaal één volledige werkshift, en idealiter een hele werkdag, op een enkele batterijlading kunnen functioneren.
 
-Max 300 woorden.
-Kader je project. Introduceer het probleem en jouw doelstellingen (inclusief boundary conditions).
-Maak gebruik van bronverwijzingen ([zie APA stijl](https://www.scribbr.nl/category/apa-stijl/)).
 
 ## Methodologie
 In het eerste semester is de methodologie van ons ontwerpproces gebaseerd op de aanpak van Eekels en Roozenburg. De kern van deze methodologie is het cyclische proces, waarbij het ontwerp voortdurend wordt geanalyseerd, geëvalueerd en aangepast. Het proces begint altijd met het grondig begrijpen van het probleem dat opgelost moet worden. In de eerste fase, genaamd Wave 1, lag de focus op het bevestigingsmechanisme van het device en het bepalen van de geschikte bevestigingslocatie. Dit werd gevolgd door een diepgaande analyse van het probleem, waarna specifieke ontwerpcriteria en onderzoeksvragen werden geformuleerd. Enkele van deze criteria waren bijvoorbeeld de wens voor een compact en gebruiksvriendelijk ontwerp.
