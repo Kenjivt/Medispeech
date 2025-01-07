@@ -105,6 +105,21 @@ In wave twee hebben we gefocust op het speech-to-text systeem. We wilden weten w
 #### Wave 1
 In wave 1 werden er 5 respondenten ondervraagd die werken in een woonzorgcentrum of ziekenhuis.  Bepaalde werden gerekruteerd door mails te sturen naar woonzorgcentra en ziekenhuizen, andere waren kennissen. Er werden op voorhand 4 prototypes gemaakt met telkens een verschillende vorm, bevestigingssysteem en knop (zie foto’s hieronder). Eerst werden ze snel uit karton geprototyped, daarna ge-3D-print. Deze werden dan voorgelegd aan de respondenten. Zij konden dan een tabel invullen om zo overzichtelijk weer te geven welk systeem voor elk onderdeel (vorm, knop, bevestiging)  het beste leek en welke de positieve en negatieve punten waren aan elk systeem. Dit deden we om te achterhalen welke reden er precies achter zat waarom ze het ene boven het andere verkozen. We vroegen hen om er een actie mee uit te voeren die ze tijdens het werk ook zouden doen. Zo konden zij de beste keuze maken en konden wij zien hoe er gehandeld werd met het product en hoe vlot dat ging. Daarna werd ook besproken wat ze zelf zouden veranderen aan de prototypes. 
 
+#### De verschillende modellen:
+![model 1](https://github.com/user-attachments/assets/b11f77d9-629a-43e0-bbbd-b6ffe1b55d7e)
+![model 2](https://github.com/user-attachments/assets/3bbc46b4-7540-45d6-acc3-e64f4944c0e7)
+![model 3](https://github.com/user-attachments/assets/a5407a44-2996-4889-bcf3-7f9629cede31)
+![model 4](https://github.com/user-attachments/assets/7fe56192-26cf-4047-ab2b-5d9510e73015)
+
+#### De ingevulde tabellen:
+![tabel 1x](https://github.com/user-attachments/assets/7eb123c5-736f-47d2-b2ad-ebcf421f509f)
+![tabel 2x](https://github.com/user-attachments/assets/083f3a82-ed4c-4b26-91df-a460a1c98ec0)
+![tabel 3](https://github.com/user-attachments/assets/3a172ec7-2f36-4009-9968-9629924985ac)
+
+![tabel 4](https://github.com/user-attachments/assets/ec46eea7-4176-4bbb-b4d2-551096ee0f57)
+
+
+
 #### Wave 2
 In wave 2 werden de prototypes verbeterd op basis van de zaken die we geleerd hadden in wave 1. De zaken uit wave 1 werden opnieuw bevraagd ter controle of de aangepaste/gekozen systemen als positief werden ontvangen. Dit maal werd er meer doorgevraagd naar hoe het systeem achter het product dient te werken. Er werd opnieuw gevraagd om na te spelen hoe ze het tijdens hun werk zouden doen. Tijdens het interview werd er genoteerd wat er belangrijk was. 
 We vergeleken de ingevulde tabellen en notities van elk interview met elkaar. Hieruit konden we dan een conclusie trekken en ons toespitsen op een bepaald systeem en dat verder uitwerken. 
@@ -178,10 +193,7 @@ Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarn
 - Harmony XB5 (Aan-uitknop)
 - I2C OLED Display Modules 7/8 Inch Blue (Scherm)
 - TE Connectivity 118259104 of Youmile 6x6x4.3mm Tactile Switch (Verwijderknop)
-- standaard led rood + groen
-- Voor
-- Je
-- Prototype
+- Standaard led rood + groen
 
 ## Kritische reflectie
 Kenji Van Thuyne:
