@@ -1,4 +1,4 @@
-# Projecttitel
+# Werkbaar werk in de zorgsector
 *Medispeech is een apparaat dat spraak omzet in tekst, waardoor de administratieve druk in de zorg afneemt en zorgmedewerkers meer tijd aan patiënten kunnen besteden.* 
 
 *Projectteam: Kenji Van Thuyne; Marit Hocedez*
