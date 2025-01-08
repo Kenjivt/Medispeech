@@ -177,7 +177,7 @@ Er wordt gewerkt met het horizontaal georiënteerde model met afgeronde hoeken.
 Er wordt gekozen voor een ronde fysieke aan/uit knop. Hij is goed zichtbaar en heeft een tactiele feedback, een klikgeluid bij het aan- en uitzetten. De knop zit verzonken in het product zodat hij minder makkelijk per ongeluk ingeschakeld kan worden en ook makkelijker gereinigd kan worden. 
 
 #### Verwijderknop: 
-Bovenaan zit er een verwijderknop die mislukte of per ongeluk opgenomen opnames kan verwijderen. Door de plaatsing bovenaan kan er geen verwarring ontstaat met de aan/uit knop. 
+Bovenaan zit er een verwijderknop die mislukte of per ongeluk opgenomen opnames kan verwijderen. Door de plaatsing bovenaan kan er geen verwarring ontstaan met de aan/uit knop. 
 
 #### Bevestiging:
 Er wordt gewerkt met een combinatie van een schuif- of knijpersysteem dat nog eens extra wordt bevestigd met behulp van magneetjes. Dit zodat het product er zeker niet af kan vallen.
@@ -198,15 +198,17 @@ Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarn
 - Harmony XB5 (Aan-uitknop)
 - I2C OLED Display Modules 7/8 Inch Blue (Scherm)
 - TE Connectivity 118259104 of Youmile 6x6x4.3mm Tactile Switch (Verwijderknop)
-- Standaard led rood + groen
+- Papierklem magnetisch (bevestiging)
 
 ## Kritische reflectie
 Kenji Van Thuyne:
+
 Ik vond het soms lastig om onderscheid te maken tussen "form follows function" en "function follows form." Dit kwam doordat een belangrijk criterium was dat het device zeer compact, licht en gemakkelijk te gebruiken moest zijn. Hierdoor lagen de afmetingen en grootte al grotendeels vast of hadden in ieder geval een duidelijke limiet. Dit maakte het moeilijk om te bepalen of de vorm nu de functie volgde of andersom. Naarmate het proces vorderde, werd echter steeds duidelijker dat je eerst afzonderlijk naar de functies en componenten moet kijken en deze als zelfstandige elementen moet beschouwen. Pas daarna combineer je alles zo compact en licht mogelijk, en niet omgekeerd. In het begin van de waves vond ik dit concept moeilijk te begrijpen.
 
 Over het algemeen ben ik tevreden met het verloop van het project, al hadden we met wat extra tijd en enkele extra waves wellicht meer vooruitgang geboekt. Door de blokperiode is het echter niet haalbaar om verder te werken aan de waves. Tijdens de interviews heb ik veel geleerd, met name over het doorvragen. Bij gebruiker 4-5 ging dit in wave 1 nog wat moeizaam, omdat ik nog niet goed wist hoe ik dit moest aanpakken. Als team vind ik dat we goed samenwerken en elkaar goed aanvullen. Ik kijk erg uit naar semester 2, omdat ik me volledig wil inzetten om ervoor te zorgen dat het device echt functioneert zoals gehoopt en gepresenteerd.
 
 Marit Hocedez: 
+
 Ik vond het soms lastig om in de interviews echt te weten te komen waarom de verpleegkundige het ene beter vonden dan het andere en hierop door te vragen. Bij het ene interview ging dat al beter dan bij het andere en ondanks een goede voorbereiding van vragen, vond ik nadien dat ik over een bepaald onderwerp nog wat meer had moeten doorvragen. Dit had misschien kunnen bijdragen tot een beter eindresultaat. 
 Ook hadden we nog wat meer verscheidene en uitdagendere prototypes kunnen maken om zo nog wat meer de grenzen af te testen. Bij wave 2 waren we eerst te veel gefocust op details. Dit hebben we later echter wel nog deels aangepast en hebben we meer gefocust op het speech-to-text systeem en wat er daar bij komt kijken. 
 
@@ -215,7 +217,9 @@ Over het algemeen ben ik blij met waar we geraakt zijn. We hebben in het begin e
 
 
 ## Bronnen
-Voeg je volledige bibliografie toe van bronnen naarwaar je verwees.
 
 ## Bijlagen
+### [Informed Consent](https://ugentbe-my.sharepoint.com/:w:/g/personal/kenji_vanthuyne_ugent_be/EfphEJvBtDlMp5BeI3Qz-3sBoUOrYuo7deHQ3NkFhypgvQ?e=bjFcje) 
+De informed consents van onze gebruikers zijn uitsluitend toegankelijk voor personen binnen de UGent, om de privacy van de gebruikers optimaal te waarborgen.
+
 
