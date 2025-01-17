@@ -226,7 +226,7 @@ Het batterijpercentage zal ook zichtbaar zijn bovenaan op de display.
 #### Badge-veiligheidsfunctie:
 Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarna het apparaat gebruikt kan worden.
 
-### Requirements
+### Requirements (+Design Principle)
 #### Functionaliteit:
 -Zet spraak efficiënt en accuraat om in tekst.
 
@@ -234,12 +234,16 @@ Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarn
 
 -Zorgt voor directe koppeling met administratiesystemen voor automatische verwerking.
 
+-Duidelijke boomstructuur waarin handelingen zijn weergegeven. (Visibility)
+
 #### Gebruikersvriendelijkheid:
 -Voer administratieve taken uit in maximaal 3 handelingen.
 
+-Hoofdknop valt op en geeft tactiele feedback. (Visibility + Feedback)
+
 -Handsfree gebruik met intuïtieve bediening via spraak of eenvoudige fysieke knoppen.
 
--Biedt snelle respons en duidelijke feedback aan de gebruiker.
+-Biedt snelle respons en duidelijke feedback (adhv kleur of icoontjes) aan de gebruiker.(Visibility + Feedback + Microintractions)
 
 #### Technische specificaties:
 -Compact en draagbaar, gemakkelijk te bevestigen aan een verplegersschort.
@@ -253,7 +257,7 @@ Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarn
 #### Veiligheid & privacy:
 -Versleutelt alle gegevensoverdracht om vertrouwelijkheid te waarborgen.
 
--Zorgt voor veilige opslag en voorkomt toegang door onbevoegden.
+-Zorgt voor veilige opslag en voorkomt toegang door onbevoegden.(Constraints)
 
 
 
