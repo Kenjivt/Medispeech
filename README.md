@@ -45,10 +45,22 @@ Het project "Werkbaar werk in de zorg" heeft als doel de administratieve werkdru
 ### Materiaal & Methodologie
 #### Enquête
 Een uitgebreide enquête werd afgenomen onder 156 zorgverleners met diverse functies, zoals verpleegkundigen, verzorgenden en thuiszorgmedewerkers. De vragen richtten zich op de oorzaken van werkdruk, de meest tijdrovende taken en de impact hiervan op hun dagelijks werk. De verzamelde data gaf inzicht in de algemene knelpunten binnen de zorgsector en diende als basis voor verdere analyses.
+
+Voor meer gedetailleerde informatie:[Enquête protocol.pdf](https://github.com/user-attachments/files/18456214/Enquete.protocol.pdf)
+
+
 #### Benchmarking
 Een benchmarkingstudie analyseerde bestaande technologische oplossingen in de zorgsector, zoals spraakherkenningssoftware en digitale documentatieplatforms. Elk product werd beoordeeld op sterkte- en zwaktepunten, zoals efficiëntie, gebruiksvriendelijkheid, en technische beperkingen. De benchmarking hielp bij het identificeren van technologische hiaten en verbeterpunten.
+
+Voor meer gedetailleerde informatie:[Benchmarking protocol.pdf](https://github.com/user-attachments/files/18456217/Benchmarking.protocol.pdf)
+
+
 #### Interviews
 Drie zorgverleners met verschillende werkcontexten werden geïnterviewd om dieper inzicht te krijgen in hun dagelijkse uitdagingen en behoeften. Het interviewprotocol richtte zich op frustraties, de acceptatie van technologie en specifieke kenmerken die een technologische oplossing zou moeten hebben. De interviews boden een kwalitatieve dimensie aan de kwantitatieve gegevens uit de enquête.
+
+Voor meer gedetailleerde informatie:[Interview - protocol.pdf](https://github.com/user-attachments/files/18456220/Interview.-.protocol.pdf)
+
+
 
 ### Resultaten
 #### Enquête
@@ -57,6 +69,7 @@ Patiëntendossiers invullen, afspraken plannen en medicatielijsten bijhouden wer
 
 ![afbeelding](https://github.com/user-attachments/assets/3f00b8f8-ed72-4499-8c5b-3d5b6d45e49b)
 
+Voor meer gedetailleerde informatie:[Enquête Rapport.pdf](https://github.com/user-attachments/files/18456127/Enquete.Rapport.pdf)
 
 
 #### Benchmarking
@@ -65,6 +78,9 @@ De benchmarkingstudie leverde een overzicht van bestaande technologische oplossi
 Spraakherkenningstechnologieën zoals Dragon Medical One en ValueCare besparen tijd en verhogen de nauwkeurigheid van documentatie. Cloud-gebaseerde systemen zoals Nexuzhealth verbeteren samenwerking door gegevens op meerdere locaties toegankelijk te maken.
 ##### Negatieve aspecten: 
 Veel oplossingen zijn uitsluitend software-gebaseerd, hebben hoge initiële kosten, en vereisen een steile leercurve. Daarnaast brengen sommige technologieën privacyzorgen met zich mee, vooral bij gebruik in openbare ruimtes.
+
+Voor meer gedetailleerde informatie:[Benchmarking Rapport.pdf](https://github.com/user-attachments/files/18456141/Benchmarking.Rapport.pdf)
+
 
 #### Interviews
 ##### Gebruiker 1  (Thuisverpleegkundige)
@@ -75,6 +91,9 @@ Gebruiker 2 besteedt meer tijd achter de computer dan aan patiënten, wat leidt 
 
 ##### Gebruiker 3  (Vlinder Woonzorgcentrum)
 Gebruiker 3 waardeert technologie, zoals spraakinvoer, om administratieve lasten te verminderen, maar benadrukt het belang van nauwkeurigheid en privacy. Ze wijst ook op het risico dat technologie de menselijke interactie met bewoners kan verminderen.
+
+Voor meer gedetailleerde informatie:[Interview Rapport.pdf](https://github.com/user-attachments/files/18456142/Interview.Rapport.pdf)
+
 
 ### Conclusies & Implicaties
 #### Belangrijkste inzichten
@@ -101,6 +120,7 @@ In de eerste wave wilden we vooral te weten komen welke vorm, knop en bevestigin
 #### Wave 2
 In wave twee hebben we gefocust op het speech-to-text systeem. We wilden weten welke categorisering hier belangrijk is die in het systeem aanwezig moet zijn. Wat er moest gebeuren als er een foute opname gebeurde of als een opname toch per ongeluk gestart werd. Wat als er foute zaken werden geregistreerd. Hoe moet het  feedbacksysteem werken (licht, geluid, met trilling)?
 
+
 ### Materiaal & methoden
 #### Wave 1
 In wave 1 werden er 5 respondenten ondervraagd die werken in een woonzorgcentrum of ziekenhuis.  Bepaalde werden gerekruteerd door mails te sturen naar woonzorgcentra en ziekenhuizen, andere waren kennissen. Er werden op voorhand 4 prototypes gemaakt met telkens een verschillende vorm, bevestigingssysteem en knop (zie foto’s hieronder). Eerst werden ze snel uit karton geprototyped, daarna ge-3D-print. Deze werden dan voorgelegd aan de respondenten. Zij konden dan een tabel invullen om zo overzichtelijk weer te geven welk systeem voor elk onderdeel (vorm, knop, bevestiging)  het beste leek en welke de positieve en negatieve punten waren aan elk systeem. Dit deden we om te achterhalen welke reden er precies achter zat waarom ze het ene boven het andere verkozen. We vroegen hen om er een actie mee uit te voeren die ze tijdens het werk ook zouden doen. Zo konden zij de beste keuze maken en konden wij zien hoe er gehandeld werd met het product en hoe vlot dat ging. Daarna werd ook besproken wat ze zelf zouden veranderen aan de prototypes. 
@@ -118,7 +138,7 @@ In wave 1 werden er 5 respondenten ondervraagd die werken in een woonzorgcentrum
 
 ![tabel 4](https://github.com/user-attachments/assets/ec46eea7-4176-4bbb-b4d2-551096ee0f57)
 
-
+Voor meer gedetailleerde informatie:[Wave 1 protocol.pdf](https://github.com/user-attachments/files/18456237/Wave.1.protocol.pdf)
 
 #### Wave 2
 In wave 2 werden de prototypes verbeterd op basis van de zaken die we geleerd hadden in wave 1. De zaken uit wave 1 werden opnieuw bevraagd ter controle of de aangepaste/gekozen systemen als positief werden ontvangen. Dit maal werd er meer doorgevraagd naar hoe het systeem achter het product dient te werken. Er werd opnieuw gevraagd om na te spelen hoe ze het tijdens hun werk zouden doen. Tijdens het interview werd er genoteerd wat er belangrijk was. Er werd opnieuw gebruik gemaakt van prototypes (zie foto's hieronder). Die dienden echter meer als voorstelling van de nieuwste versie van ons product zodat we dat opnieuw konden valideren. De prototypes werden nog gebruikt om verwijderknop en feedbackmechanisme te bevragen. Er werden ook zaken bevraagd die niet aan de hand van prototypes kon voorgesteld worden. 
@@ -127,7 +147,7 @@ We vergeleken de notities van elk interview met elkaar. Hieruit konden we dan ee
 #### Prototypes wave 2:
 ![modellen](https://github.com/user-attachments/assets/5720582b-8653-48a2-a0e4-8a2357cbd600)
 
-
+Voor meer gedetailleerde informatie:[Wave 2 protocol.pdf](https://github.com/user-attachments/files/18456246/Wave.2.protocol.pdf)
 
 ### Resultaten
 
@@ -136,21 +156,24 @@ We vergeleken de notities van elk interview met elkaar. Hieruit konden we dan ee
 ##### Formaat:
 Het apparaat moet compact en licht zijn, maar ook stevig en merkbaar aanwezig. Afgeronde hoeken zorgen voor een veiligere uitstraling. Het horizontaal georiënteerde en cirkelvormige prototype leken het beste. 
 
-Quote_1 : “Patiënten zouden zich kunnen bezeren aan de scherpe randen in model 1.”
+Stef, 35jaar: “Patiënten zouden zich kunnen bezeren aan de scherpe randen in model 1.”
 
 ##### Bevestiging: 
 Het apparaat moet stevig blijven zitten, zelfs bij intensieve bewegingen, maar mag niet hinderlijk zijn. Opties voor bevestiging op verschillende plekken, zoals borstzakjes of direct aan kleding, worden geïntegreerd. De ketting, het schuifsysteem en de veiligheidsspeld worden als minder goed aanvaren. Alleen de magneetjes worden als een goede optie aanzien. 
 
-Quote_1 : “Ouderen kunnen nog altijd sterk zijn en in agressie durven grijpen naar de ketting…”
+Katrien, 52jaar: “Ouderen kunnen nog altijd sterk zijn en in agressie durven grijpen naar de ketting…”
 
-Quote_2 : “We hadden vroeger ook naamkaartjes die bevestigd werden op onze schort, maar we vonden die dan steeds terug bij het verversen van het beddengoed.”
+Stef, 35jaar: “We hadden vroeger ook naamkaartjes die bevestigd werden op onze schort, maar we vonden die dan steeds terug bij het verversen van het beddengoed.”
 
 ##### Knop: 
 De knop is intuïtief, stevig en goed zichtbaar, met visuele en tactiele feedback. Het moet simpel te gebruiken zijn. Zo weinig mogelijk stappen doorlopen om iets op te nemen. Het materiaal van de knop moet van kwaliteit zijn omdat die veel gebruikt zal worden. 
 
-Quote_1: “Als we per ongeluk erg haperen mag de opname niet gestart worden.”
+Stephanie, 48jaar: “Als we per ongeluk erg haperen mag de opname niet gestart worden.”
 
 Extra: Hygiëne + batterij: Het product moet bestand zijn tegen regelmatige schoonmaakbeurten met ontsmettingsmiddelen, zonder verkleuring of schade. Er wordt het best gewerkt met een oplaadbakje zodat dit snel in en uit te halen is. Wanneer de batterij bijna plat is wordt een melding gegeven aan de hand van een knipperend lichtje of een trilling. 
+
+Voor meer gedetailleerde informatie:[Wave 1 rapport.pdf](https://github.com/user-attachments/files/18456167/Wave.1.rapport.pdf)
+
 
 #### Wave 2
 ##### Knop: 
@@ -167,6 +190,9 @@ Het zou makkelijk zijn als alles in een logische structuur wordt geordend zodat 
 
 ##### Badge-veiligheidsfunctie: 
 De badge-veiligheidsfunctie koppelt spraakopnames automatisch aan de juiste gebruiker, waardoor ongeautoriseerd gebruik wordt voorkomen en gegevens betrouwbaar worden beheerd. Dit voorkomt verwarring en vergemakkelijkt het terugvinden van opnames bij gebruik door meerdere medewerkers.
+
+Voor meer gedetailleerde informatie:[Wave 2 rapport.pdf](https://github.com/user-attachments/files/18456188/Wave.2.rapport.pdf)
+
 
 ### Conclusies & implicaties
 
