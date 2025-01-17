@@ -60,7 +60,7 @@ Drie zorgverleners met verschillende werkcontexten werden geïnterviewd om diepe
 
 Voor meer gedetailleerde informatie:[Interview - protocol.pdf](https://github.com/user-attachments/files/18456220/Interview.-.protocol.pdf)
 
-Informed Consent:[Informed_Consent.pdf](https://github.com/user-attachments/files/18456473/Informed_Consent.pdf)
+Informed Consent onderzoek:[Informed_Consent.pdf](https://github.com/user-attachments/files/18456473/Informed_Consent.pdf)
 
 
 
@@ -142,7 +142,7 @@ In wave 1 werden er 5 respondenten ondervraagd die werken in een woonzorgcentrum
 
 Voor meer gedetailleerde informatie:[Wave 1 protocol.pdf](https://github.com/user-attachments/files/18456237/Wave.1.protocol.pdf)
 
-Informed Consent:[Wave 1 - informed consent.pdf](https://github.com/user-attachments/files/18456486/Wave.1.-.informed.consent.pdf)
+Informed Consent wave 1:[Wave 1 - informed consent.pdf](https://github.com/user-attachments/files/18456486/Wave.1.-.informed.consent.pdf)
 
 
 #### Wave 2
@@ -153,6 +153,8 @@ We vergeleken de notities van elk interview met elkaar. Hieruit konden we dan ee
 ![modellen](https://github.com/user-attachments/assets/5720582b-8653-48a2-a0e4-8a2357cbd600)
 
 Voor meer gedetailleerde informatie:[Wave 2 protocol.pdf](https://github.com/user-attachments/files/18456246/Wave.2.protocol.pdf)
+
+Informed Consent wave 2: [Wave 2 - informed consent.pdf](https://github.com/user-attachments/files/18456513/Wave.2.-.informed.consent.pdf)
 
 ### Resultaten
 
@@ -179,10 +181,7 @@ Extra: Hygiëne + batterij: Het product moet bestand zijn tegen regelmatige scho
 
 Voor meer gedetailleerde informatie:[Wave 1 rapport.pdf](https://github.com/user-attachments/files/18456167/Wave.1.rapport.pdf)
 
-Informed Consent: [Wave 2 - informed consent.pdf](https://github.com/user-attachments/files/18456513/Wave.2.-.informed.consent.pdf)
-
 Vooraf opgestelde scenario's die in beide waves getest konden worden:[Scenarios.pdf](https://github.com/user-attachments/files/18456508/Scenarios.pdf)
-
 
 
 #### Wave 2
