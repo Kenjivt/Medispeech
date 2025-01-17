@@ -217,25 +217,33 @@ Het batterijpercentage zal ook zichtbaar zijn bovenaan op de display.
 #### Badge-veiligheidsfunctie:
 Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarna het apparaat gebruikt kan worden.
 
-###Requirements
-####Functionaliteit:
+### Requirements
+#### Functionaliteit:
 -Zet spraak efficiënt en accuraat om in tekst.
+
 -Ondersteunt medische terminologie.
+
 -Zorgt voor directe koppeling met administratiesystemen voor automatische verwerking.
 
-####Gebruikersvriendelijkheid:
+#### Gebruikersvriendelijkheid:
 -Voer administratieve taken uit in maximaal 3 handelingen.
+
 -Handsfree gebruik met intuïtieve bediening via spraak of eenvoudige fysieke knoppen.
+
 -Biedt snelle respons en duidelijke feedback aan de gebruiker.
 
-####Technische specificaties:
+#### Technische specificaties:
 -Compact en draagbaar, gemakkelijk te bevestigen aan een verplegersschort.
+
 -Bestand tegen intensief dagelijks gebruik en accidentele stoten of vallen.
+
 -Batterijlevensduur van minimaal een volledige werkdag (8-12 uur).
+
 -Bestand tegen ontsmettingsmiddelen en gemakkelijk schoon te maken.
 
-####Veiligheid & privacy:
+#### Veiligheid & privacy:
 -Versleutelt alle gegevensoverdracht om vertrouwelijkheid te waarborgen.
+
 -Zorgt voor veilige opslag en voorkomt toegang door onbevoegden.
 
 
