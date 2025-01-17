@@ -60,6 +60,8 @@ Drie zorgverleners met verschillende werkcontexten werden geïnterviewd om diepe
 
 Voor meer gedetailleerde informatie:[Interview - protocol.pdf](https://github.com/user-attachments/files/18456220/Interview.-.protocol.pdf)
 
+Informed Consent:[Informed_Consent.pdf](https://github.com/user-attachments/files/18456473/Informed_Consent.pdf)
+
 
 
 ### Resultaten
@@ -140,6 +142,9 @@ In wave 1 werden er 5 respondenten ondervraagd die werken in een woonzorgcentrum
 
 Voor meer gedetailleerde informatie:[Wave 1 protocol.pdf](https://github.com/user-attachments/files/18456237/Wave.1.protocol.pdf)
 
+Informed Consent:[Wave 1 - informed consent.pdf](https://github.com/user-attachments/files/18456486/Wave.1.-.informed.consent.pdf)
+
+
 #### Wave 2
 In wave 2 werden de prototypes verbeterd op basis van de zaken die we geleerd hadden in wave 1. De zaken uit wave 1 werden opnieuw bevraagd ter controle of de aangepaste/gekozen systemen als positief werden ontvangen. Dit maal werd er meer doorgevraagd naar hoe het systeem achter het product dient te werken. Er werd opnieuw gevraagd om na te spelen hoe ze het tijdens hun werk zouden doen. Tijdens het interview werd er genoteerd wat er belangrijk was. Er werd opnieuw gebruik gemaakt van prototypes (zie foto's hieronder). Die dienden echter meer als voorstelling van de nieuwste versie van ons product zodat we dat opnieuw konden valideren. De prototypes werden nog gebruikt om verwijderknop en feedbackmechanisme te bevragen. Er werden ook zaken bevraagd die niet aan de hand van prototypes kon voorgesteld worden. 
 We vergeleken de notities van elk interview met elkaar. Hieruit konden we dan een conclusie trekken en ons toespitsen op een bepaald systeem en dat verder uitwerken. 
@@ -173,6 +178,11 @@ Stephanie, 48jaar: “Als we per ongeluk erg haperen mag de opname niet gestart 
 Extra: Hygiëne + batterij: Het product moet bestand zijn tegen regelmatige schoonmaakbeurten met ontsmettingsmiddelen, zonder verkleuring of schade. Er wordt het best gewerkt met een oplaadbakje zodat dit snel in en uit te halen is. Wanneer de batterij bijna plat is wordt een melding gegeven aan de hand van een knipperend lichtje of een trilling. 
 
 Voor meer gedetailleerde informatie:[Wave 1 rapport.pdf](https://github.com/user-attachments/files/18456167/Wave.1.rapport.pdf)
+
+Informed Consent: [Wave 2 - informed consent.pdf](https://github.com/user-attachments/files/18456513/Wave.2.-.informed.consent.pdf)
+
+Vooraf opgestelde scenario's die in beide waves getest konden worden:[Scenarios.pdf](https://github.com/user-attachments/files/18456508/Scenarios.pdf)
+
 
 
 #### Wave 2
