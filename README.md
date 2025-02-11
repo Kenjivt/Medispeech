@@ -43,19 +43,19 @@ Het project "Werkbaar werk in de zorg" heeft als doel de administratieve werkdru
 4. Het verminderen van werkdruk, zodat zorgmedewerkers meer tijd kunnen besteden aan persoonlijke zorg en sociale interactie.
 
 ### Materiaal & Methodologie
-#### Enquête
-Een uitgebreide enquête werd afgenomen onder 156 zorgverleners met diverse functies, zoals verpleegkundigen, verzorgenden en thuiszorgmedewerkers. De vragen richtten zich op de oorzaken van werkdruk, de meest tijdrovende taken en de impact hiervan op hun dagelijks werk. De verzamelde data gaf inzicht in de algemene knelpunten binnen de zorgsector en diende als basis voor verdere analyses.
+#### Enquête (N = 158)
+Een uitgebreide enquête werd afgenomen onder 158 zorgverleners met diverse functies, zoals verpleegkundigen, verzorgenden en thuiszorgmedewerkers. De vragen richtten zich op de oorzaken van werkdruk, de meest tijdrovende taken en de impact hiervan op hun dagelijks werk. De verzamelde data gaf inzicht in de algemene knelpunten binnen de zorgsector en diende als basis voor verdere analyses.
 
 Voor meer gedetailleerde informatie:[Enquête protocol.pdf](https://github.com/user-attachments/files/18456214/Enquete.protocol.pdf)
 
 
-#### Benchmarking
+#### Benchmarking (N = 10)
 Een benchmarkingstudie analyseerde bestaande technologische oplossingen in de zorgsector, zoals spraakherkenningssoftware en digitale documentatieplatforms. Elk product werd beoordeeld op sterkte- en zwaktepunten, zoals efficiëntie, gebruiksvriendelijkheid, en technische beperkingen. De benchmarking hielp bij het identificeren van technologische hiaten en verbeterpunten.
 
 Voor meer gedetailleerde informatie:[Benchmarking protocol.pdf](https://github.com/user-attachments/files/18456217/Benchmarking.protocol.pdf)
 
 
-#### Interviews
+#### Interviews (N = 3)
 Drie zorgverleners met verschillende werkcontexten werden geïnterviewd om dieper inzicht te krijgen in hun dagelijkse uitdagingen en behoeften. Het interviewprotocol richtte zich op frustraties, de acceptatie van technologie en specifieke kenmerken die een technologische oplossing zou moeten hebben. De interviews boden een kwalitatieve dimensie aan de kwantitatieve gegevens uit de enquête.
 
 Voor meer gedetailleerde informatie:[Interview - protocol.pdf](https://github.com/user-attachments/files/18456220/Interview.-.protocol.pdf)
@@ -116,15 +116,15 @@ Het Medispeech-apparaat heeft het potentieel om een belangrijke verandering tewe
 Dit onderdeel werd opgedeeld in twee fasen (waves), waarbij elke fase bestond uit 5 respondenten die werkzaam waren in een woonzorgcentrum of ziekenhuis.
 
 ### Doestellingen
-#### Wave 1
+#### Wave 1 (N = 5)
 In de eerste wave wilden we vooral te weten komen welke vorm, knop en bevestiging het product nodig heeft voor een optimale werking. Welk silhouet (hoofdvorm) is het beste om mee te werken (eerder verticaal of horizontaal of nog anders). Is de knop om in te duwen, met touch (vingerherkenning?), om te draaien of om te schuiven? Kan de bevestiging gebeuren bij het zakje van de verpleegkundigen of moet het ergens anders bevestigd worden? Welke bevestiging lijkt het beste?
 
-#### Wave 2
+#### Wave 2 (N = 5)
 In wave twee hebben we gefocust op het speech-to-text systeem. We wilden weten welke categorisering hier belangrijk is die in het systeem aanwezig moet zijn. Wat er moest gebeuren als er een foute opname gebeurde of als een opname toch per ongeluk gestart werd. Wat als er foute zaken werden geregistreerd. Hoe moet het  feedbacksysteem werken (licht, geluid, met trilling)?
 
 
 ### Materiaal & methoden
-#### Wave 1
+#### Wave 1 (N = 5)
 In wave 1 werden er 5 respondenten ondervraagd die werken in een woonzorgcentrum of ziekenhuis.  Bepaalde werden gerekruteerd door mails te sturen naar woonzorgcentra en ziekenhuizen, andere waren kennissen. Er werden op voorhand 4 prototypes gemaakt met telkens een verschillende vorm, bevestigingssysteem en knop (zie foto’s hieronder). Eerst werden ze snel uit karton geprototyped, daarna ge-3D-print. Deze werden dan voorgelegd aan de respondenten. Zij konden dan een tabel invullen om zo overzichtelijk weer te geven welk systeem voor elk onderdeel (vorm, knop, bevestiging)  het beste leek en welke de positieve en negatieve punten waren aan elk systeem. Dit deden we om te achterhalen welke reden er precies achter zat waarom ze het ene boven het andere verkozen. We vroegen hen om er een actie mee uit te voeren die ze tijdens het werk ook zouden doen. Zo konden zij de beste keuze maken en konden wij zien hoe er gehandeld werd met het product en hoe vlot dat ging. Daarna werd ook besproken wat ze zelf zouden veranderen aan de prototypes. 
 
 #### Prototypes wave 1:
@@ -145,7 +145,7 @@ Voor meer gedetailleerde informatie:[Wave 1 protocol.pdf](https://github.com/use
 Informed Consent wave 1:[Wave 1 - informed consent.pdf](https://github.com/user-attachments/files/18456486/Wave.1.-.informed.consent.pdf)
 
 
-#### Wave 2
+#### Wave 2 (N = 5)
 In wave 2 werden de prototypes verbeterd op basis van de zaken die we geleerd hadden in wave 1. De zaken uit wave 1 werden opnieuw bevraagd ter controle of de aangepaste/gekozen systemen als positief werden ontvangen. Dit maal werd er meer doorgevraagd naar hoe het systeem achter het product dient te werken. Er werd opnieuw gevraagd om na te spelen hoe ze het tijdens hun werk zouden doen. Tijdens het interview werd er genoteerd wat er belangrijk was. Er werd opnieuw gebruik gemaakt van prototypes (zie foto's hieronder). Die dienden echter meer als voorstelling van de nieuwste versie van ons product zodat we dat opnieuw konden valideren. De prototypes werden nog gebruikt om verwijderknop en feedbackmechanisme te bevragen. Er werden ook zaken bevraagd die niet aan de hand van prototypes kon voorgesteld worden. 
 We vergeleken de notities van elk interview met elkaar. Hieruit konden we dan een conclusie trekken en ons toespitsen op een bepaald systeem en dat verder uitwerken. 
 
@@ -158,7 +158,7 @@ Informed Consent wave 2: [Wave 2 - informed consent.pdf](https://github.com/user
 
 ### Resultaten
 
-#### Wave 1
+#### Wave 1 (N = 5)
 
 ##### Formaat:
 Het apparaat moet compact en licht zijn, maar ook stevig en merkbaar aanwezig. Afgeronde hoeken zorgen voor een veiligere uitstraling. Het horizontaal georiënteerde en cirkelvormige prototype leken het beste. 
@@ -184,7 +184,7 @@ Voor meer gedetailleerde informatie:[Wave 1 rapport.pdf](https://github.com/user
 Vooraf opgestelde scenario's die in beide waves getest konden worden:[Scenarios.pdf](https://github.com/user-attachments/files/18456508/Scenarios.pdf)
 
 
-#### Wave 2
+#### Wave 2 (N = 5)
 ##### Knop: 
 Er is brede overeenstemming over de voorkeur voor een fysieke aan-uitknop, waarbij per ongeluk inschakelen wordt voorkomen, en visuele en/of tactiele feedback essentieel is om de status van het apparaat duidelijk te maken. Een duidelijk klikgeluid is wenselijk bij het indrukken.
 
