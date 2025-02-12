@@ -273,16 +273,27 @@ Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarn
 
 ### Keuze componenten
 
-#### Microcontroller
+#### Microcontroller:
 
 Soort micro, Cloud nodig (privacy), Snelheid, Nauwkeurigheid, Prijs, Compact ( hoe kleiner hoe beter ), Beschikbaarheid (in de winkel gotron te Gent beschikbaar of in kiwi electronics, zeer snelle levering ), gebruik
 
 | Microcontroller | Cloud nodig | Snelheid | Nauwkeurigheid | Prijs €(±) | Compact | Beschikbaar | Gebruik |
 | --------------- | ----------- | -------- | -------------- | ---------- | ------- | ----------- | ------- |
-| XIAO ESP32s3 | Ja | Gemiddeld | Laag | 10 - 15 | Klein | Makkelijk | Gemiddeld |
+| XIAO ESP32s3 | Nee / Ja | Gemiddeld | Laag | 10 - 15 | Klein | Makkelijk | Gemiddeld |
 | Raspberry Pi 4  | Nee | Snel | Goed | 60 - 80 | Groot | Makkelijk | Moeilijk |
 | Raspberry Pi Zero 2 W (+ Vosk) | Nee / Ja | Gemiddeld | Goed | 20 - 25 | Gemiddeld | Makkelijk | Moeilijk |
 | Jetson Nano | Nee | Zeer snel | Zeer goed | 100 + | Groot | Zeer moeilijk | Zeer moeilijk |
+
+Keuze: XIAO ESP32s3, Prijs, compact, beschikbaarheid, gebruik en verbeteringen mogelijk bij gebruik van een cloud. Bij gebruik van INMP441 microfoon kan de nauwkeurigheid worden verhoogd en doordat de controller wordt verbonden wordt ook de nauwkeurigheid en lengte van de zinnen verhoogt. De snelheid kan verminderen maar met een goede wifi verbinding is dit ongeveer 0.5 - 3 seconden wat zeer minim is.
+
+
+#### Vergelijking XIAO ESP32s3 lokaal - via cloud:
+
+| Microcontroller | Snelheid | Nauwkeurigheid | Privacy | Complexiteit tekst |
+| --------------- | -------- | -------------- | ------- | ------------------ |
+| Lokaal | Snel | Laag | 100% veilig | Zeer beperkt |
+| Raspberry Pi 4  | Iets trager (0.5 - 3s) | Hoog | Beschikbaar voor derden | Lange zinnen mogelijjk |
+
 
 
 
