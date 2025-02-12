@@ -274,9 +274,12 @@ Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarn
 ### Keuze componenten
 
 #### Microcontroller
-| Microcontroller | Cloud nodig | Snelheid | Nauwkeurigheid | Prijs (±) | Compact | Beschikbaar |
-| --------------- | ----------- | -------- | -------------- | --------- | ------- | ----------- |
-| XIAO ESP32s3 | Cloud nodig | Snelheid | Nauwkeurigheid | Prijs (±) | Compact | Beschikbaar |
+| Microcontroller | Cloud nodig | Snelheid | Nauwkeurigheid | Prijs €(±) | Compact | Beschikbaar | Gebruik |
+| --------------- | ----------- | -------- | -------------- | ---------- | ------- | ----------- | ------- |
+| XIAO ESP32s3 | Ja | Gemiddeld | Laag | 10 - 15 | Klein | Makkelijk | Gemiddeld |
+| Raspberry Pi 4  | Nee | Snel | Goed | 60 - 80 | Groot | Makkelijk | Moeilijk |
+| Raspberry Pi Zero 2 W (+ Vosk) | Nee / Ja | Gemiddeld | 20 - 25 | Gemiddeld | Moeilijk |
+| Jetson Nano | Nee | Zeer snel | Zeer goed | 100 + | Groot | Zeer moeilijk | Zeer moeilijk |
 
 
 
