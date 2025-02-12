@@ -286,6 +286,14 @@ Soort micro, Cloud nodig (privacy), Snelheid, Nauwkeurigheid, Prijs, Compact ( h
 
 
 
+### Aankoop
+
+XIAO ESP32s3 €8.82 + verzending €9.08 = €17,90
+
+INMP441 €3.5 + verzending €7.5 = €11.45
+
+
+
 
 
 ## Kritische reflectie
