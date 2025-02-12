@@ -269,6 +269,19 @@ Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarn
 - TE Connectivity 118259104 of Youmile 6x6x4.3mm Tactile Switch (Verwijderknop)
 - Papierklem magnetisch (bevestiging)
 
+
+
+### Keuze componenten
+
+#### Microcontroller
+| Microcontroller | Cloud nodig | Snelheid | Nauwkeurigheid | Prijs (±) | Compact | Beschikbaar |
+| --------------- | ----------- | -------- | -------------- | --------- | ------- | ----------- |
+| XIAO ESP32s3 | Cloud nodig | Snelheid | Nauwkeurigheid | Prijs (±) | Compact | Beschikbaar |
+
+
+
+
+
 ## Kritische reflectie
 Kenji Van Thuyne:
 
