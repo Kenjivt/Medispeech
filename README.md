@@ -309,6 +309,21 @@ Keuze: XIAO ESP32S3, Prijs, compact, beschikbaarheid, gebruik en verbeteringen m
 
 Keuze nog te bepalen
 
+#### Berekening batterijduur 
+
+Stroomverbruik (mA) van de XIAO ESP32S3:
+- Normale werking: ~160 - 240
+- Deep Sleep Mode: ~10 - 20
+
+Batterijduur (uur) = Capaciteit (mAh) / Verbruik (mA)
+
+| Batterij | Capaciteit (mAh) | Normaal gebruik (~200mA) | Deep Sleep (~15mA) |
+| -------- | ---------------- | ------------------------ | ------------------ |
+| LiPo 500mAh | 500mAh |	~2.5 uur | ~33 uur |
+| LiPo 1000mAh | 1000mAh | ~5 uur | ~66 uur |
+| LiPo 2000mAh | 2000mAh | ~10 uur | ~132 uur (5,5 dagen) |
+| 18650 Li-ion (2500mAh) | 2500mAh | ~12,5 uur | ~166 uur (bijna 7 dagen) |
+| 18650 Li-ion (3500mAh) | 3500mAh | ~17,5 uur | ~233 uur (9,7 dagen) |
 
 ### Aankoop
 
