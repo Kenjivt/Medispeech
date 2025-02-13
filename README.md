@@ -281,17 +281,17 @@ Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarn
 
 Soort micro, Cloud nodig (privacy), Snelheid, Nauwkeurigheid, Prijs, Compact ( hoe kleiner hoe beter ), Beschikbaarheid (in de winkel gotron te Gent beschikbaar of in kiwi electronics, zeer snelle levering ), gebruik
 
-| Microcontroller | Cloud nodig | Snelheid | Nauwkeurigheid | Prijs €(±) | Compact | Beschikbaar | Gebruik |
+| Microcontroller | Cloud nodig | Snelheid | Nauwkeurigheid | Prijs (€) | Compact | Beschikbaar | Gebruik |
 | --------------- | ----------- | -------- | -------------- | ---------- | ------- | ----------- | ------- |
-| XIAO ESP32s3 | Nee / Ja | Gemiddeld | Laag | 10 - 15 | Klein | Makkelijk | Gemiddeld |
+| XIAO ESP32S3 | Nee / Ja | Gemiddeld | Laag | 10 - 15 | Klein | Makkelijk | Gemiddeld |
 | Raspberry Pi 4  | Nee | Snel | Goed | 60 - 80 | Groot | Makkelijk | Moeilijk |
 | Raspberry Pi Zero 2 W (+ Vosk) | Nee / Ja | Gemiddeld | Goed | 20 - 25 | Gemiddeld | Makkelijk | Moeilijk |
 | Jetson Nano | Nee | Zeer snel | Zeer goed | 100 + | Groot | Zeer moeilijk | Zeer moeilijk |
 
-Keuze: XIAO ESP32s3, Prijs, compact, beschikbaarheid, gebruik en verbeteringen mogelijk bij gebruik van een cloud. Bij gebruik van INMP441 microfoon kan de nauwkeurigheid worden verhoogd en doordat de controller wordt verbonden wordt ook de nauwkeurigheid en lengte van de zinnen verhoogt. De snelheid kan verminderen maar met een goede wifi verbinding is dit ongeveer 0.5 - 3 seconden wat zeer minim is.
+Keuze: XIAO ESP32S3, Prijs, compact, beschikbaarheid, gebruik en verbeteringen mogelijk bij gebruik van een cloud. Bij gebruik van INMP441 microfoon kan de nauwkeurigheid worden verhoogd en doordat de controller wordt verbonden wordt ook de nauwkeurigheid en lengte van de zinnen verhoogt. De snelheid kan verminderen maar met een goede wifi verbinding is dit ongeveer 0.5 - 3 seconden wat zeer minim is.
 
 
-#### Vergelijking XIAO ESP32s3 lokaal - via cloud:
+#### Vergelijking XIAO ESP32S3 lokaal - via cloud:
 
 | Microcontroller | Snelheid | Nauwkeurigheid | Privacy | Complexiteit tekst |
 | --------------- | -------- | -------------- | ------- | ------------------ |
@@ -299,6 +299,15 @@ Keuze: XIAO ESP32s3, Prijs, compact, beschikbaarheid, gebruik en verbeteringen m
 | Raspberry Pi 4  | Iets trager (0.5 - 3s) | Hoog | Beschikbaar voor derden | Lange zinnen mogelijjk |
 
 
+#### Batterijopties voor XIAO ESP32S3
+| Batterij | Voltage (V) | Capaciteit (mAh) | Prijs (€) | Voordelen | Nadelen | Gebruik (1 = moeilijk, 5 = makkkelijk) |
+| -------- | ----------- | ---------------- | --------- | --------- | ------- | -------------------------------------- |
+| Lipo 3.7V | 3.7 (4.2 max) | 350 - 2000 | 10 - 15 | Klein, Licht | Gevoelig voor schade | 3 | 
+| Li-ion 18650 (1 cel)  | 3.7 (4.2 max) | 2500 - 3000 | 8 - 15 | Hoge capaciteit, veilig met houder | Groter en zwaarder | 4 | 
+| 3x AAA | 1.2 x 3 = 3.6 | (800 - 1000) x 3 | 5 - 15 | veilig, hoge capaciteit | Veel groter en zwaarder | 4 | 
+| Powerbank | 5 | 2000 - 10000 | 10 - 40 | Zeer hoge capaciteit, veilig | Zeer groot en zwaar | 4 | 
+
+Keuze nog te bepalen
 
 
 ### Aankoop
