@@ -269,6 +269,10 @@ Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarn
 - TE Connectivity 118259104 of Youmile 6x6x4.3mm Tactile Switch (Verwijderknop)
 - Papierklem magnetisch (bevestiging)
 
+### HTA
+![HTA](https://github.com/user-attachments/assets/ac3508b2-156e-4b52-b313-fa3e176bedbf)
+
+
 
 
 ### Keuze componenten
