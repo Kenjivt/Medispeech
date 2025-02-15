@@ -277,9 +277,9 @@ Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarn
 
 
 
-### Keuze componenten
+## Keuze componenten
 
-#### Microcontroller:
+### Microcontroller:
 
 Soort micro, Cloud nodig (privacy), Snelheid, Nauwkeurigheid, Prijs, Compact ( hoe kleiner hoe beter ), Beschikbaarheid (in de winkel gotron te Gent beschikbaar of in kiwi electronics, zeer snelle levering ), gebruik
 
@@ -293,7 +293,7 @@ Soort micro, Cloud nodig (privacy), Snelheid, Nauwkeurigheid, Prijs, Compact ( h
 Keuze: XIAO ESP32S3, Prijs, compact, beschikbaarheid, gebruik en verbeteringen mogelijk bij gebruik van een cloud. Bij gebruik van INMP441 microfoon kan de nauwkeurigheid worden verhoogd en doordat de controller wordt verbonden wordt ook de nauwkeurigheid en lengte van de zinnen verhoogt. De snelheid kan verminderen maar met een goede wifi verbinding is dit ongeveer 0.5 - 3 seconden wat zeer minim is.
 
 
-#### Vergelijking XIAO ESP32S3 lokaal - via cloud:
+### Vergelijking XIAO ESP32S3 lokaal - via cloud:
 
 | Microcontroller | Snelheid | Nauwkeurigheid | Privacy | Complexiteit tekst |
 | --------------- | -------- | -------------- | ------- | ------------------ |
@@ -301,7 +301,7 @@ Keuze: XIAO ESP32S3, Prijs, compact, beschikbaarheid, gebruik en verbeteringen m
 | Raspberry Pi 4  | Iets trager (0.5 - 3s) | Hoog | Beschikbaar voor derden | Lange zinnen mogelijjk |
 
 
-#### Batterijopties voor XIAO ESP32S3
+### Batterijopties voor XIAO ESP32S3
 | Batterij | Voltage (V) | Capaciteit (mAh) | Prijs (€) | Voordelen | Nadelen | Gebruik (1 = moeilijk, 5 = makkkelijk) |
 | -------- | ----------- | ---------------- | --------- | --------- | ------- | -------------------------------------- |
 | Lipo 3.7V | 3.7 (4.2 max) | 350 - 2000 | 10 - 15 | Klein, Licht | Gevoelig voor schade | 3 | 
@@ -311,7 +311,7 @@ Keuze: XIAO ESP32S3, Prijs, compact, beschikbaarheid, gebruik en verbeteringen m
 
 Keuze nog te bepalen
 
-#### Berekening batterijduur 
+### Berekening batterijduur 
 
 Stroomverbruik (mA) van de XIAO ESP32S3:
 - Normale werking: ~160 - 240
@@ -328,7 +328,7 @@ Batterijduur (uur) = Capaciteit (mAh) / Verbruik (mA)
 | 18650 Li-ion (3500mAh) | 3500mAh | ~17,5 uur | ~233 uur (9,7 dagen) |
 
 
-### Tabel functie & requirements
+## Tabel functie & requirements
 
 dev == development
 
@@ -350,7 +350,7 @@ dev == development
 |  | 3. Batterijlevensduur van minimaal een volledige werkdag (8-12 uur) | -- | x | x | x |
 |  | 4. Bestand tegen ontsmettingsmiddelen en gemakkelijk schoon te maken | -- | x | x | x |
 
-#### Legende: 
+### Legende: 
 
 "--" : Aan de requirement is nog geen aandacht besteet en deze staat nog nergens.
 
@@ -361,8 +361,37 @@ dev == development
 "++" : De requirement wordt volledig voldaan.
 
 
+## Code 
+<details>
+  <summary>Code 1: verbinden met wifi</summary>
+  
+    #include <WiFi.h>
+    #include <WiFiClientSecure.h>
 
-### Aankoop
+    // 🔹 Jouw WiFi gegevens
+    const char* ssid = "***";
+    const char* password = "***";
+
+    // WiFi client voor HTTPS-verbinding
+    WiFiClientSecure client;
+
+    void setup() {
+      Serial.begin(115200);
+    
+      // WiFi verbinden
+      WiFi.begin(ssid, password);
+      while (WiFi.status() != WL_CONNECTED) {
+          delay(500);
+          Serial.print(".");
+      }
+      Serial.println("✅ Verbonden met WiFi!");
+    }
+    void loop() {
+      // put your main code here, to run repeatedly:
+    }
+</details>
+
+## Aankoop
 
 XIAO ESP32s3 €8.82 + verzending €9.08 = €17,90
 
