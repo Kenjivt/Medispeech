@@ -352,13 +352,13 @@ dev == development
 
 #### Legende: 
 
--- : Aan de requirement is nog geen aandacht besteet en deze staat nog nergens.
+"--" : Aan de requirement is nog geen aandacht besteet en deze staat nog nergens.
 
-- : Er is over nagedacht, maar nog geen concrete oplossing.
+"-" : Er is over nagedacht, maar nog geen concrete oplossing.
 
-+ : Een oplossing is tot stand gebracht, maar werkt nog niet optimaal.
+"+" : Een oplossing is tot stand gebracht, maar werkt nog niet optimaal.
 
-++ : De requirement wordt volledig voldaan.
+"++" : De requirement wordt volledig voldaan.
 
 
 
