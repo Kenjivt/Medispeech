@@ -226,42 +226,20 @@ Het batterijpercentage zal ook zichtbaar zijn bovenaan op de display.
 #### Badge-veiligheidsfunctie:
 Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarna het apparaat gebruikt kan worden.
 
-### Requirements (+Design Principle)
-#### Functionaliteit:
--Zet spraak efficiënt en accuraat om in tekst.
-
--Ondersteunt medische terminologie.
-
--Zorgt voor directe koppeling met administratiesystemen voor automatische verwerking.
-
--Duidelijke boomstructuur waarin handelingen zijn weergegeven. (Visibility)
-
-#### Gebruikersvriendelijkheid:
--Voer administratieve taken uit in maximaal 3 handelingen.
-
--Hoofdknop valt op en geeft tactiele feedback. (Visibility + Feedback)
-
--Handsfree gebruik met intuïtieve bediening via spraak of eenvoudige fysieke knoppen.
-
--Biedt snelle respons en duidelijke feedback (adhv kleur of icoontjes) aan de gebruiker.(Visibility + Feedback + Microintractions)
-
--Te bevestigen in 10 seconden. ( Vanaf het nemen uit de oplader tot het device is bevestigd en tot de gebruiker kan beginnen met hun taken. )
-
-#### Technische specificaties:
--Compact en draagbaar, gemakkelijk te bevestigen aan een verplegersschort.
-
--Bestand tegen intensief dagelijks gebruik en accidentele stoten of vallen.
-
--Batterijlevensduur van minimaal een volledige werkdag (8-12 uur).
-
--Bestand tegen ontsmettingsmiddelen en gemakkelijk schoon te maken.
-
-#### Veiligheid & privacy:
--Versleutelt alle gegevensoverdracht om vertrouwelijkheid te waarborgen.
-
--Zorgt voor veilige opslag en voorkomt toegang door onbevoegden.(Constraints)
-
-
+### Design Requierments (PvE)
+| Klantenwensen | Ontwerpcriteria (design requirements) | Eis/Wens | Gekozen oplossing | Prioriteiten-Nummer (1-5) |
+|--------------|--------------------------------------|---------|-------------------|--------------------------|
+| De administratieve zaken moeten accuraat opgenomen en verstuurd worden en moet dus medische terminologie ondersteunen. | Er moet technologie voorzien worden die spraak in tekst kan omzetten. | Eis | Er wordt gewerkt met een speech-to-text mechanisme. | 1 |
+| Een foutje opname of een ongeluk gestarte opname moet verwijderd kunnen worden. | Er moet een knop voorzien worden zodat foute opnames meteen verwijderd kunnen worden. | Eis | Er wordt gewerkt met een voorheen opgenomen opname die dan apart wordt verstuurd. | 4 |
+| Er moet rekening gehouden worden met het gegeven dat de informatie privacygevoelig is. De opname en overdracht moeten veilig gebeuren en toegang verboden voor onbevoegden. | Het product kan enkel ontgrendeld worden door gebruik van een badge of het indrukken van een code/vingerafdruk. | Wens | - | - |
+| De batterijstatus van het apparaat moet op te volgen zijn. | De batterijstatus wordt weergegeven in percentages of is op te volgen aan de hand van een lichtje/geluid/trilling. | Eis | Het batterijpercentage wordt weergegeven op een display en weergegeven in percentages (mogelijk wordt hier nog over nagedacht). | 3 |
+| Het apparaat moet makkelijk te bevestigen zijn en niet uit de zak gaan tijdens intensief bewegen. | Er moet een bevestigingsmechanisme gebruikt worden. | Eis | Te bepalen. | - |
+| Er moet duidelijk aangegeven worden wanneer een opname bezig is en wanneer het apparaat in standby staat. | Het apparaat heeft een duidelijk lichtsignaal of geluidsignaal wanneer een opname bezig is. | Eis | Er wordt gewerkt met een display die groen kleurt wanneer een opname bezig is. Wanneer de opname stopt kleurt het rood voor enige tijd. | 2 |
+| De informatie moet in een hiërarchische structuur geordend kunnen worden bij de juiste patiënt. | Het programma moet bepaalde kernwoorden herkennen en de gesprekken in de juiste tekst plaatsen. Met een badge kan eventueel aan de deur van de kamer iets gescand worden zodat de info meteen bij de juiste patiënt genoteerd wordt. | Eis | Koppelen patiënt met tekst nog te bepalen. Specifieke kernwoorden en technische aanpak nog te bepalen. | 2 |
+| De knoppen moeten makkelijk te gebruiken zijn. | De knop moet groot genoeg zijn en op een intuïtieve plaats aangebracht worden. | Eis | De knop wordt vooraan als enige aangebracht zodat er geen verwarring kan ontstaan. | 3 |
+| De batterij moet kunnen opgeladen worden voor een volgende shift de volgende dag. | Het apparaat moet op oplaadbare batterijen werken. Eventueel kan het volledige toestel in een houder worden gestoken en zo opgeladen worden. | Wens | Nog te bepalen | 3 |
+| Het apparaat moet compact en dus ook makkelijk draagbaar zijn. | Het gewicht en grootte van het toestel moeten beperkt worden. | Wens | Vorm is voorlopig ovaalachtig, maar kan nog aangepast worden indien noodzakelijk voor de technische kant. | 4 |
+| Het product moet ontsmet kunnen worden met alcohol. | De behuizing van het product moet bestand zijn tegen vloeistoffen en doordrinken van vloeistof. | Eis | De knop is verzonken in het product zodat een vlak oppervlak gecreërd wordt om te kunnen ontsmetten | 5 |
 
 ## Bill of materials
 - Arduino nano 33 BLE sense of Raspberry pi zero (Rekenkracht)
@@ -270,12 +248,8 @@ Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarn
 - I2C OLED Display Modules 7/8 Inch Blue (Scherm)
 - TE Connectivity 118259104 of Youmile 6x6x4.3mm Tactile Switch (Verwijderknop)
 - Papierklem magnetisch (bevestiging)
-
 ### HTA
 ![HTA](https://github.com/user-attachments/assets/ac3508b2-156e-4b52-b313-fa3e176bedbf)
-
-
-
 
 ## Keuze componenten
 
