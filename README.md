@@ -626,8 +626,8 @@ dev == development
 
     void wifiConnect(void *pvParameters){
       isWIFIConnected = false;
-      char* ssid = "steven_IoT";
-      char* password = "ToIwifi48.";
+      char* ssid = "SSID_WIFI"; //Plaats uw eigen wifi ssid hier
+      char* password = "Wachtwoord_WIFI"; //Voer het wachtwoord van uw wifi in
       Serial.print("Try to connect to ");
       Serial.println(ssid);
       WiFi.begin(ssid, password);
@@ -652,7 +652,7 @@ dev == development
       Serial.println("===> Upload FILE to Node.js Server");
 
       HTTPClient client;
-      client.begin("http://192.168.1.15:8888/uploadAudio");
+      client.begin("http://PLAATS_IP_HIER:8888/uploadAudio"); //Plaats uw eigen IP-adres
       client.addHeader("Content-Type", "audio/wav");
       int httpResponseCode = client.sendRequest("POST", &file, file.size());
       Serial.print("httpResponseCode : ");
@@ -669,8 +669,7 @@ dev == development
       file.close();
       client.end();
     }
-
-    ![afbeelding](https://github.com/user-attachments/assets/b429a201-67e4-4c92-a32c-be7f5a8319c8)
+![afbeelding](https://github.com/user-attachments/assets/466ab32e-ef87-4f95-85f2-afdbef0ae0e1)
 
 </details>
 
