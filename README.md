@@ -365,6 +365,109 @@ dev == development
     }
 </details>
 
+<details>
+  <summary>Code 2: Spraak omzetten naar .WAV</summary>
+  
+    #include <WiFi.h>
+    #include <HTTPClient.h>
+    #include <Base64.h>
+    #include <ESP_I2S.h>
+    #include <SD.h>
+    #include <SPI.h>
+
+    #define SD_CS_PIN 21       // SD-kaart CS pin (Xiao ESP32S3 Sense gebruikt 21)
+    #define SAMPLE_RATE 16000  // 16 kHz sample rate
+    #define BUFFER_SIZE 1024   // Buffer voor audio-opname
+
+    I2SClass I2S;
+    File audioFile;
+
+    void writeWavHeader(File file, uint32_t dataSize) {
+        file.seek(0);
+        file.write((const uint8_t*)"RIFF", 4);
+        uint32_t chunkSize = 36 + dataSize;
+        file.write((uint8_t*)&chunkSize, 4);
+        file.write((const uint8_t*)"WAVE", 4);
+        file.write((const uint8_t*)"fmt ", 4);
+        uint32_t subChunk1Size = 16;
+        file.write((uint8_t*)&subChunk1Size, 4);
+        uint16_t audioFormat = 1;
+        file.write((uint8_t*)&audioFormat, 2);
+        uint16_t numChannels = 1;
+        file.write((uint8_t*)&numChannels, 2);
+        uint32_t sampleRate = SAMPLE_RATE;
+        file.write((uint8_t*)&sampleRate, 4);
+        uint32_t byteRate = SAMPLE_RATE * numChannels * 2;
+        file.write((uint8_t*)&byteRate, 4);
+        uint16_t blockAlign = numChannels * 2;
+        file.write((uint8_t*)&blockAlign, 2);
+        uint16_t bitsPerSample = 16;
+        file.write((uint8_t*)&bitsPerSample, 2);
+        file.write((const uint8_t*)"data", 4);
+        file.write((uint8_t*)&dataSize, 4);
+    }
+
+    void setup() {
+        Serial.begin(115200);
+
+        // SD-kaart initialiseren
+        if (!SD.begin(SD_CS_PIN)) {
+            Serial.println("SD-kaart niet gevonden!");
+            while (1);
+        }
+        Serial.println("SD-kaart succesvol geactiveerd!");
+
+        // Interne microfoon instellen (PDM)
+        I2S.setPinsPdmRx(42, 41);
+        if (!I2S.begin(I2S_MODE_PDM_RX, SAMPLE_RATE, I2S_DATA_BIT_WIDTH_16BIT, I2S_SLOT_MODE_MONO)) {
+            Serial.println("I2S-initialisatie mislukt!");
+            while (1);
+        }
+        Serial.println("I2S correct ingesteld!");
+    }
+
+    void loop() {
+        Serial.println("Opname starten...");
+
+        // Bestand openen op SD-kaart
+        audioFile = SD.open("/recording.wav", FILE_WRITE);
+        if (!audioFile) {
+            Serial.println("Kan audio-bestand niet openen!");
+            return;
+        }
+
+        // Plaats tijdelijke header
+        writeWavHeader(audioFile, 0);
+
+        int16_t buffer[BUFFER_SIZE];
+        unsigned long startTime = millis();
+        uint32_t dataSize = 0;
+
+        while (millis() - startTime < 5000) {  // Opnemen voor 5 seconden
+            int bytesRead = 0;  // Declareer en initialiseer bytesRead
+
+          for (int i = 0; i < BUFFER_SIZE; i++) {
+            buffer[i] = I2S.read();
+            bytesRead += sizeof(int16_t); // Aantal gelezen bytes bijhouden
+          }
+
+          if (bytesRead > 0) {
+            audioFile.write((uint8_t*)buffer, bytesRead);
+            dataSize += bytesRead;
+          }
+        }
+
+
+      
+        // Header bijwerken met daadwerkelijke grootte
+        writeWavHeader(audioFile, dataSize);
+        audioFile.close();
+
+        Serial.println("Opname voltooid en opgeslagen als 'recording.wav'!");
+        delay(10000);  // Wacht 10 seconden voor volgende opname
+    }
+</details>
+
 ## Aankoop
 
 XIAO ESP32s3 €8.82 + verzending €9.08 = €17,90
