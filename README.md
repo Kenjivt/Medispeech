@@ -337,7 +337,7 @@ dev == development
 
 ## Code 
 <details>
-  <summary>Code 1: verbinden met wifi</summary>
+  <summary>Code 1: Verbinden met wifi</summary>
   
     #include <WiFi.h>
     #include <WiFiClientSecure.h>
@@ -466,6 +466,212 @@ dev == development
         Serial.println("Opname voltooid en opgeslagen als 'recording.wav'!");
         delay(10000);  // Wacht 10 seconden voor volgende opname
     }
+</details>
+
+<details>
+  <summary>Code 3: Omzetting van spraak naar tekst</summary>
+  
+    #include <WiFi.h>
+    #include <HTTPClient.h>
+    #include <Base64.h>
+    #include <ESP_I2S.h>
+    #include <SD.h>
+    #include <SPI.h>
+
+    //Variables to be used in the recording program, do not change for best
+    #define SAMPLE_RATE 16000U
+    #define SAMPLE_BITS 16
+    #define WAV_HEADER_SIZE 44
+    #define VOLUME_GAIN 2
+    #define RECORD_TIME 10      // seconds, The maximum value is 240
+
+    //define I2S
+    I2SClass I2S;
+
+    // Number of bytes required for the recording buffer
+    uint32_t record_size = (SAMPLE_RATE * SAMPLE_BITS / 8) * RECORD_TIME;
+
+    File file;
+    const char filename[] = "/recording.wav";
+
+    bool isWIFIConnected;
+
+    void setup() {
+      Serial.begin(115200);
+      while (!Serial) ;
+  
+      // setup 42 PDM clock and 41 PDM data pins
+      I2S.setPinsPdmRx(42, 41);
+
+      //The transmission mode is PDM_MONO_MODE, which means that PDM (pulse density modulation) mono mode is used for transmission
+      if (!I2S.begin(I2S_MODE_PDM_RX, 16000, I2S_DATA_BIT_WIDTH_16BIT, I2S_SLOT_MODE_MONO)) {
+        Serial.println("Failed to initialize I2S!");
+        while (1) ;
+      }
+
+      if(!SD.begin(21)){
+        Serial.println("Failed to mount SD Card!");
+        while (1) ;
+      }
+  
+      xTaskCreate(i2s_adc, "i2s_adc", 1024 * 8, NULL, 1, NULL);
+      delay(500);
+      xTaskCreate(wifiConnect, "wifi_Connect", 4096, NULL, 0, NULL);
+    }
+
+    void loop() {
+      // put your main code here, to run repeatedly:
+    }
+
+    void i2s_adc(void *arg)
+    {
+      Serial.println("Opname starten...");
+
+      // Bestand openen op SD-kaart
+      file = SD.open(filename, FILE_WRITE);
+      if (!file) {
+          Serial.println("Kan audio-bestand niet openen!");
+          return;
+      }
+
+      // Plaats tijdelijke header
+      writeWavHeader(file, 0);
+
+      int16_t buffer[1024];
+      unsigned long startTime = millis();
+      uint32_t dataSize = 0;
+
+      while (millis() - startTime < 5000) {  // Opnemen voor 5 seconden
+          int bytesRead = 0;  // Declareer en initialiseer bytesRead
+
+        for (int i = 0; i < 1024; i++) {
+          buffer[i] = I2S.read();
+          bytesRead += sizeof(int16_t); // Aantal gelezen bytes bijhouden
+        }
+
+        if (bytesRead > 0) {
+          file.write((uint8_t*)buffer, bytesRead);
+          dataSize += bytesRead;
+        }
+      }
+
+      // Header bijwerken met daadwerkelijke grootte
+      writeWavHeader(file, dataSize);
+      file.close();
+
+      Serial.println("Opname voltooid en opgeslagen als 'recording.wav'!");
+
+      if(isWIFIConnected){
+        uploadFile();
+      }
+  
+      vTaskDelete(NULL);
+    }
+
+    void writeWavHeader(File file, uint32_t dataSize) {
+        file.seek(0);
+        file.write((const uint8_t*)"RIFF", 4);
+        uint32_t chunkSize = 36 + dataSize;
+        file.write((uint8_t*)&chunkSize, 4);
+        file.write((const uint8_t*)"WAVE", 4);
+        file.write((const uint8_t*)"fmt ", 4);
+        uint32_t subChunk1Size = 16;
+        file.write((uint8_t*)&subChunk1Size, 4);
+        uint16_t audioFormat = 1;
+        file.write((uint8_t*)&audioFormat, 2);
+        uint16_t numChannels = 1;
+        file.write((uint8_t*)&numChannels, 2);
+        uint32_t sampleRate = SAMPLE_RATE;
+        file.write((uint8_t*)&sampleRate, 4);
+        uint32_t byteRate = SAMPLE_RATE * numChannels * 2;
+        file.write((uint8_t*)&byteRate, 4);
+        uint16_t blockAlign = numChannels * 2;
+        file.write((uint8_t*)&blockAlign, 2);
+        uint16_t bitsPerSample = 16;
+        file.write((uint8_t*)&bitsPerSample, 2);
+        file.write((const uint8_t*)"data", 4);
+        file.write((uint8_t*)&dataSize, 4);
+    }
+
+    void listDir(fs::FS &fs, const char * dirname, uint8_t levels){
+        Serial.printf("Listing directory: %s\n", dirname);
+
+        File root = fs.open(dirname);
+        if(!root){
+            Serial.println("Failed to open directory");
+            return;
+        }
+        if(!root.isDirectory()){
+            Serial.println("Not a directory");
+            return;
+        }
+
+        File file = root.openNextFile();
+        while(file){
+            if(file.isDirectory()){
+                Serial.print("  DIR : ");
+                Serial.println(file.name());
+                if(levels){
+                    listDir(fs, file.path(), levels -1);
+                }
+            } else {
+                Serial.print("  FILE: ");
+                Serial.print(file.name());
+                Serial.print("  SIZE: ");
+                Serial.println(file.size());
+            }
+            file = root.openNextFile();
+        }
+    }
+
+    void wifiConnect(void *pvParameters){
+      isWIFIConnected = false;
+      char* ssid = "steven_IoT";
+      char* password = "ToIwifi48.";
+      Serial.print("Try to connect to ");
+      Serial.println(ssid);
+      WiFi.begin(ssid, password);
+      while(WiFi.status() != WL_CONNECTED){
+        vTaskDelay(500);
+        Serial.print(".");
+      }
+      Serial.println("Wi-Fi Connected!");
+      isWIFIConnected = true;
+      while(true){
+        vTaskDelay(1000);
+      }
+    }
+
+    void uploadFile(){
+      file = SD.open(filename, FILE_READ);
+      if(!file){
+        Serial.println("FILE IS NOT AVAILABLE!");
+        return;
+      }
+
+      Serial.println("===> Upload FILE to Node.js Server");
+
+      HTTPClient client;
+      client.begin("http://192.168.1.15:8888/uploadAudio");
+      client.addHeader("Content-Type", "audio/wav");
+      int httpResponseCode = client.sendRequest("POST", &file, file.size());
+      Serial.print("httpResponseCode : ");
+      Serial.println(httpResponseCode);
+
+      if(httpResponseCode == 200){
+        String response = client.getString();
+        Serial.println("==================== Transcription ====================");
+        Serial.println(response);
+        Serial.println("====================      End      ====================");
+      }else{
+        Serial.println("Error");
+      }
+      file.close();
+      client.end();
+    }
+
+    ![afbeelding](https://github.com/user-attachments/assets/b429a201-67e4-4c92-a32c-be7f5a8319c8)
+
 </details>
 
 ## Aankoop
