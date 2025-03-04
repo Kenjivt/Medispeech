@@ -673,6 +673,70 @@ dev == development
 
 </details>
 
+## code display
+
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1331.h>
+#include <SPI.h>
+
+
+
+// Definieer de pins
+#define sclk 13
+#define mosi 11
+#define cs   10
+#define rst  9
+#define dc   8
+
+// Kleurdefinities
+#define BLACK   0x0000
+#define GREEN   0x07E0
+#define RED     0xF800
+#define WHITE   0xFFFF
+
+Adafruit_SSD1331 display = Adafruit_SSD1331(&SPI, cs, dc, rst);
+
+int buttonPin = 5;
+int lastState = HIGH;
+bool redScreenShown = false;  // Houdt bij of het rode scherm al is getoond
+
+void setup() {
+  pinMode(buttonPin, INPUT_PULLUP);
+  Serial.begin(9600);
+  
+  display.begin();
+  display.fillScreen(BLACK);
+}
+
+void loop() {
+  int reading = digitalRead(buttonPin);
+
+  // Als de knop wordt ingedrukt en de status is veranderd
+  if (reading == LOW && lastState == HIGH) {
+    display.fillScreen(GREEN);
+    display.setTextColor(WHITE);
+    display.setCursor(0, 0);
+    display.print("Opname gestart");
+
+   
+    redScreenShown = false;  // Reset zodat het rode scherm later weer kan verschijnen
+  }
+
+  // Als de knop losgelaten wordt en het rode scherm is nog niet getoond
+  if (reading == HIGH && lastState == LOW && !redScreenShown) {
+    display.fillScreen(RED);
+    display.setTextColor(WHITE);
+    display.setCursor(5, 10);
+    display.print("Opname gestopt");
+    delay(5000);  // 5 seconden wachten
+    display.fillScreen(BLACK);
+    redScreenShown = true;  // Zorgt ervoor dat het rode scherm niet blijft herhalen
+  }
+
+  lastState = reading;  // Update de laatste staat van de knop
+}
+
+
 ## Aankoop
 
 XIAO ESP32s3 €8.82 + verzending €9.08 = €17,90
