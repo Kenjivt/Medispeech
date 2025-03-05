@@ -673,7 +673,9 @@ dev == development
 
 </details>
 
-## code display
+
+<details>
+  <summary>Code 4: Verbinding knop met display</summary>
 
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1331.h>
@@ -735,6 +737,8 @@ void loop() {
 
   lastState = reading;  // Update de laatste staat van de knop
 }
+</details>
+
 
 
 ## Aankoop
