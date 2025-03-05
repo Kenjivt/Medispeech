@@ -681,8 +681,6 @@ dev == development
 #include <Adafruit_SSD1331.h>
 #include <SPI.h>
 
-
-
 // Definieer de pins
 #define sclk 13
 #define mosi 11
@@ -696,32 +694,48 @@ dev == development
 #define RED     0xF800
 #define WHITE   0xFFFF
 
+const float R1 = 100000.0;  // 100kΩ
+const float R2 = 47000.0;   // 47kΩ
+const float refVoltage = 5.0;  // Arduino meet max 5V
+const float maxVoltage = 9.0;  // Volledig opgeladen batterij
+const float minVoltage = 6.0;  // Lege batterij
+
 Adafruit_SSD1331 display = Adafruit_SSD1331(&SPI, cs, dc, rst);
 
 int buttonPin = 5;
 int lastState = HIGH;
-bool redScreenShown = false;  // Houdt bij of het rode scherm al is getoond
+bool redScreenShown = false;
+const int batteryPin = A0;  
 
 void setup() {
   pinMode(buttonPin, INPUT_PULLUP);
+  pinMode(batteryPin, INPUT);
   Serial.begin(9600);
   
   display.begin();
   display.fillScreen(BLACK);
+
 }
 
 void loop() {
   int reading = digitalRead(buttonPin);
 
+  int rawValue = analogRead(batteryPin);      
+  // Spanningsdeler compensatie: terugrekenen naar 9V batterij
+  float voltage = rawValue * (refVoltage / 1023.0) * ((R1 + R2) / R2);
+  // Bereken batterijpercentage
+  int batteryPercentage = map(voltage, minVoltage, maxVoltage, 0, 100);
+  batteryPercentage = constrain(batteryPercentage, 0, 100); 
+
   // Als de knop wordt ingedrukt en de status is veranderd
   if (reading == LOW && lastState == HIGH) {
     display.fillScreen(GREEN);
     display.setTextColor(WHITE);
-    display.setCursor(0, 0);
+    display.setCursor(5, 10);
     display.print("Opname gestart");
+    
 
-   
-    redScreenShown = false;  // Reset zodat het rode scherm later weer kan verschijnen
+    redScreenShown = false;
   }
 
   // Als de knop losgelaten wordt en het rode scherm is nog niet getoond
@@ -730,13 +744,27 @@ void loop() {
     display.setTextColor(WHITE);
     display.setCursor(5, 10);
     display.print("Opname gestopt");
+    
     delay(5000);  // 5 seconden wachten
+
+    redScreenShown = true;
+  }
+
+  // Toon batterijpercentage continu als rode scherm al is getoond
+  if (redScreenShown) {
     display.fillScreen(BLACK);
-    redScreenShown = true;  // Zorgt ervoor dat het rode scherm niet blijft herhalen
+    display.setTextColor(WHITE);
+    display.setCursor(5, 10);
+    display.print("Batterij:");
+    display.setCursor(5, 25);
+    display.print(batteryPercentage);
+    display.print("%");
+    
   }
 
   lastState = reading;  // Update de laatste staat van de knop
 }
+
 </details>
 
 
