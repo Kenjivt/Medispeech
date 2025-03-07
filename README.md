@@ -274,7 +274,7 @@ Keuze: XIAO ESP32S3, Prijs, compact, beschikbaarheid, gebruik en verbeteringen m
 | Lokaal | Snel | Laag | 100% veilig | Zeer beperkt |
 | Raspberry Pi 4  | Iets trager (0.5 - 3s) | Hoog | Beschikbaar voor derden | Lange zinnen mogelijjk |
 
-### Opties indicatie batterijlevel:
+### Opties indicatie batterijlevel + opties feedback component (opname beig of niet):
 | Component voor batterij indicatie | Afbeelding component | Prijs | Voordelen | Nadelen | Gebruik (1 = moeilijk, 5 = makkelijk) |
 |-----------------------------------|----------------------|-------|-----------|---------|--------------------------------------|
 | 1 RGB LED                         | ![Afbeelding](https://m.media-amazon.com/images/I/614cMy1Ha2L.jpg) | 0,5 – 1 euro | - Zeer makkelijk aan te sturen <br> - Goedkoop | - Kan verwarrend zijn als ook als feedback gebruikt <br> - Minder mooi / moeilijker in ontwerp te verwerken | 5 |
@@ -282,13 +282,14 @@ Keuze: XIAO ESP32S3, Prijs, compact, beschikbaarheid, gebruik en verbeteringen m
 | RGB OLED display                  | ![Afbeelding](https://shop.mchobby.be/4572-medium_default/graphic-oled-display-128x128-16-bits-colors.jpg) | 7 - 30 euro | - Mooie oplossing <br> - Kan zowel voor batterij als feedback | - Moeilijkere aansluitingen, trekt meer stroom <br> - Duurder | 4 |
 | 7 segment display                 | ![Afbeelding](https://cdn.bodanius.com/media/1/7ae103081_7-segment-led-display-blauw-common-cathode_x.png) | 1 – 3 euro per segment | - Makkelijk af te lezen | - Enkel cijfers mogelijk, geen tekst <br> - Neemt relatief veel plaats in <br> - Moeilijk aan te sturen | 3 |
 
-### Opties voor feedback (indicatie opname bezig):
 
 | Component voor feedback indicatie | Afbeelding component | Prijs | Voordelen | Nadelen | Gebruik (1 = moeilijk, 5 = makkelijk) |
 |-----------------------------------|----------------------|-------|-----------|---------|--------------------------------------|
 | 1 RGB LED                         | ![Afbeelding](https://m.media-amazon.com/images/I/614cMy1Ha2L.jpg) | 0,5 – 1 euro | - Zeer makkelijk aan te sturen <br> - Goedkoop | - Kan verwarrend zijn als ook als batterij-indicator gebruikt <br> - Minder mooi / moeilijker in ontwerp te verwerken <br> - Klein voor belangrijke feedback | 5 |
 | LCD display                       | ![Afbeelding](https://m.media-amazon.com/images/I/51jy8enJluL._AC_UF1000,1000_QL80_.jpg) | 3,5 – 7 euro | - Goedkoper dan OLED display | - Enkel tekst, geen kleuren of afbeeldingen <br> - Ingewikkeldere aansluiting | 4 |
 | RGB OLED display                  | ![Afbeelding](https://shop.mchobby.be/4572-medium_default/graphic-oled-display-128x128-16-bits-colors.jpg) | 7 - 30 euro | - Mooie oplossing, goed in ontwerp te verwerken <br> - Kan zowel voor batterij als feedback gebruikt worden <br> - Kan kleur, afbeeldingen en tekst weergeven | - Duurder <br> - Moeilijker aan te sturen | 4 |
+
+Keuze: Er werd gekozen voor het RGB OLED display omdat hier kleine varianten van bestaan die goed in het kleine ontwerp passen. We kunne met zowel kleur, tekst en afbeeldingen werken wat het duidelijker maakt voor de gebruiker. Daarbij is het mogelijk om zowel batterij indicatie als feedback in het diplay te verwerken zodat geen twee verschillende componenten nodig zijn en moeten aangestuurd worden, dit is ook duidelijker voor de gebruiker. 
 
 
 
