@@ -792,6 +792,10 @@ XIAO ESP32s3 €8.82 + verzending €9.08 = €17,90
 
 INMP441 €3.5 + verzending €7.5 = €11.45
 
+2 x RGB oled display 11,78 euro + 3,92 euro verzending = 15,7 euro
+
+Nano V3 Arduino + kabel  6,49 euro + 1,80 euro + 4,12 euro verzending = 12,41 euro
+
 
 
 
