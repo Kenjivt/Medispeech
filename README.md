@@ -203,30 +203,7 @@ De badge-veiligheidsfunctie koppelt spraakopnames automatisch aan de juiste gebr
 Voor meer gedetailleerde informatie:[Wave 2 rapport.pdf](https://github.com/user-attachments/files/18456188/Wave.2.rapport.pdf)
 
 
-### Conclusies & implicaties
-
-#### Formaat: 
-Er wordt gewerkt met het horizontaal georiënteerde model met afgeronde hoeken. 
-
-#### Knop: 
-Er wordt gekozen voor een ronde fysieke aan/uit knop. Hij is goed zichtbaar en heeft een tactiele feedback, een klikgeluid bij het aan- en uitzetten. De knop zit verzonken in het product zodat hij minder makkelijk per ongeluk ingeschakeld kan worden en ook makkelijker gereinigd kan worden. 
-
-#### Verwijderknop: 
-Bovenaan zit er een verwijderknop die mislukte of per ongeluk opgenomen opnames kan verwijderen. Door de plaatsing bovenaan kan er geen verwarring ontstaan met de aan/uit knop. 
-
-#### Bevestiging:
-Er wordt gewerkt met een combinatie van een schuif- of knijpersysteem dat nog eens extra wordt bevestigd met behulp van magneetjes. Dit zodat het product er zeker niet af kan vallen.
-
-#### Feedback: 
-Bovenaan komt er een display die groen oplicht tijdens het opnemen en rood bij het afleggen. De plaatsing bovenaan zorgt ervoor dat het goed zichtbaar is. 
-
-#### Batterij:
-Het batterijpercentage zal ook zichtbaar zijn bovenaan op de display. 
-
-#### Badge-veiligheidsfunctie:
-Aan de achterkant bevindt zich een systeem dat eerst gebatcht moet worden, waarna het apparaat gebruikt kan worden.
-
-### Design Requierments (PvE)
+### Design Requierments (conclusies) + gekozen oplossingen (PvE)
 | Klantenwensen | Ontwerpcriteria (design requirements) | Eis/Wens | Gekozen oplossing | Prioriteiten-Nummer (1-5) |
 |--------------|--------------------------------------|---------|-------------------|--------------------------|
 | De administratieve zaken moeten accuraat opgenomen en verstuurd worden en moet dus medische terminologie ondersteunen. | Er moet technologie voorzien worden die spraak in tekst kan omzetten. | Eis | Er wordt gewerkt met een speech-to-text mechanisme. | 1 |
