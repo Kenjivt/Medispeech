@@ -329,6 +329,48 @@ dev == development
 
 "++" : De requirement wordt volledig voldaan.
 
+# Developments 
+## Development 1
+## Development 2
+### Focus
+
+Tijdens Development 2 ligt de focus op de volgende gebruikers- en designvereisten: 
+ 
+•	Er wordt onderzocht of het prototype met display duidelijk het batterijniveau kan weergeven en of het duidelijk weergegeven wordt wanneer een opname bezig is en wanneer een opname bezig is of niet. 
+
+•	Er wordt onderzocht in welke mate het display storend, makkelijk te zien en makkelijk te interpreteren is en hoe de bewoners/patiënten hierop reageren.
+ 
+•	De knop moet accuraat functioneren en duidelijke feedback geven. Dit betekent dat de knop altijd correct moet reageren bij indrukken, zonder fouten. Daarnaast moet zowel tactiele als auditieve feedback worden gegeven om de interactie te optimaliseren. 
+
+•	Er wordt ook onderzocht of het prototype intuïtief en gebruiksvriendelijk is, met aandacht voor de complexiteit en de leercurve.
+
+### Plan van uitvoering
+
+Om de effectiviteit van deze functionaliteiten te garanderen, worden gebruikerstesten uitgevoerd met verpleegkundigen. Ze gebruiken het prototype gedurende enkele shiften om zo de functies uit te testen in een zo realistisch mogelijke testomgeving om de ecologische validiteit te maximaliseren. Tijdens deze testen wordt feedback verzameld over:  
+
+De interpretatie en transparantie van de lay-out van het display 
+
+De gebruiksvriendelijkheid, betrouwbaarheid en handeling van de hoofd- en verwijderknop.  
+
+Natuurlijke handeling van het systeem.  
+
+Voor meer informatie is het mogelijk het protocol hier te raadplegen: https://ugentbe-my.sharepoint.com/:w:/r/personal/kenji_vanthuyne_ugent_be/Documents/2024-2025/Project%20gebruiksgericht%20ontwerp/develop%202/dev%202%20protocol.docx?d=w1ddb3f2d18864012b5f83c8252263aba&csf=1&web=1&e=EmKvFE 
+
+Gebruikersfeedback wordt geanalyseerd door middel van een System Usability Scale en wordt verder verwerkt in Development 3, waarbij de functionaliteiten verder worden geoptimaliseerd en uitgebreid.
+De vragen opgesteld voor de Usability Scale zijn hier terug te vinden: https://ugentbe-my.sharepoint.com/:w:/r/personal/kenji_vanthuyne_ugent_be/Documents/2024-2025/Project%20gebruiksgericht%20ontwerp/develop%202/SUS%20scale%20dev%202.docx?d=wf3a94b83e1e843028f93db3fc42a980b&csf=1&web=1&e=3kwl7I
+
+### Model
+
+Het model waarmee gewerkt zal worden is hier onder op de foto te zien. Het speech-to-text systeem is in dit model niet werkzaam om de aandacht volledig op de focuspunten te leggen. De elektronica zit in een ge-3D-printe behuizing zodat de verpleegkundigen die het testen het makkelijk kunnen gebruiken. 
+
+-> nog foto van model toe te voegen
+
+### Theoretische achtergrond
+### Analyse testen
+De informed consents zijn hier terug te vinden: nog te linken
+
+## Development 3
+
 
 ## Code 
 <details>
