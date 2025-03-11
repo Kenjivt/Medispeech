@@ -300,10 +300,11 @@ De gebruiksvriendelijkheid, betrouwbaarheid en handeling van de hoofd- en verwij
 
 Natuurlijke handeling van het systeem.  
 
-Voor meer informatie is het mogelijk het protocol hier te raadplegen: https://ugentbe-my.sharepoint.com/:w:/r/personal/kenji_vanthuyne_ugent_be/Documents/2024-2025/Project%20gebruiksgericht%20ontwerp/develop%202/dev%202%20protocol.docx?d=w1ddb3f2d18864012b5f83c8252263aba&csf=1&web=1&e=EmKvFE 
+Voor meer informatie is het mogelijk het protocol hier te raadplegen: [dev 2 protocol.pdf](https://github.com/user-attachments/files/19193331/dev.2.protocol.pdf)
 
 Gebruikersfeedback wordt geanalyseerd door middel van een System Usability Scale en wordt verder verwerkt in Development 3, waarbij de functionaliteiten verder worden geoptimaliseerd en uitgebreid.
-De vragen opgesteld voor de Usability Scale zijn hier terug te vinden: https://ugentbe-my.sharepoint.com/:w:/r/personal/kenji_vanthuyne_ugent_be/Documents/2024-2025/Project%20gebruiksgericht%20ontwerp/develop%202/SUS%20scale%20dev%202.docx?d=wf3a94b83e1e843028f93db3fc42a980b&csf=1&web=1&e=3kwl7I
+De vragen opgesteld voor de Usability Scale zijn hier terug te vinden: [SUS scale dev 2.pdf](https://github.com/user-attachments/files/19193404/SUS.scale.dev.2.pdf)
+
 
 ### Model
 
