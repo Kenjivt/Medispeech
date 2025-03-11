@@ -67,7 +67,6 @@ Voor meer gedetailleerde informatie:[Interview - protocol.pdf](https://github.co
 Informed Consent onderzoek:[Informed_Consent.pdf](https://github.com/user-attachments/files/18456473/Informed_Consent.pdf)
 
 
-
 ### Resultaten
 #### Enquête
 Uit de enquête bleek dat administratieve taken veruit de grootste bron van werkdruk zijn, volgens 73,7% van de respondenten. Andere factoren die bijdroegen aan de tijdsdruk waren hygiënische zorg (59%) en medicatiebeheer (24,4%). Patiëntentekorten en onregelmatige werktijden versterkten deze problemen.
@@ -217,10 +216,54 @@ De badge-veiligheidsfunctie koppelt spraakopnames automatisch aan de juiste gebr
 
 Voor meer gedetailleerde informatie:[Wave 2 rapport.pdf](https://github.com/user-attachments/files/18456188/Wave.2.rapport.pdf)
 
-# Developments 
-## Development 1
-## Development 2
-### Focus
+## Design Requierments (conclusies) + gekozen oplossingen (PvE)
+Deze sectie behandelt de wensen van de klant en hoe deze zijn vertaald naar concrete ontwerpvereisten, gebaseerd op de feedback verkregen uit gebruikerstests uitgevoerd in wave 1 en wave 2. De tabel biedt een helder overzicht van de eisen en wensen van de klant, en de gekozen oplossingen die het ontwerp moeten realiseren. Hierbij wordt zowel gekeken naar functionele aspecten, zoals het omzetten van spraak naar tekst en het waarborgen van privacy, als naar praktische zaken zoals gebruiksgemak, draagbaarheid en batterijduur. Elke oplossing is geprioriteerd om te voldoen aan de belangrijkste behoeften van de klant, zodat het uiteindelijke product zowel efficiënt als gebruiksvriendelijk is.
+
+<details>
+  <summary>Tabel klantenwensen en oplossingen</summary>
+
+| Klantenwensen | Ontwerpcriteria (design requirements) | Eis/Wens | Gekozen oplossing | Prioriteiten-Nummer (1-5) |
+|---------------|--------------------------------------|----------|-------------------|--------------------------|
+| De administratieve zaken moeten accuraat opgenomen en verstuurd worden en moet dus medische terminologie ondersteunen. | Er moet technologie voorzien worden die spraak in tekst kan omzetten. | Eis | Er wordt gewerkt met een speech-to-text mechanisme. | 1 |
+| Een foute opname of een per ongeluk gestarte opname moet verwijderd kunnen worden. | Er moet een knop voorzien worden zodat foute opnames meteen verwijderd kunnen worden. | Eis | Er wordt gewerkt met een verwijderknop, die een foute opname kan wissen. | 4 |
+| Er moet rekening gehouden worden met het gegeven dat de informatie privacygevoelig is. De opname en overdracht moeten veilig gebeuren en toegang verboden voor onbevoegden. | Het product kan enkel ontgrendeld worden door gebruik van een badge of het indrukken van een code/vingerafdruk. | Wens | - | - |
+| De batterijstatus van het apparaat moet op te volgen zijn. | De batterijstatus wordt weergegeven in percentages of is op te volgen aan de hand van een lichtje/geluid/trilling. | Eis | Het batterijpercentage wordt weergegeven op een display en weergegeven in percentages (mogelijk wordt hier nog over nagedacht). | 3 |
+| Het apparaat moet makkelijk te bevestigen zijn en niet uit de zak gaan tijdens intensief bewegen. | Er moet een bevestigingsmechanisme gebruikt worden. | Eis | Te bepalen. | - |
+| Er moet duidelijk aangegeven worden wanneer een opname bezig is en wanneer het apparaat in standby staat. | Het apparaat heeft een duidelijk lichtsignaal of geluidsignaal wanneer een opname bezig is. | Eis | Er wordt gewerkt met een display die groen kleurt wanneer een opname bezig is. Wanneer de opname stopt kleurt het rood voor enige tijd. | 2 |
+| De informatie moet in een hiërarchische structuur geordend kunnen worden bij de juiste patiënt. | Het programma moet bepaalde kernwoorden herkennen en de gesprekken in de juiste tekst plaatsen. Met een badge kan eventueel aan de deur van de kamer iets gescand worden zodat de info meteen bij de juiste patiënt genoteerd wordt. | Eis | Koppelen patiënt met tekst nog te bepalen. Specifieke kernwoorden en technische aanpak nog te bepalen. | 2 |
+| De knoppen moeten makkelijk te gebruiken zijn. | De knop moet groot genoeg zijn en op een intuïtieve plaats aangebracht worden. | Eis | De knop wordt vooraan als enige aangebracht zodat er geen verwarring kan ontstaan. | 3 |
+| De batterij moet kunnen opgeladen worden voor een volgende shift de volgende dag. | Het apparaat moet op oplaadbare batterijen werken. Eventueel kan het volledige toestel in een houder worden gestoken en zo opgeladen worden. | Wens | Nog te bepalen | 3 |
+| Het apparaat moet compact en dus ook makkelijk draagbaar zijn. | Het gewicht en grootte van het toestel moeten beperkt worden. | Wens | Vorm is voorlopig ovaalachtig, maar kan nog aangepast worden indien noodzakelijk voor de technische kant. | 4 |
+| Het product moet ontsmet kunnen worden met alcohol. | De behuizing van het product moet bestand zijn tegen vloeistoffen en doordrinken van vloeistof. | Eis | De knop is verzonken in het product zodat een vlak oppervlak gecreëerd wordt om te kunnen ontsmetten. | 5 |
+
+</details>
+
+## Developments 
+### Development 1
+#### Doelstellingen
+
+De doelstellingen van deze test zijn om de prestaties en functionaliteit van het prototype te evalueren, met de nadruk op de volgende aspecten:
+
+•	Spraak-naar-tekst conversie: Testen of de gesproken tekst binnen 5 seconden nauwkeurig wordt omgezet.
+  
+•	Compatibiliteit met medische technologie: Verifiëren of het prototype effectief werkt binnen een medische context.
+  
+•	Knopfunctionaliteit: Evalueren of de knop altijd correct reageert en duidelijke feedback (tactiel en auditief) biedt.
+  
+•	Gebruiksvriendelijkheid: Het testen van de intuïtiviteit van het prototype met de System Usability Scale (SUS), om te bepalen of het gemakkelijk te gebruiken is zonder uitgebreide training.
+
+#### Protocol
+
+In dit protocol wordt gebruik gemaakt van gebruikerstests waarbij verpleegkundigen specifieke taken moeten uitvoeren, zoals het registreren van medicatietoediening aan een simulatiepatiënt. Het doel is om een realistische testomgeving te creëren waarin de effectiviteit van de spraakherkenning, de betrouwbaarheid van de knop, en de algehele bruikbaarheid van het systeem geëvalueerd worden. Gebruikersfeedback wordt verzameld aan de hand van een System Usability Scale (SUS) [SUS DEV1.pdf](https://github.com/user-attachments/files/19191583/SUS.DEV1.pdf) om het prototype verder te verbeteren in de volgende ontwikkelingsfase.
+
+Voor meer gedetailleerde informatie:[Develop 1 protocol.pdf](https://github.com/user-attachments/files/19191506/Develop.1.protocol.pdf)
+
+Informed Consent wdev 1: [Dev 1 - informed consent.pdf](https://github.com/user-attachments/files/19191607/Dev.1.-.informed.consent.pdf)
+
+
+
+### Development 2
+#### Focus
 
 Tijdens Development 2 ligt de focus op de volgende gebruikers- en designvereisten: 
  
