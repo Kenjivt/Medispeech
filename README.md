@@ -260,7 +260,22 @@ Voor meer gedetailleerde informatie: [Develop 1 protocol.pdf](https://github.com
 
 Informed Consent wdev 1: [Dev 1 - informed consent.pdf](https://github.com/user-attachments/files/19191607/Dev.1.-.informed.consent.pdf)
 
+#### Prototypes
 
+De prototypes die in deze test worden gebruikt, zijn ontworpen om de belangrijkste functionele eisen te testen, zoals:
+
+•	Spraakherkenning: Het prototype moet snel en nauwkeurig spraak omzetten naar tekst.
+
+•	Knopfunctionaliteit: De knop moet betrouwbaar zijn, met duidelijke feedback.
+
+•	Gebruiksvriendelijkheid: Het prototype wordt getest op gebruiksgemak, en de feedback van gebruikers wordt geanalyseerd met behulp van de System Usability Scale (SUS) om de intuïtiviteit van het ontwerp te beoordelen.
+
+<details>
+  <summary>Prototype development 1</summary>
+ 
+![Afbeelding van WhatsApp op 2025-03-11 om 17 27 22_e845b1c9](https://github.com/user-attachments/assets/11489605-1c45-44b7-ad9b-5fc2d3270064)
+
+</details>
 
 ### Development 2
 #### Focus
