@@ -255,43 +255,57 @@ Dit stroomdiagram biedt een gedetailleerde stap-voor-stap handleiding voor het g
 
 ## Keuze componenten
 
-### Microcontroller:
 
-Soort micro, Cloud nodig (privacy), Snelheid, Nauwkeurigheid, Prijs, Compact ( hoe kleiner hoe beter ), Beschikbaarheid (in de winkel gotron te Gent beschikbaar of in kiwi electronics, zeer snelle levering ), gebruik
+### Vergelijking van Microcontrollers
 
-| Microcontroller | Cloud nodig | Snelheid | Nauwkeurigheid | Prijs (€) | Compact | Beschikbaar | Gebruik |
-| --------------- | ----------- | -------- | -------------- | ---------- | ------- | ----------- | ------- |
-| XIAO ESP32S3 | Nee / Ja | Gemiddeld | Laag | 10 - 15 | Klein | Makkelijk | Gemiddeld |
-| Raspberry Pi 4  | Nee | Snel | Goed | 60 - 80 | Groot | Makkelijk | Moeilijk |
-| Raspberry Pi Zero 2 W (+ Vosk) | Nee / Ja | Gemiddeld | Goed | 20 - 25 | Gemiddeld | Makkelijk | Moeilijk |
-| Jetson Nano | Nee | Zeer snel | Zeer goed | 100 + | Groot | Zeer moeilijk | Zeer moeilijk |
-
-Keuze: XIAO ESP32S3, Prijs, compact, beschikbaarheid, gebruik en verbeteringen mogelijk bij gebruik van een cloud. Bij gebruik van INMP441 microfoon kan de nauwkeurigheid worden verhoogd en doordat de controller wordt verbonden wordt ook de nauwkeurigheid en lengte van de zinnen verhoogt. De snelheid kan verminderen maar met een goede wifi verbinding is dit ongeveer 0.5 - 3 seconden wat zeer minim is.
+De onderstaande tabel vergelijkt verschillende microcontrollers op basis van verschillende criteria die van belang zijn voor het kiezen van het juiste apparaat voor een specifiek project. De factoren die in aanmerking worden genomen zijn onder andere de noodzaak voor cloudverbinding (wat belangrijk kan zijn voor privacy en gegevensopslag), de snelheid en nauwkeurigheid van de microcontroller, de prijs, de compactheid (hoe kleiner het apparaat, hoe beter voor draagbaarheid), de beschikbaarheid van het product in winkels zoals Gotron in Gent of Kiwi Electronics, en het gebruiksgemak.
 
 
-### Vergelijking XIAO ESP32S3 lokaal - via cloud:
 
-| Microcontroller | Snelheid | Nauwkeurigheid | Privacy | Complexiteit tekst |
-| --------------- | -------- | -------------- | ------- | ------------------ |
-| Lokaal | Snel | Laag | 100% veilig | Zeer beperkt |
-| Raspberry Pi 4  | Iets trager (0.5 - 3s) | Hoog | Beschikbaar voor derden | Lange zinnen mogelijjk |
+| Microcontroller              | Cloud nodig  | Snelheid    | Nauwkeurigheid | Prijs (€) | Compact      | Beschikbaar  | Gebruik         |
+|------------------------------|--------------|-------------|----------------|-----------|--------------|--------------|-----------------|
+| XIAO ESP32S3                  | Nee / Ja     | Gemiddeld   | Laag           | 10 - 15   | Klein        | Makkelijk    | Gemiddeld       |
+| XIAO ESP32S3 Sense            | Nee / Ja     | Gemiddeld   | Laag           | 15 - 20   | Klein        | Makkelijk    | Gemiddeld       |
+| Raspberry Pi 4                | Nee          | Snel        | Goed           | 60 - 80   | Groot        | Makkelijk    | Moeilijk        |
+| Raspberry Pi Zero 2 W (+ Vosk)| Nee / Ja     | Gemiddeld   | Goed           | 20 - 25   | Gemiddeld    | Makkelijk    | Moeilijk        |
+| Jetson Nano                   | Nee          | Zeer snel   | Zeer goed      | 100+      | Groot        | Zeer moeilijk| Zeer moeilijk   |
+
+### Keuze: XIAO ESP32S3 / XIAO ESP32S3 Sense
+
+De **XIAO ESP32S3** en **XIAO ESP32S3 Sense** zijn de aanbevolen keuzes vanwege de gunstige prijs, compacte grootte, en de goede beschikbaarheid in winkels zoals Gotron en Kiwi Electronics, die snelle levering bieden. Beide apparaten bieden de mogelijkheid om de cloud te gebruiken, wat kan helpen bij het verbeteren van de nauwkeurigheid en prestaties. Het gebruiksgemak van de **XIAO ESP32S3** en **XIAO ESP32S3 Sense** is ook een belangrijk voordeel, vooral voor gebruikers die op zoek zijn naar een eenvoudig te implementeren oplossing.
+
+Hoewel de nauwkeurigheid standaard laag is, kan deze worden verhoogd door de **INMP441-microfoon** te gebruiken. Door deze microfoon te integreren, wordt niet alleen de nauwkeurigheid verbeterd, maar ook de lengte van de zinnen die kunnen worden verwerkt. Hoewel het gebruik van de cloud de snelheid kan verminderen, blijft de vertraging met een goede wifi-verbinding tussen 0,5 en 3 seconden, wat zeer minimaal is en niet veel impact heeft op de prestaties.
+
+De **XIAO ESP32S3 Sense** biedt extra voordelen: het heeft een ingebouwde microfoon en een micro-SD kaarthouder, wat extra functionaliteit biedt voor opslag van gegevens en het mogelijk maakt om op locatie meer data op te slaan. Dit maakt het een nog krachtigere keuze in vergelijking met de reguliere **XIAO ESP32S3**, vooral voor toepassingen die een grotere opslagcapaciteit of een geïntegreerde geluidsinvoer vereisen.
+
+
 
 ### Opties indicatie batterijlevel + opties feedback component (opname beig of niet):
-| Component voor batterij indicatie | Afbeelding component | Prijs | Voordelen | Nadelen | Gebruik (1 = moeilijk, 5 = makkelijk) |
-|-----------------------------------|----------------------|-------|-----------|---------|--------------------------------------|
-| 1 RGB LED                         | ![Afbeelding](https://m.media-amazon.com/images/I/614cMy1Ha2L.jpg) | 0,5 – 1 euro | - Zeer makkelijk aan te sturen <br> - Goedkoop | - Kan verwarrend zijn als ook als feedback gebruikt <br> - Minder mooi / moeilijker in ontwerp te verwerken | 5 |
-| LED bar graph                     | ![Afbeelding](https://ls.codetech.nl/shops/346407/files/420562667/otronic-10-segment-led-bar-groen.jpg) | 1,5 euro | - Duidelijk <br> - Goedkoop | - Neemt veel plaats in <br> - Veel verbindingen nodig | 4 |
-| RGB OLED display                  | ![Afbeelding](https://shop.mchobby.be/4572-medium_default/graphic-oled-display-128x128-16-bits-colors.jpg) | 7 - 30 euro | - Mooie oplossing <br> - Kan zowel voor batterij als feedback | - Moeilijkere aansluitingen, trekt meer stroom <br> - Duurder | 4 |
-| 7 segment display                 | ![Afbeelding](https://cdn.bodanius.com/media/1/7ae103081_7-segment-led-display-blauw-common-cathode_x.png) | 1 – 3 euro per segment | - Makkelijk af te lezen | - Enkel cijfers mogelijk, geen tekst <br> - Neemt relatief veel plaats in <br> - Moeilijk aan te sturen | 3 |
 
+In deze sectie worden verschillende opties besproken voor het weergeven van het batterijlevel en het bieden van feedback (bijvoorbeeld of de opname bezig is of niet). De tabel bevat componenten die variëren van eenvoudige LED's tot meer geavanceerde displays. Elke optie heeft zijn eigen voor- en nadelen op het gebied van prijs, gebruiksgemak, en technische complexiteit.
 
-| Component voor feedback indicatie | Afbeelding component | Prijs | Voordelen | Nadelen | Gebruik (1 = moeilijk, 5 = makkelijk) |
-|-----------------------------------|----------------------|-------|-----------|---------|--------------------------------------|
-| 1 RGB LED                         | ![Afbeelding](https://m.media-amazon.com/images/I/614cMy1Ha2L.jpg) | 0,5 – 1 euro | - Zeer makkelijk aan te sturen <br> - Goedkoop | - Kan verwarrend zijn als ook als batterij-indicator gebruikt <br> - Minder mooi / moeilijker in ontwerp te verwerken <br> - Klein voor belangrijke feedback | 5 |
-| LCD display                       | ![Afbeelding](https://m.media-amazon.com/images/I/51jy8enJluL._AC_UF1000,1000_QL80_.jpg) | 3,5 – 7 euro | - Goedkoper dan OLED display | - Enkel tekst, geen kleuren of afbeeldingen <br> - Ingewikkeldere aansluiting | 4 |
-| RGB OLED display                  | ![Afbeelding](https://shop.mchobby.be/4572-medium_default/graphic-oled-display-128x128-16-bits-colors.jpg) | 7 - 30 euro | - Mooie oplossing, goed in ontwerp te verwerken <br> - Kan zowel voor batterij als feedback gebruikt worden <br> - Kan kleur, afbeeldingen en tekst weergeven | - Duurder <br> - Moeilijker aan te sturen | 4 |
+<details>
+  <summary>Vergelijking van componenten voor batterijlevel indicatie en feedback</summary>
+  
+  | Component voor batterij indicatie | Afbeelding component | Prijs         | Voordelen                                                                 | Nadelen                                                              | Gebruik (1 = moeilijk, 5 = makkelijk) |
+  |-----------------------------------|----------------------|---------------|---------------------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------|
+  | 1 RGB LED                         | ![Afbeelding](https://m.media-amazon.com/images/I/614cMy1Ha2L.jpg) | 0,5 – 1 euro  | - Zeer makkelijk aan te sturen <br> - Goedkoop                           | - Kan verwarrend zijn als ook als feedback gebruikt <br> - Minder mooi / moeilijker in ontwerp te verwerken | 5 |
+  | LED bar graph                     | ![Afbeelding](https://ls.codetech.nl/shops/346407/files/420562667/otronic-10-segment-led-bar-groen.jpg) | 1,5 euro      | - Duidelijk <br> - Goedkoop                                              | - Neemt veel plaats in <br> - Veel verbindingen nodig                | 4 |
+  | RGB OLED display                  | ![Afbeelding](https://shop.mchobby.be/4572-medium_default/graphic-oled-display-128x128-16-bits-colors.jpg) | 7 - 30 euro   | - Mooie oplossing <br> - Kan zowel voor batterij als feedback            | - Moeilijkere aansluitingen, trekt meer stroom <br> - Duurder         | 4 |
+  | 7 segment display                 | ![Afbeelding](https://cdn.bodanius.com/media/1/7ae103081_7-segment-led-display-blauw-common-cathode_x.png) | 1 – 3 euro per segment | - Makkelijk af te lezen <br> - Goed voor eenvoudige weergave | - Enkel cijfers mogelijk, geen tekst <br> - Neemt relatief veel plaats in <br> - Moeilijk aan te sturen | 3 |
 
-Keuze: Er werd gekozen voor het RGB OLED display omdat hier kleine varianten van bestaan die goed in het kleine ontwerp passen. We kunne met zowel kleur, tekst en afbeeldingen werken wat het duidelijker maakt voor de gebruiker. Daarbij is het mogelijk om zowel batterij indicatie als feedback in het diplay te verwerken zodat geen twee verschillende componenten nodig zijn en moeten aangestuurd worden, dit is ook duidelijker voor de gebruiker. 
+  ### Componenten voor feedback indicatie:
+
+  | Component voor feedback indicatie | Afbeelding component | Prijs         | Voordelen                                                                 | Nadelen                                                              | Gebruik (1 = moeilijk, 5 = makkelijk) |
+  |-----------------------------------|----------------------|---------------|---------------------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------|
+  | 1 RGB LED                         | ![Afbeelding](https://m.media-amazon.com/images/I/614cMy1Ha2L.jpg) | 0,5 – 1 euro  | - Zeer makkelijk aan te sturen <br> - Goedkoop                           | - Kan verwarrend zijn als ook als batterij-indicator gebruikt <br> - Minder mooi / moeilijker in ontwerp te verwerken <br> - Klein voor belangrijke feedback | 5 |
+  | LCD display                       | ![Afbeelding](https://m.media-amazon.com/images/I/51jy8enJluL._AC_UF1000,1000_QL80_.jpg) | 3,5 – 7 euro | - Goedkoper dan OLED display                                            | - Enkel tekst, geen kleuren of afbeeldingen <br> - Ingewikkeldere aansluiting | 4 |
+  | RGB OLED display                  | ![Afbeelding](https://shop.mchobby.be/4572-medium_default/graphic-oled-display-128x128-16-bits-colors.jpg) | 7 - 30 euro   | - Mooie oplossing, goed in ontwerp te verwerken <br> - Kan zowel voor batterij als feedback gebruikt worden <br> - Kan kleur, afbeeldingen en tekst weergeven | - Duurder <br> - Moeilijker aan te sturen | 4 |
+
+</details>
+
+### Keuze: RGB OLED display
+Voor de batterij-indicatie en feedback is een **RGB OLED display** de beste keuze. Dit display biedt zowel batterij-indicatie als feedback in één enkele weergave. Het is een aantrekkelijke optie omdat het goed binnen het ontwerp past en redelijk compact is. Het kan zowel voor de weergave van batterijstatus als voor feedback (zoals het tonen of het apparaat opneemt) gebruikt worden. Hoewel het wat duurder is en meer stroom verbruikt, is het een mooie en functionele oplossing voor dit project.
 
 
 
