@@ -30,8 +30,12 @@ Gedurende dit proces werd het ontwerp niet alleen verfijnd op basis van de oorsp
 
 Het iteratieve proces werd herhaald na elke evaluatie, met als doel uiteindelijk een oplossing te bereiken die voldoet aan de oorspronkelijke en de nieuwe criteria, en waarbij (bijna) geen negatieve ervaringen meer optreden. Dit cyclische proces van analyseren, ontwerpen, evalueren en aanpassen zorgt ervoor dat het uiteindelijke product niet alleen voldoet aan de behoeften van de gebruikers, maar ook optimaal presteert in de praktijk.
 
+<details>
+  <summary>Visuele voorstelling methodologie</summary>
+ 
 ![Visuele voorstelling](https://github.com/user-attachments/assets/1f569bc6-096e-4721-a5f6-6ac174f5f4df)
 
+</details>
 
 ## Discovery
 ### Doelstellingen
@@ -127,18 +131,26 @@ In wave twee hebben we gefocust op het speech-to-text systeem. We wilden weten w
 #### Wave 1 (N = 5)
 In wave 1 werden er 5 respondenten ondervraagd die werken in een woonzorgcentrum of ziekenhuis.  Bepaalde werden gerekruteerd door mails te sturen naar woonzorgcentra en ziekenhuizen, andere waren kennissen. Er werden op voorhand 4 prototypes gemaakt met telkens een verschillende vorm, bevestigingssysteem en knop (zie foto’s hieronder). Eerst werden ze snel uit karton geprototyped, daarna ge-3D-print. Deze werden dan voorgelegd aan de respondenten. Zij konden dan een tabel invullen om zo overzichtelijk weer te geven welk systeem voor elk onderdeel (vorm, knop, bevestiging)  het beste leek en welke de positieve en negatieve punten waren aan elk systeem. Dit deden we om te achterhalen welke reden er precies achter zat waarom ze het ene boven het andere verkozen. We vroegen hen om er een actie mee uit te voeren die ze tijdens het werk ook zouden doen. Zo konden zij de beste keuze maken en konden wij zien hoe er gehandeld werd met het product en hoe vlot dat ging. Daarna werd ook besproken wat ze zelf zouden veranderen aan de prototypes. 
 
-#### Prototypes wave 1:
+<details>
+  <summary>Prototypes wave 1</summary>
+ 
 ![model 1](https://github.com/user-attachments/assets/b11f77d9-629a-43e0-bbbd-b6ffe1b55d7e)
 ![model 2](https://github.com/user-attachments/assets/3bbc46b4-7540-45d6-acc3-e64f4944c0e7)
 ![model 3](https://github.com/user-attachments/assets/a5407a44-2996-4889-bcf3-7f9629cede31)
 ![model 4](https://github.com/user-attachments/assets/7fe56192-26cf-4047-ab2b-5d9510e73015)
 
-#### De ingevulde tabellen:
+
+</details>
+
+<details>
+  <summary>Ingevulde tabellen</summary>
+ 
 ![tabel 1x](https://github.com/user-attachments/assets/7eb123c5-736f-47d2-b2ad-ebcf421f509f)
 ![tabel 2x](https://github.com/user-attachments/assets/083f3a82-ed4c-4b26-91df-a460a1c98ec0)
 ![tabel 3](https://github.com/user-attachments/assets/3a172ec7-2f36-4009-9968-9629924985ac)
-
 ![tabel 4](https://github.com/user-attachments/assets/ec46eea7-4176-4bbb-b4d2-551096ee0f57)
+
+</details>
 
 Voor meer gedetailleerde informatie:[Wave 1 protocol.pdf](https://github.com/user-attachments/files/18456237/Wave.1.protocol.pdf)
 
@@ -149,8 +161,11 @@ Informed Consent wave 1:[Wave 1 - informed consent.pdf](https://github.com/user-
 In wave 2 werden de prototypes verbeterd op basis van de zaken die we geleerd hadden in wave 1. De zaken uit wave 1 werden opnieuw bevraagd ter controle of de aangepaste/gekozen systemen als positief werden ontvangen. Dit maal werd er meer doorgevraagd naar hoe het systeem achter het product dient te werken. Er werd opnieuw gevraagd om na te spelen hoe ze het tijdens hun werk zouden doen. Tijdens het interview werd er genoteerd wat er belangrijk was. Er werd opnieuw gebruik gemaakt van prototypes (zie foto's hieronder). Die dienden echter meer als voorstelling van de nieuwste versie van ons product zodat we dat opnieuw konden valideren. De prototypes werden nog gebruikt om verwijderknop en feedbackmechanisme te bevragen. Er werden ook zaken bevraagd die niet aan de hand van prototypes kon voorgesteld worden. 
 We vergeleken de notities van elk interview met elkaar. Hieruit konden we dan een conclusie trekken en ons toespitsen op een bepaald systeem en dat verder uitwerken. 
 
-#### Prototypes wave 2:
+<details>
+  <summary>Prototypes wave 2</summary>
+ 
 ![modellen](https://github.com/user-attachments/assets/5720582b-8653-48a2-a0e4-8a2357cbd600)
+</details>
 
 Voor meer gedetailleerde informatie:[Wave 2 protocol.pdf](https://github.com/user-attachments/files/18456246/Wave.2.protocol.pdf)
 
@@ -204,8 +219,13 @@ Voor meer gedetailleerde informatie:[Wave 2 rapport.pdf](https://github.com/user
 
 
 ### Design Requierments (conclusies) + gekozen oplossingen (PvE)
+Deze sectie behandelt de wensen van de klant en hoe deze zijn vertaald naar concrete ontwerpvereisten. De tabel geeft een duidelijk overzicht van de eisen en wensen van de klant, en de gekozen oplossingen die het ontwerp moet realiseren. Hierbij wordt zowel gekeken naar de functionele aspecten, zoals het omzetten van spraak naar tekst en het waarborgen van privacy, als naar praktische zaken zoals gebruiksgemak, draagbaarheid en batterijduur. Elke oplossing is geprioriteerd om te voldoen aan de belangrijkste behoeften van de klant, zodat het uiteindelijke product zowel efficiënt als gebruiksvriendelijk is.
+
+<details>
+  <summary>Tabel klantenwensen en oplossingen</summary>
+
 | Klantenwensen | Ontwerpcriteria (design requirements) | Eis/Wens | Gekozen oplossing | Prioriteiten-Nummer (1-5) |
-|--------------|--------------------------------------|---------|-------------------|--------------------------|
+|---------------|--------------------------------------|----------|-------------------|--------------------------|
 | De administratieve zaken moeten accuraat opgenomen en verstuurd worden en moet dus medische terminologie ondersteunen. | Er moet technologie voorzien worden die spraak in tekst kan omzetten. | Eis | Er wordt gewerkt met een speech-to-text mechanisme. | 1 |
 | Een foute opname of een per ongeluk gestarte opname moet verwijderd kunnen worden. | Er moet een knop voorzien worden zodat foute opnames meteen verwijderd kunnen worden. | Eis | Er wordt gewerkt met een verwijderknop, die een foute opname kan wissen. | 4 |
 | Er moet rekening gehouden worden met het gegeven dat de informatie privacygevoelig is. De opname en overdracht moeten veilig gebeuren en toegang verboden voor onbevoegden. | Het product kan enkel ontgrendeld worden door gebruik van een badge of het indrukken van een code/vingerafdruk. | Wens | - | - |
@@ -216,7 +236,10 @@ Voor meer gedetailleerde informatie:[Wave 2 rapport.pdf](https://github.com/user
 | De knoppen moeten makkelijk te gebruiken zijn. | De knop moet groot genoeg zijn en op een intuïtieve plaats aangebracht worden. | Eis | De knop wordt vooraan als enige aangebracht zodat er geen verwarring kan ontstaan. | 3 |
 | De batterij moet kunnen opgeladen worden voor een volgende shift de volgende dag. | Het apparaat moet op oplaadbare batterijen werken. Eventueel kan het volledige toestel in een houder worden gestoken en zo opgeladen worden. | Wens | Nog te bepalen | 3 |
 | Het apparaat moet compact en dus ook makkelijk draagbaar zijn. | Het gewicht en grootte van het toestel moeten beperkt worden. | Wens | Vorm is voorlopig ovaalachtig, maar kan nog aangepast worden indien noodzakelijk voor de technische kant. | 4 |
-| Het product moet ontsmet kunnen worden met alcohol. | De behuizing van het product moet bestand zijn tegen vloeistoffen en doordrinken van vloeistof. | Eis | De knop is verzonken in het product zodat een vlak oppervlak gecreërd wordt om te kunnen ontsmetten | 5 |
+| Het product moet ontsmet kunnen worden met alcohol. | De behuizing van het product moet bestand zijn tegen vloeistoffen en doordrinken van vloeistof. | Eis | De knop is verzonken in het product zodat een vlak oppervlak gecreëerd wordt om te kunnen ontsmetten. | 5 |
+
+</details>
+
 
 ## Bill of materials
 - Arduino nano 33 BLE sense of Raspberry pi zero (Rekenkracht)
@@ -225,7 +248,9 @@ Voor meer gedetailleerde informatie:[Wave 2 rapport.pdf](https://github.com/user
 - I2C OLED Display Modules 7/8 Inch Blue (Scherm)
 - TE Connectivity 118259104 of Youmile 6x6x4.3mm Tactile Switch (Verwijderknop)
 - Papierklem magnetisch (bevestiging)
+
 ### HTA
+Dit stroomdiagram biedt een gedetailleerde stap-voor-stap handleiding voor het gebruik van het Medispeech-apparaat. Het is ontworpen om gebruikers door het proces van het bevestigen, inschakelen, gebruiken en uitschakelen van het apparaat te leiden, met duidelijke instructies voor elke fase van het gebruik. Het diagram begint met het bevestigen van het apparaat aan het medische uniform en eindigt met het uitschakelen van het apparaat nadat de taak is voltooid. Deze visuele gids helpt gebruikers op een efficiënte manier te navigeren door de verschillende stappen, zodat het gebruik van Medispeech snel en probleemloos verloopt.
 ![HTA](https://github.com/user-attachments/assets/ac3508b2-156e-4b52-b313-fa3e176bedbf)
 
 ## Keuze componenten
