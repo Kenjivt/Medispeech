@@ -256,7 +256,7 @@ De doelstellingen van deze test zijn om de prestaties en functionaliteit van het
 
 In dit protocol wordt gebruik gemaakt van gebruikerstests waarbij verpleegkundigen specifieke taken moeten uitvoeren, zoals het registreren van medicatietoediening aan een simulatiepatiënt. Het doel is om een realistische testomgeving te creëren waarin de effectiviteit van de spraakherkenning, de betrouwbaarheid van de knop, en de algehele bruikbaarheid van het systeem geëvalueerd worden. Gebruikersfeedback wordt verzameld aan de hand van een System Usability Scale (SUS) [SUS DEV1.pdf](https://github.com/user-attachments/files/19191583/SUS.DEV1.pdf) om het prototype verder te verbeteren in de volgende ontwikkelingsfase.
 
-Voor meer gedetailleerde informatie:[Develop 1 protocol.pdf](https://github.com/user-attachments/files/19191506/Develop.1.protocol.pdf)
+Voor meer gedetailleerde informatie: [Develop 1 protocol.pdf](https://github.com/user-attachments/files/19191506/Develop.1.protocol.pdf)
 
 Informed Consent wdev 1: [Dev 1 - informed consent.pdf](https://github.com/user-attachments/files/19191607/Dev.1.-.informed.consent.pdf)
 
