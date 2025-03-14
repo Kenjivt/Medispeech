@@ -256,9 +256,9 @@ De doelstellingen van deze test zijn om de prestaties en functionaliteit van het
 
 In dit protocol wordt gebruik gemaakt van gebruikerstests waarbij verpleegkundigen specifieke taken moeten uitvoeren, zoals het registreren van medicatietoediening aan een simulatiepatiënt. Het doel is om een realistische testomgeving te creëren waarin de effectiviteit van de spraakherkenning, de betrouwbaarheid van de knop, en de algehele bruikbaarheid van het systeem geëvalueerd worden. Gebruikersfeedback wordt verzameld aan de hand van een System Usability Scale (SUS) [SUS DEV1.pdf](https://github.com/user-attachments/files/19191583/SUS.DEV1.pdf) om het prototype verder te verbeteren in de volgende ontwikkelingsfase.
 
-Voor meer gedetailleerde informatie: [Develop 1 protocol.pdf](https://github.com/user-attachments/files/19191506/Develop.1.protocol.pdf)
+Voor meer gedetailleerde informatie:[Develop 1 protocol.pdf](https://github.com/user-attachments/files/19251145/Develop.1.protocol.pdf)
 
-Informed Consent wdev 1: [Dev 1 - informed consent.pdf](https://github.com/user-attachments/files/19191607/Dev.1.-.informed.consent.pdf)
+Informed Consent dev 1: [Dev 1 - informed consent.pdf](https://github.com/user-attachments/files/19191607/Dev.1.-.informed.consent.pdf)
 
 #### Prototypes
 
@@ -276,6 +276,34 @@ De prototypes die in deze test worden gebruikt, zijn ontworpen om de belangrijks
 ![Afbeelding van WhatsApp op 2025-03-11 om 17 27 22_e845b1c9](https://github.com/user-attachments/assets/11489605-1c45-44b7-ad9b-5fc2d3270064)
 
 </details>
+
+
+#### Resultaten
+Uit de gebruikersevaluaties blijkt dat het systeem functioneert, maar nog aanzienlijke verbeteringen nodig heeft. De belangrijkste bevindingen zijn:
+
+- **Spraakherkenning**: Werkt snel, maar is onnauwkeurig bij langere gesprekken en snelle articulatie. Medische termen worden slechts deels correct herkend. (SUS-score: 2/5)
+- **Nauwkeurigheid**: Hoge foutpercentages, vooral bij namen en complexere woorden. Foutieve omzettingen maken het systeem onbetrouwbaar. (SUS-score: 1-2/5)
+- **Drukknop**: Functioneert consistent, maar het ingedrukt moeten houden wordt als onhandig ervaren. Een aan/uit-mechanisme zou intuïtiever zijn. (SUS-score: 4/5)
+- **Vertraging**: Lange en opeenvolgende opnames worden traag verwerkt, wat een vlotte workflow belemmert.
+- **Gebruiksgemak**: In eerste instantie moeilijk te begrijpen, maar na gewenning intuïtiever. Regelmatige technische storingen beïnvloeden de betrouwbaarheid. (SUS-score: 2/5)
+
+#### Conclusie
+De gemiddelde System Usability Scale (SUS)-score varieerde tussen 40 en 60, wat aangeeft dat het systeem momenteel niet geschikt is voor professioneel gebruik. Gebruikers zien potentieel, maar geven aan dat essentiële verbeteringen nodig zijn voordat het breed inzetbaar is in de medische sector.
+
+#### Aanbevolen verbeteringen
+1. **Optimalisatie van spraakherkenning**, met name voor medische terminologie en namen.
+2. **Vermindering van het foutpercentage** door betere verwerking van context en woorden.
+3. **Verkorting van de verwerkingstijd** om lange en opeenvolgende opnames sneller en correct om te zetten.
+4. **Herziening van de drukknopfunctionaliteit** naar een intuïtiever aan/uit-mechanisme.
+5. **Verhogen van de systeemconsistentie** en verminderen van technische storingen.
+
+#### Volgende stappen
+Deze bevindingen bieden waardevolle input voor verdere ontwikkeling. De volgende iteratie van het systeem moet zich richten op nauwkeurigheid, gebruiksgemak en stabiliteit om de bruikbaarheid in een professionele omgeving te verbeteren.
+
+Voor meer informatie: [Develop 1 analyse.pdf](https://github.com/user-attachments/files/19251142/Develop.1.analyse.pdf)
+
+
+
 
 ### Development 2
 #### Focus
