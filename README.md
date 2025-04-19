@@ -256,6 +256,13 @@ De doelstellingen van deze test zijn om de prestaties en functionaliteit van het
 
 In dit protocol wordt gebruik gemaakt van gebruikerstests waarbij verpleegkundigen specifieke taken moeten uitvoeren, zoals het registreren van medicatietoediening aan een simulatiepatiënt. Het doel is om een realistische testomgeving te creëren waarin de effectiviteit van de spraakherkenning, de betrouwbaarheid van de knop, en de algehele bruikbaarheid van het systeem geëvalueerd worden. Gebruikersfeedback wordt verzameld aan de hand van een System Usability Scale (SUS) [SUS DEV1.pdf](https://github.com/user-attachments/files/19191583/SUS.DEV1.pdf) om het prototype verder te verbeteren in de volgende ontwikkelingsfase.
 
+Om de functionaliteiten te evalueren, worden realistische gebruikerstesten uitgevoerd met verpleegkundigen. Zij voeren een specifieke taak uit in een zo natuurgetrouw mogelijke testomgeving, om de ecologische validiteit te waarborgen. Tijdens de test wordt feedback verzameld over:
+• De nauwkeurigheid en snelheid van spraakherkenning
+• De gebruiksvriendelijkheid en betrouwbaarheid van de opnameknop
+• De natuurlijke interactie met het systeem
+
+De feedback wordt geanalyseerd via de System Usability Scale (SUS) en verwerkt in Development 2. Latere iteraties zullen ook aspecten zoals beveiliging en robuustheid verder uitwerken. Deze gestructureerde aanpak garandeert stapsgewijze verbetering van het prototype.
+
 Voor meer gedetailleerde informatie:[Develop 1 protocol.pdf](https://github.com/user-attachments/files/19251145/Develop.1.protocol.pdf)
 
 Informed Consent dev 1: [Dev 1 - informed consent.pdf](https://github.com/user-attachments/files/19191607/Dev.1.-.informed.consent.pdf)
@@ -303,9 +310,86 @@ Deze bevindingen bieden waardevolle input voor verdere ontwikkeling. De volgende
 Voor meer informatie: [Develop 1 analyse.pdf](https://github.com/user-attachments/files/19251142/Develop.1.analyse.pdf)
 
 
-
-
 ### Development 2
+#### Doelstellingen
+
+De testfase van Development 2 focust op het verder verfijnen van het Medispeech-prototype door kritisch te evalueren op gebruiksgerichte aspecten binnen een medische context. De volgende doelstellingen worden nagestreefd:
+
+•	Spraakherkenning moet accuraat functioneren in medische contexten.
+Doelstelling: Testen of het systeem minstens 90% van de woorden correct herkent bij gebruik van medische termen, accenten en variërende stemtypes. De nadruk ligt op correcte herkenning van domeinspecifieke terminologie.
+
+•	De omzetting van spraak naar tekst moet snel verlopen.
+Doelstelling: Evalueren of spraak binnen maximaal 5 seconden na het uitspreken correct wordt omgezet naar tekst. Idealiter gebeurt dit in realtime of quasi-realtime.
+
+•	De opnameknop moet betrouwbaar en intuïtief functioneren.
+Doelstelling: Nagaan of elke druk op de knop correct wordt geregistreerd. De knop moet duidelijke auditieve (geluidssignaal) en tactiele (trillingssignaal) feedback geven, zodat de gebruiker weet dat de opname gestart is.
+
+•	Het Medispeech-platform moet intuïtief en gebruiksvriendelijk zijn.
+Doelstelling: Gebruikers moeten zelfstandig en zonder handleiding met het systeem kunnen werken. De gebruiksvriendelijkheid wordt beoordeeld via de System Usability Scale (SUS), met een minimumscore van 70 als acceptabel.
+
+•	De gebruikersinterface moet overzichtelijk en toegankelijk zijn.
+Doelstelling: Controleren of informatie logisch en gestructureerd wordt weergegeven. Navigatie moet vlot verlopen en het aantal handelingen om een taak uit te voeren moet zo laag mogelijk zijn.
+
+#### Protocol
+
+In dit protocol worden gebruikerstesten uitgevoerd waarbij verpleegkundigen concrete taken uitvoeren, zoals het registreren van medicatietoediening bij een simulatiepatiënt. Deze aanpak heeft als doel een zo realistisch mogelijke testomgeving te creëren om de prestaties van het systeem te beoordelen. Daarbij wordt specifiek gekeken naar de nauwkeurigheid van de spraakherkenning, de betrouwbaarheid van de opnameknop en de algemene gebruiksvriendelijkheid van het platform. De ervaringen van de gebruikers worden geëvalueerd aan de hand van de System Usability Scale (SUS) [SUS scale dev 2.pdf](https://github.com/user-attachments/files/19821151/SUS.scale.dev.2.pdf), zodat gerichte verbeteringen kunnen worden doorgevoerd in de volgende ontwikkelingsfase.
+
+De gebruikerstest start met een observatie waarin de verpleegkundige zelfstandig aan de slag gaat met het Medispeech-platform, zonder externe uitleg of begeleiding. Hiermee wordt geëvalueerd in welke mate het systeem intuïtief en gebruiksvriendelijk is.
+Vervolgens krijgt de gebruiker een aantal voorbeeldzinnen voorgeschoteld die ze kunnen inspreken. Dit helpt hen vertrouwd te raken met de structuur die vereist is voor correcte verwerking in ProtoPie (naam, functie, boodschap).
+Daarna krijgen ze de kans om zelf vrije zinnen te formuleren en in te spreken. Op basis hiervan wordt beoordeeld wat goed verloopt, waar het systeem beperkingen toont, en hoe gebruikers omgaan met variatie in spraakinput. Deze opbouw biedt inzicht in zowel de technische prestaties van het systeem als de natuurlijke interactie van de gebruiker ermee.
+
+Voor meer gedetailleerde informatie: [Develop 2 protocol.pdf](https://github.com/user-attachments/files/19821172/Develop.2.protocol.pdf)
+
+Informed Consent dev 1: [Dev 2 - informed consent.pdf](https://github.com/user-attachments/files/19821174/Dev.2.-.informed.consent.pdf)
+
+
+#### Prototypes
+
+De prototypes die in deze test worden gebruikt, zijn ontworpen om de belangrijkste functionele eisen te testen, zoals:
+
+•	Spraakherkenning: Het prototype moet snel en nauwkeurig spraak omzetten naar tekst.
+
+•	Knopfunctionaliteit: De knop moet betrouwbaar zijn, met duidelijke feedback.
+
+•	Gebruiksvriendelijkheid: Het prototype wordt getest op gebruiksgemak, en de feedback van gebruikers wordt geanalyseerd met behulp van de System Usability Scale (SUS) om de intuïtiviteit van het ontwerp te beoordelen.
+
+•	Medispeech platform: Gebruikers moeten zelfstandig en zonder handleiding met het systeem kunnen werken.
+
+<details>
+  <summary>Medispeech plaform development 2</summary>
+ 
+Platform: https://universiteitgent.protopie.cloud/p/8e34dc039e5b83ce3da77796 
+
+</details>
+
+
+#### Resultaten
+Uit de gebruikersevaluaties blijkt dat het systeem functioneert, maar nog aanzienlijke verbeteringen nodig heeft. De belangrijkste bevindingen zijn:
+
+- **Spraakherkenning**: Werkt snel, maar is onnauwkeurig bij langere gesprekken en snelle articulatie. Medische termen worden slechts deels correct herkend. (SUS-score: 2/5)
+- **Nauwkeurigheid**: Hoge foutpercentages, vooral bij namen en complexere woorden. Foutieve omzettingen maken het systeem onbetrouwbaar. (SUS-score: 1-2/5)
+- **Drukknop**: Functioneert consistent, maar het ingedrukt moeten houden wordt als onhandig ervaren. Een aan/uit-mechanisme zou intuïtiever zijn. (SUS-score: 4/5)
+- **Vertraging**: Lange en opeenvolgende opnames worden traag verwerkt, wat een vlotte workflow belemmert.
+- **Gebruiksgemak**: In eerste instantie moeilijk te begrijpen, maar na gewenning intuïtiever. Regelmatige technische storingen beïnvloeden de betrouwbaarheid. (SUS-score: 2/5)
+
+#### Conclusie
+De gemiddelde System Usability Scale (SUS)-score varieerde tussen 40 en 60, wat aangeeft dat het systeem momenteel niet geschikt is voor professioneel gebruik. Gebruikers zien potentieel, maar geven aan dat essentiële verbeteringen nodig zijn voordat het breed inzetbaar is in de medische sector.
+
+#### Aanbevolen verbeteringen
+1. **Optimalisatie van spraakherkenning**, met name voor medische terminologie en namen.
+2. **Vermindering van het foutpercentage** door betere verwerking van context en woorden.
+3. **Verkorting van de verwerkingstijd** om lange en opeenvolgende opnames sneller en correct om te zetten.
+4. **Herziening van de drukknopfunctionaliteit** naar een intuïtiever aan/uit-mechanisme.
+5. **Verhogen van de systeemconsistentie** en verminderen van technische storingen.
+
+#### Volgende stappen
+Deze bevindingen bieden waardevolle input voor verdere ontwikkeling. De volgende iteratie van het systeem moet zich richten op nauwkeurigheid, gebruiksgemak en stabiliteit om de bruikbaarheid in een professionele omgeving te verbeteren.
+
+Voor meer informatie: [Develop 1 analyse.pdf](https://github.com/user-attachments/files/19251142/Develop.1.analyse.pdf)
+
+
+
+### Development 3
 #### Focus
 
 Tijdens Development 2 ligt de focus op de volgende gebruikers- en designvereisten: 
