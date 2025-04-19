@@ -556,21 +556,21 @@ dev == development
 
 | Functie | Requirements | Voor dev 1 | Na dev 1 | Na dev 2 | Na dev 3 | 
 | ------- | ------------ | ---------- | -------- | -------- | -------- |
-| Spraak naar tekst | 1. Zet spraak efficiënt en accuraat om in tekst | -- | x | x | x |
-|  | 2. Ondersteunt medische terminologie | -- | x | x | x |
-|  | 3. Zorgt voor directe koppeling met administratiesystemen voor automatische verwerking | -- | x | x | x |
-| Aan - uitzetten | 1. Hoofdknop valt op en geeft tactiele feedback | -- | x | x | x |
+| Spraak naar tekst | 1. Zet spraak efficiënt en accuraat om in tekst | -- | + | + | x |
+|  | 2. Ondersteunt medische terminologie | -- | + | x | x |
+|  | 3. Zorgt voor directe koppeling met administratiesystemen voor automatische verwerking | -- | - | ++ | x |
+| Aan - uitzetten | 1. Hoofdknop valt op en geeft tactiele feedback | -- | + | + | x |
 |  | 2. | -- | x | x | x |
-| Bevestigen | 1. Compact en draagbaar, gemakkelijk te bevestigen aan een verplegersschort ( of andere ) | -- | x | x | x |
-|  | 2. Te bevestigen in 10 seconden | -- | x | x | x |
-| Informatie weergeven | 1. Duidelijke boomstructuur waarin handelingen zijn weergegeven | -- | x | x | x |
-|  | 2. Biedt snelle respons en duidelijke feedback (adhv kleur of icoontjes) aan de gebruiker | -- | x | x | x |
-| Beveiligen | 1. Versleutelt alle gegevensoverdracht om vertrouwelijkheid te waarborgen | -- | x | x | x |
-|  | 2. Zorgt voor veilige opslag en voorkomt toegang door onbevoegden | -- | x | x | x |
-| Extra | 1. Batterijlevensduur van minimaal een volledige werkdag (8-12 uur) | -- | x | x | x |
-|  | 2. Bestand tegen intensief dagelijks gebruik en accidentele stoten of vallen | -- | x | x | x |
-|  | 3. Batterijlevensduur van minimaal een volledige werkdag (8-12 uur) | -- | x | x | x |
-|  | 4. Bestand tegen ontsmettingsmiddelen en gemakkelijk schoon te maken | -- | x | x | x |
+| Bevestigen | 1. Compact en draagbaar, gemakkelijk te bevestigen aan een verplegersschort ( of andere ) | -- | - | - | x |
+|  | 2. Te bevestigen in 10 seconden | -- | - | - | x |
+| Informatie weergeven | 1. Duidelijke boomstructuur waarin handelingen zijn weergegeven | -- | - | ++ | x |
+|  | 2. Biedt snelle respons en duidelijke feedback (adhv kleur of icoontjes) aan de gebruiker | -- | - | - | x |
+| Beveiligen | 1. Versleutelt alle gegevensoverdracht om vertrouwelijkheid te waarborgen | -- | -- | -- | x |
+|  | 2. Zorgt voor veilige opslag en voorkomt toegang door onbevoegden | -- | -- | -- | x |
+| Extra | 1. Batterijlevensduur van minimaal een volledige werkdag (8-12 uur) | -- | - | - | x |
+|  | 2. Bestand tegen intensief dagelijks gebruik en accidentele stoten of vallen | -- | - | - | x |
+|  | 3. Batterijlevensduur van minimaal een volledige werkdag (8-12 uur) | -- | - | - | x |
+|  | 4. Bestand tegen ontsmettingsmiddelen en gemakkelijk schoon te maken | -- | -- | -- | x |
 
 ### Legende: 
 
