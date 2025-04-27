@@ -283,8 +283,8 @@ De prototypes die in deze test worden gebruikt, zijn ontworpen om de belangrijks
 
 •	Gebruiksvriendelijkheid: Het prototype wordt getest op gebruiksgemak, en de feedback van gebruikers wordt geanalyseerd met behulp van de System Usability Scale (SUS) om de intuïtiviteit van het ontwerp te beoordelen.
 
- 
-![Afbeelding van WhatsApp op 2025-04-27 om 20 01 16_84ca8d34](https://github.com/user-attachments/assets/498c632f-d90a-48a6-9d67-eaf71b24aa55)
+
+![Afbeelding van WhatsApp op 2025-04-27 om 20 01 16_84ca8d34](https://github.com/user-attachments/assets/adf58374-2f54-46ce-9516-a8308d958fe3)
 
 
 
