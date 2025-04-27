@@ -366,7 +366,7 @@ Daarna krijgen ze de kans om zelf vrije zinnen te formuleren en in te spreken. O
 
 Voor meer gedetailleerde informatie: [Develop 2 protocol.pdf](https://github.com/user-attachments/files/19821172/Develop.2.protocol.pdf)
 
-Informed Consent dev 1: [Dev 2 - informed consent.pdf](https://github.com/user-attachments/files/19821174/Dev.2.-.informed.consent.pdf)
+Informed Consent dev 2: [Dev 2 - informed consent.pdf](https://github.com/user-attachments/files/19821174/Dev.2.-.informed.consent.pdf)
 
 
 #### Prototypes
@@ -390,16 +390,18 @@ Platform: https://universiteitgent.protopie.cloud/p/8e34dc039e5b83ce3da77796
 
 
 #### Resultaten
-Uit de gebruikersevaluaties blijkt dat het systeem functioneert, maar nog aanzienlijke verbeteringen nodig heeft. De belangrijkste bevindingen zijn:
+Uit de gebruikersevaluaties blijkt dat het Medispeech-platform over het algemeen positief werd ontvangen, met ruimte voor verbetering. De belangrijkste bevindingen zijn:
 
-- **Spraakherkenning**: Werkt snel, maar is onnauwkeurig bij langere gesprekken en snelle articulatie. Medische termen worden slechts deels correct herkend. (SUS-score: 2/5)
-- **Nauwkeurigheid**: Hoge foutpercentages, vooral bij namen en complexere woorden. Foutieve omzettingen maken het systeem onbetrouwbaar. (SUS-score: 1-2/5)
-- **Drukknop**: Functioneert consistent, maar het ingedrukt moeten houden wordt als onhandig ervaren. Een aan/uit-mechanisme zou intuïtiever zijn. (SUS-score: 4/5)
-- **Vertraging**: Lange en opeenvolgende opnames worden traag verwerkt, wat een vlotte workflow belemmert.
-- **Gebruiksgemak**: In eerste instantie moeilijk te begrijpen, maar na gewenning intuïtiever. Regelmatige technische storingen beïnvloeden de betrouwbaarheid. (SUS-score: 2/5)
+•	Spraakherkenning: Verbeterd maar nog onnauwkeurig bij cijfers en namen. Door serverproblemen kon de echte spraakherkenning slechts beperkt getest worden. (SUS-score: 9-12/15)
+
+•	 Nauwkeurigheid: Enkele foutieve omzettingen en bugs blijven aanwezig, maar gebruiksgemak stijgt duidelijk. (SUS-score: 4/5)
+
+•	 Drukknop: In principe betrouwbaar, maar één gebruiker ondervond technische storingen (los contact ESP32). (SUS-score: 5/5 of technisch probleem)
+
+•	 Gebruiksgemak: Meestal intuïtief, maar technologische ervaring van gebruiker beïnvloedde de leercurve sterk. (SUS-score varieerde: 20/35 tot 34/35)
 
 #### Conclusie
-De gemiddelde System Usability Scale (SUS)-score varieerde tussen 40 en 60, wat aangeeft dat het systeem momenteel niet geschikt is voor professioneel gebruik. Gebruikers zien potentieel, maar geven aan dat essentiële verbeteringen nodig zijn voordat het breed inzetbaar is in de medische sector.
+De gemiddelde System Usability Scale (SUS)-score varieerde tussen 57% en 94%, wat een positief beeld schetst, maar aantoont dat verdere optimalisaties nodig zijn. Gebruikers zien duidelijk potentieel en raden het systeem aan voor zorginstellingen.
 
 #### Tabel functie & requirements
 
