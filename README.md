@@ -17,6 +17,10 @@ Ons doel is om de administratieve last van verpleegkundigen te verminderen door 
 Wij stellen een innovatief systeem voor dat gebruik maakt van speech-to-text-technologie. Het systeem stelt verpleegkundigen in staat om na elke taak eenvoudig mondeling te rapporteren wat ze normaal zouden typen. Deze spraakopnames worden automatisch omgezet in tekst en direct naar een centraal platform gestuurd, waar de gegevens op de juiste plaats terechtkomen in het computersysteem.
 Het product moet compact en draagbaar zijn, zodat het gemakkelijk aan de schort van de verpleegkundige kan worden bevestigd. Dit maakt het mogelijk om direct na een taak gegevens in te voeren, waardoor belangrijke informatie niet vergeten wordt en het werkproces naadloos verloopt.
 
+![eerste](https://github.com/user-attachments/assets/bf4de28e-1a43-4e30-a852-5a66ae52fb3c)
+
+
+
 
 ## Methodologie
 In het eerste semester is de methodologie van ons ontwerpproces gebaseerd op de aanpak van Eekels en Roozenburg. De kern van deze methodologie is het cyclische proces, waarbij het ontwerp voortdurend wordt geanalyseerd, geëvalueerd en aangepast. Het proces begint altijd met het grondig begrijpen van het probleem dat opgelost moet worden. In de eerste fase, genaamd Wave 1, lag de focus op het bevestigingsmechanisme van het device en het bepalen van de geschikte bevestigingslocatie. Dit werd gevolgd door een diepgaande analyse van het probleem, waarna specifieke ontwerpcriteria en onderzoeksvragen werden geformuleerd. Enkele van deze criteria waren bijvoorbeeld de wens voor een compact en gebruiksvriendelijk ontwerp.
@@ -234,6 +238,11 @@ Deze sectie behandelt de wensen van de klant en hoe deze zijn vertaald naar conc
 | Het product moet ontsmet kunnen worden met alcohol. | De behuizing van het product moet bestand zijn tegen vloeistoffen en doordrinken van vloeistof. | Eis | De knop is verzonken in het product zodat een vlak oppervlak gecreëerd wordt om te kunnen ontsmetten. | 5 |
 
 </details>
+
+### HTA
+Dit stroomdiagram biedt een gedetailleerde stap-voor-stap handleiding voor het gebruik van het Medispeech-apparaat. Het is ontworpen om gebruikers door het proces van het bevestigen, inschakelen, gebruiken en uitschakelen van het apparaat te leiden, met duidelijke instructies voor elke fase van het gebruik. Het diagram begint met het bevestigen van het apparaat aan het medische uniform en eindigt met het uitschakelen van het apparaat nadat de taak is voltooid. Deze visuele gids helpt gebruikers op een efficiënte manier te navigeren door de verschillende stappen, zodat het gebruik van Medispeech snel en probleemloos verloopt.
+![HTA](https://github.com/user-attachments/assets/ac3508b2-156e-4b52-b313-fa3e176bedbf)
+
 
 ## Developments 
 ### Development 1
@@ -536,12 +545,8 @@ Deze sectie behandelt de wensen van de klant en hoe deze zijn vertaald naar conc
 - TE Connectivity 118259104 of Youmile 6x6x4.3mm Tactile Switch (Verwijderknop)
 - Papierklem magnetisch (bevestiging)
 
-### HTA
-Dit stroomdiagram biedt een gedetailleerde stap-voor-stap handleiding voor het gebruik van het Medispeech-apparaat. Het is ontworpen om gebruikers door het proces van het bevestigen, inschakelen, gebruiken en uitschakelen van het apparaat te leiden, met duidelijke instructies voor elke fase van het gebruik. Het diagram begint met het bevestigen van het apparaat aan het medische uniform en eindigt met het uitschakelen van het apparaat nadat de taak is voltooid. Deze visuele gids helpt gebruikers op een efficiënte manier te navigeren door de verschillende stappen, zodat het gebruik van Medispeech snel en probleemloos verloopt.
-![HTA](https://github.com/user-attachments/assets/ac3508b2-156e-4b52-b313-fa3e176bedbf)
 
 ## Keuze componenten
-
 
 ### Vergelijking van Microcontrollers
 
