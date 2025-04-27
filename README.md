@@ -16,9 +16,6 @@ Ons doel is om de administratieve last van verpleegkundigen te verminderen door 
 ### Oplossing
 Wij stellen een innovatief systeem voor dat gebruik maakt van speech-to-text-technologie. Het systeem stelt verpleegkundigen in staat om na elke taak eenvoudig mondeling te rapporteren wat ze normaal zouden typen. Deze spraakopnames worden automatisch omgezet in tekst en direct naar een centraal platform gestuurd, waar de gegevens op de juiste plaats terechtkomen in het computersysteem.
 Het product moet compact en draagbaar zijn, zodat het gemakkelijk aan de schort van de verpleegkundige kan worden bevestigd. Dit maakt het mogelijk om direct na een taak gegevens in te voeren, waardoor belangrijke informatie niet vergeten wordt en het werkproces naadloos verloopt.
-Boundary Conditions
-1.	Technologische Limieten: Het speech-to-text-systeem moet een hoge mate van nauwkeurigheid hebben. Hoewel het nodig zal zijn om de tekst aan het einde van een shift te controleren, moet het aantal fouten aanzienlijk lager zijn dan bij handmatige invoer.
-2.	Batterijduur: Het apparaat moet minimaal één volledige werkshift, en idealiter een hele werkdag, op een enkele batterijlading kunnen functioneren.
 
 
 ## Methodologie
