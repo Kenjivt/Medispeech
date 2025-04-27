@@ -220,7 +220,7 @@ De badge-veiligheidsfunctie koppelt spraakopnames automatisch aan de juiste gebr
 
 Voor meer gedetailleerde informatie:[Wave 2 rapport.pdf](https://github.com/user-attachments/files/18456188/Wave.2.rapport.pdf)
 
-## Design Requierments (conclusies) + gekozen oplossingen (PvE)
+### Design Requierments (conclusies) + gekozen oplossingen (PvE)
 Deze sectie behandelt de wensen van de klant en hoe deze zijn vertaald naar concrete ontwerpvereisten, gebaseerd op de feedback verkregen uit gebruikerstests uitgevoerd in wave 1 en wave 2. De tabel biedt een helder overzicht van de eisen en wensen van de klant, en de gekozen oplossingen die het ontwerp moeten realiseren. Hierbij wordt zowel gekeken naar functionele aspecten, zoals het omzetten van spraak naar tekst en het waarborgen van privacy, als naar praktische zaken zoals gebruiksgemak, draagbaarheid en batterijduur. Elke oplossing is geprioriteerd om te voldoen aan de belangrijkste behoeften van de klant, zodat het uiteindelijke product zowel efficiënt als gebruiksvriendelijk is.
 
 <details>
@@ -241,6 +241,7 @@ Deze sectie behandelt de wensen van de klant en hoe deze zijn vertaald naar conc
 | Het product moet ontsmet kunnen worden met alcohol. | De behuizing van het product moet bestand zijn tegen vloeistoffen en doordrinken van vloeistof. | Eis | De knop is verzonken in het product zodat een vlak oppervlak gecreëerd wordt om te kunnen ontsmetten. | 5 |
 
 </details>
+
 
 ### HTA
 Dit stroomdiagram biedt een gedetailleerde stap-voor-stap handleiding voor het gebruik van het Medispeech-apparaat. Het is ontworpen om gebruikers door het proces van het bevestigen, inschakelen, gebruiken en uitschakelen van het apparaat te leiden, met duidelijke instructies voor elke fase van het gebruik. Het diagram begint met het bevestigen van het apparaat aan het medische uniform en eindigt met het uitschakelen van het apparaat nadat de taak is voltooid. Deze visuele gids helpt gebruikers op een efficiënte manier te navigeren door de verschillende stappen, zodat het gebruik van Medispeech snel en probleemloos verloopt.
@@ -511,27 +512,7 @@ De informed consents zijn hier terug te vinden: nog te linken
 
 "++" : De requirement wordt volledig voldaan.
 
-### Design Requierments (conclusies) + gekozen oplossingen (PvE)
-Deze sectie behandelt de wensen van de klant en hoe deze zijn vertaald naar concrete ontwerpvereisten. De tabel geeft een duidelijk overzicht van de eisen en wensen van de klant, en de gekozen oplossingen die het ontwerp moet realiseren. Hierbij wordt zowel gekeken naar de functionele aspecten, zoals het omzetten van spraak naar tekst en het waarborgen van privacy, als naar praktische zaken zoals gebruiksgemak, draagbaarheid en batterijduur. Elke oplossing is geprioriteerd om te voldoen aan de belangrijkste behoeften van de klant, zodat het uiteindelijke product zowel efficiënt als gebruiksvriendelijk is.
 
-<details>
-  <summary>Tabel klantenwensen en oplossingen</summary>
-
-| Klantenwensen | Ontwerpcriteria (design requirements) | Eis/Wens | Gekozen oplossing | Prioriteiten-Nummer (1-5) |
-|---------------|--------------------------------------|----------|-------------------|--------------------------|
-| De administratieve zaken moeten accuraat opgenomen en verstuurd worden en moet dus medische terminologie ondersteunen. | Er moet technologie voorzien worden die spraak in tekst kan omzetten. | Eis | Er wordt gewerkt met een speech-to-text mechanisme. | 1 |
-| Een foute opname of een per ongeluk gestarte opname moet verwijderd kunnen worden. | Er moet een knop voorzien worden zodat foute opnames meteen verwijderd kunnen worden. | Eis | Er wordt gewerkt met een verwijderknop, die een foute opname kan wissen. | 4 |
-| Er moet rekening gehouden worden met het gegeven dat de informatie privacygevoelig is. De opname en overdracht moeten veilig gebeuren en toegang verboden voor onbevoegden. | Het product kan enkel ontgrendeld worden door gebruik van een badge of het indrukken van een code/vingerafdruk. | Wens | - | - |
-| De batterijstatus van het apparaat moet op te volgen zijn. | De batterijstatus wordt weergegeven in percentages of is op te volgen aan de hand van een lichtje/geluid/trilling. | Eis | Het batterijpercentage wordt weergegeven op een display en weergegeven in percentages (mogelijk wordt hier nog over nagedacht). | 3 |
-| Het apparaat moet makkelijk te bevestigen zijn en niet uit de zak gaan tijdens intensief bewegen. | Er moet een bevestigingsmechanisme gebruikt worden. | Eis | Te bepalen. | - |
-| Er moet duidelijk aangegeven worden wanneer een opname bezig is en wanneer het apparaat in standby staat. | Het apparaat heeft een duidelijk lichtsignaal of geluidsignaal wanneer een opname bezig is. | Eis | Er wordt gewerkt met een display die groen kleurt wanneer een opname bezig is. Wanneer de opname stopt kleurt het rood voor enige tijd. | 2 |
-| De informatie moet in een hiërarchische structuur geordend kunnen worden bij de juiste patiënt. | Het programma moet bepaalde kernwoorden herkennen en de gesprekken in de juiste tekst plaatsen. Met een badge kan eventueel aan de deur van de kamer iets gescand worden zodat de info meteen bij de juiste patiënt genoteerd wordt. | Eis | Koppelen patiënt met tekst nog te bepalen. Specifieke kernwoorden en technische aanpak nog te bepalen. | 2 |
-| De knoppen moeten makkelijk te gebruiken zijn. | De knop moet groot genoeg zijn en op een intuïtieve plaats aangebracht worden. | Eis | De knop wordt vooraan als enige aangebracht zodat er geen verwarring kan ontstaan. | 3 |
-| De batterij moet kunnen opgeladen worden voor een volgende shift de volgende dag. | Het apparaat moet op oplaadbare batterijen werken. Eventueel kan het volledige toestel in een houder worden gestoken en zo opgeladen worden. | Wens | Nog te bepalen | 3 |
-| Het apparaat moet compact en dus ook makkelijk draagbaar zijn. | Het gewicht en grootte van het toestel moeten beperkt worden. | Wens | Vorm is voorlopig ovaalachtig, maar kan nog aangepast worden indien noodzakelijk voor de technische kant. | 4 |
-| Het product moet ontsmet kunnen worden met alcohol. | De behuizing van het product moet bestand zijn tegen vloeistoffen en doordrinken van vloeistof. | Eis | De knop is verzonken in het product zodat een vlak oppervlak gecreëerd wordt om te kunnen ontsmetten. | 5 |
-
-</details>
 
 
 ## Bill of materials
