@@ -387,7 +387,7 @@ De prototypes die in deze test worden gebruikt, zijn ontworpen om de belangrijks
 <details>
   <summary>Medispeech plaform development 2</summary>
  
-Platform: https://universiteitgent.protopie.cloud/p/8e34dc039e5b83ce3da77796 
+Platform: https://universiteitgent.protopie.cloud/p/8e34dc039e5b83ce3da77796  
 
 </details>
 
@@ -433,23 +433,15 @@ Voor meer informatie: [Develop 2 analyse.pdf](https://github.com/user-attachment
 "++" : De requirement wordt volledig voldaan.
 
 #### Aanbevolen verbeteringen
-1. **Optimalisatie van spraakherkenning**, met name voor medische terminologie en namen.
-2. **Vermindering van het foutpercentage** door betere verwerking van context en woorden.
-3. **Verkorting van de verwerkingstijd** om lange en opeenvolgende opnames sneller en correct om te zetten.
-4. **Herziening van de drukknopfunctionaliteit** naar een intuïtiever aan/uit-mechanisme.
-5. **Verhogen van de systeemconsistentie** en verminderen van technische storingen.
-
-#### Volgende stappen
-Deze bevindingen bieden waardevolle input voor verdere ontwikkeling. De volgende iteratie van het systeem moet zich richten op nauwkeurigheid, gebruiksgemak en stabiliteit om de bruikbaarheid in een professionele omgeving te verbeteren.
-
-Voor meer informatie: [Develop 1 analyse.pdf](https://github.com/user-attachments/files/19251142/Develop.1.analyse.pdf)
-
+1. **Optimalisatie van spraakherkenning**, meer tolerant zijn voor variaties in articulatie en volgorde van spraak.
+2. **Kamernummer gebruiken**, mogelijkheid om kamernummer i.p.v. geboortedatum te gebruiken (logischer in zorginstellingen).
+3. **Fysieke betrouwbaarheid**, verstevigen van de verbinding tussen knop en ESP32-controller om loskomen te vermijden.
 
 
 ### Development 3
 #### Focus
 
-Tijdens Development 2 ligt de focus op de volgende gebruikers- en designvereisten: 
+Tijdens Development 3 ligt de focus op de volgende gebruikers- en designvereisten: 
  
 •	Er wordt onderzocht of het prototype met display duidelijk het batterijniveau kan weergeven en of het duidelijk weergegeven wordt wanneer een opname bezig is en wanneer een opname bezig is of niet. 
 
@@ -459,7 +451,7 @@ Tijdens Development 2 ligt de focus op de volgende gebruikers- en designvereiste
 
 •	Er wordt ook onderzocht of het prototype intuïtief en gebruiksvriendelijk is, met aandacht voor de complexiteit en de leercurve.
 
-### Plan van uitvoering
+#### Plan van uitvoering
 
 Om de effectiviteit van deze functionaliteiten te garanderen, worden gebruikerstesten uitgevoerd met verpleegkundigen. Ze gebruiken het prototype gedurende enkele shiften om zo de functies uit te testen in een zo realistisch mogelijke testomgeving om de ecologische validiteit te maximaliseren. Tijdens deze testen wordt feedback verzameld over:  
 
