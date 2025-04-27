@@ -1,9 +1,12 @@
 # Werkbaar werk in de zorgsector
 *Medispeech is een apparaat dat spraak omzet in tekst, waardoor de administratieve druk in de zorg afneemt en zorgmedewerkers meer tijd aan patiënten kunnen besteden.* 
 
+![Schermafbeelding 2025-04-27 201839](https://github.com/user-attachments/assets/23ae4933-4963-491c-855d-ef459d64f9e2)
+
+
 *Projectteam: Kenji Van Thuyne; Marit Hocedez*
 
-7/01/2025
+27/04/2025
 
 ## Samenvatting
 Het probleem in de zorg is de enorme hoeveelheid administratie die verpleegkundigen moeten uitvoeren, wat veel tijd in beslag neemt en ten koste gaat van de tijd die zij met hun patiënten kunnen doorbrengen. Alles moet gedetailleerd worden vastgelegd, zelfs de kleinste handelingen. Dit probleem werd onderzocht door middel van drie interviews met zorgprofessionals en een enquête (N = 156), waarin 63,5% aangaf dat de administratieve druk extra stress veroorzaakt en 73,7% van de respondenten het tijdrovend vond. De oplossing, Medispeech, is een apparaat dat de gebruiker aan zijn/haar borstzakje of computer bevestigt. Dit apparaat maakt gebruik van spraakherkenning, waarmee de gebruiker handsfree handelingen kan inspreken die direct omgezet worden in tekst. Spraak is veel sneller dan typen, en doordat verpleegkundigen hun handelingen kunnen inspreken terwijl ze andere zorgverrichtingen uitvoeren, wordt kostbare tijd bespaard. Zo kunnen ze meer tijd aan hun patiënten besteden, wat de werkdruk verlicht en zorgt voor meer interactie met patiënten en minder stress. Medispeech biedt dus een efficiënte manier om de administratieve last te verminderen en tegelijkertijd de zorgkwaliteit te verbeteren.
@@ -402,6 +405,9 @@ Uit de gebruikersevaluaties blijkt dat het Medispeech-platform over het algemeen
 
 #### Conclusie
 De gemiddelde System Usability Scale (SUS)-score varieerde tussen 57% en 94%, wat een positief beeld schetst, maar aantoont dat verdere optimalisaties nodig zijn. Gebruikers zien duidelijk potentieel en raden het systeem aan voor zorginstellingen.
+
+Voor meer informatie: [Develop 2 analyse.pdf](https://github.com/user-attachments/files/19931120/Develop.2.analyse.pdf)
+
 
 #### Tabel functie & requirements
 
