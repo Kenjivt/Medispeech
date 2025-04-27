@@ -297,15 +297,14 @@ De gemiddelde System Usability Scale (SUS)-score varieerde tussen 40 en 60, wat 
 
 #### Tabel functie & requirements
 
-| Functie | Requirements | Voor development 1 | Na development 1 | Na development 2 | Na development 3 | 
-| ------- | ------------ | ---------- | -------- | -------- | -------- |
-| Spraak naar tekst | 1. Zet spraak efficiënt en accuraat om in tekst | -- | + | x | x |
-|  | 2. Ondersteunt medische terminologie | -- | + | x | x |
-|  | 3. Zorgt voor directe koppeling met administratiesystemen voor automatische verwerking | -- | - | x | x |
-| Aan - uitzetten | 1. Hoofdknop valt op en geeft tactiele feedback | -- | + | x | x |
-|  | 2. | -- | x | x | x |
-| Informatie weergeven | 1. Duidelijke boomstructuur waarin handelingen zijn weergegeven | -- | - | x | x |
-|  | 2. Biedt snelle respons en duidelijke feedback (adhv kleur of icoontjes) aan de gebruiker | -- | - | x | x |
+| Functie | Requirements | Voor development 1 | Na development 1 | 
+| ------- | ------------ | ---------- | -------- | 
+| Spraak naar tekst | 1. Zet spraak efficiënt en accuraat om in tekst | -- | + | 
+|  | 2. Ondersteunt medische terminologie | -- | + |
+|  | 3. Zorgt voor directe koppeling met administratiesystemen voor automatische verwerking | -- | - | 
+| Aan - uitzetten | 1. Hoofdknop valt op en geeft tactiele feedback | -- | + | 
+| Informatie weergeven | 1. Duidelijke boomstructuur waarin handelingen zijn weergegeven | -- | - | 
+|  | 2. Biedt snelle respons en duidelijke feedback (adhv kleur of icoontjes) aan de gebruiker | -- | - | 
 
 #### Legende: 
 
@@ -398,17 +397,16 @@ De gemiddelde System Usability Scale (SUS)-score varieerde tussen 40 en 60, wat 
 
 #### Tabel functie & requirements
 
-| Functie | Requirements | Voor development 1 | Na development 1 | Na development 2 | Na development 3 | 
-| ------- | ------------ | ---------- | -------- | -------- | -------- |
-| Spraak naar tekst | 1. Zet spraak efficiënt en accuraat om in tekst | -- | + | + | x |
-|  | 2. Ondersteunt medische terminologie | -- | + | x | x |
-|  | 3. Zorgt voor directe koppeling met administratiesystemen voor automatische verwerking | -- | - | ++ | x |
-| Aan - uitzetten | 1. Hoofdknop valt op en geeft tactiele feedback | -- | + | + | x |
-|  | 2. | -- | x | x | x |
-| Bevestigen | 1. Compact en draagbaar, gemakkelijk te bevestigen aan een verplegersschort ( of andere ) | -- | - | + | x |
-|  | 2. Te bevestigen in 10 seconden | -- | - | + | x |
-| Informatie weergeven | 1. Duidelijke boomstructuur waarin handelingen zijn weergegeven | -- | - | ++ | x |
-|  | 2. Biedt snelle respons en duidelijke feedback (adhv kleur of icoontjes) aan de gebruiker | -- | - | + | x |
+| Functie | Requirements | Voor development 1 | Na development 1 | Na development 2 | 
+| ------- | ------------ | ---------- | -------- | -------- | 
+| Spraak naar tekst | 1. Zet spraak efficiënt en accuraat om in tekst | -- | + | + | 
+|  | 2. Ondersteunt medische terminologie | -- | + | x | 
+|  | 3. Zorgt voor directe koppeling met administratiesystemen voor automatische verwerking | -- | - | ++ | 
+| Aan - uitzetten | 1. Hoofdknop valt op en geeft tactiele feedback | -- | + | + | 
+| Bevestigen | 1. Compact en draagbaar, gemakkelijk te bevestigen aan een verplegersschort ( of andere ) | -- | - | + | 
+|  | 2. Te bevestigen in 10 seconden | -- | - | + | 
+| Informatie weergeven | 1. Duidelijke boomstructuur waarin handelingen zijn weergegeven | -- | - | ++ | 
+|  | 2. Biedt snelle respons en duidelijke feedback (adhv kleur of icoontjes) aan de gebruiker | -- | - | + | 
 
 #### Legende: 
 
