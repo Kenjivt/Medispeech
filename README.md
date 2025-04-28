@@ -668,11 +668,42 @@ A new key in the format of your choice is automatically downloaded. Store this f
 
 Stap 6: Download file
 
+Download de file bij de release, pak deze uit en beweer de file op een locatie die makkelijk terug te vinden is.
+
+Plaats de JSON fiile uit stap 5, bij de map NodejsServer
+![afbeelding](https://github.com/user-attachments/assets/f3fa42d4-ebaf-4050-88d4-15ed2746caa0)
+
+De stappen 1-6 zijn eenmalig, maar stap 7 moet alijtd worden uitgevoerd voor het gebruik van het device. 
+
+Stap 7: Windows Powershell
+
+Open Windows Powershell, kopieer het pad van de map NodejsServer, vervolgens plak dit in Powershell: cd "pad NodejsServer". Bv: cd "C:\Users\Beheerder\Desktop\XIAO-ESP32S3Sense-Speech2ChatGPT\NodejsServer"  
+![afbeelding](https://github.com/user-attachments/assets/88803eb6-5955-4a35-84c2-2e32b3dff204)
+
+Vervolgens kopieer het pad van de JSON file uit de map NodejsServer. Voeg hiervoor toe: $env:GOOGLE_APPLICATION_CREDENTIALS="pad JSON file" , plak dit in Windows Powershell. Bv: $env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Beheerder\Desktop\XIAO-ESP32S3Sense-Speech2ChatGPT\NodejsServer\solar-virtue-451018-q7-4417a0e3ca08.json" 
+
+Typ dit in Windows Powershell: node ./speechAPIServer.js 
+
+Er komt nu op "Listing at 8888"
+![afbeelding](https://github.com/user-attachments/assets/2d23a058-d987-4391-ba08-8793ec46c76f)
+
+
+
+De installatie is nu voltooid en het device kan worden gebruikt. 
+
+
+
+
+
+## Problemen installatie
+
+"ERROR: Failed to connect to server" : 
+
 
 
 
 ## Tussen codes
-<details>
+<details> 
   <summary>Code 1: Verbinden met wifi</summary>
   
     #include <WiFi.h>
