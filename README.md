@@ -627,6 +627,50 @@ Eerst wordt de antenne op de XIAO geïnstalleerd, vervolgens wordt het SD slot o
   <img src="https://github.com/user-attachments/assets/9e814670-f59e-4d3f-bf9e-f02cbaa15d11" width="300"/>
 </p>
 
+Stap 1: Nu de componenten klaar staan, beginnen we met de API in te stellen. Registreer u [hier](https://console.cloud.google.com/) voor een Google Cloud account.
+![afbeelding](https://github.com/user-attachments/assets/9cc48f45-d9bf-4a61-848c-7766a0398bbb)
+
+
+Stap 2:  Go to the project selector page
+
+You can either choose an existing project or create a new one. If you create a new project, you will be prompted to link a billing account to this project. If you are using a pre-existing project, make sure that you have billing enabled.
+![afbeelding](https://github.com/user-attachments/assets/c0d33e7d-f815-4b43-938c-c76bbafc4f48)
+
+Step 3: Start a Speech-to-Text service
+Once you have selected a project and linked it to a billing account, you can enable the Speech-to-Text API. Go to the Search products and resources bar at the top of the page and type in speech. Select the Cloud Speech-to-Text API from the list of results.
+![afbeelding](https://github.com/user-attachments/assets/217f145e-b0a2-4903-a114-e01e286704d1)
+
+Step 4: Create a service account
+
+Create a new service account if your project doesn't already have one. You must create a service account in order to use Speech-to-Text. On the new pop-up page, select the Service account under CREATE CREDENTIALS.
+![afbeelding](https://github.com/user-attachments/assets/89015b42-ec41-4835-876b-b34fbb73d742)
+![afbeelding](https://github.com/user-attachments/assets/cced8d0d-5c62-43cb-bc7f-1914c520e284)
+
+In the service account name box, type a unique name for the new service account. Your input is automatically populated in the Service account ID box. The Service account description box is optional but recommended if you plan to associate multiple service accounts with your project. Enter a brief description of the service account into this box, then click CREATE AND CONTINUE.
+![afbeelding](https://github.com/user-attachments/assets/add2ab88-8acb-467c-86a3-3b4ecd996983)
+
+We recommend that you assign one of the basic IAM roles to your service account. You can also assign multiple roles to a single service account if needed. See IAM roles for details on available roles and the permissions allowed to each. Click on the drop-down Select a role menu and scroll down to Owner. You can choose a role for this service account from the options that appear in the right-hand column. Click CONTINUE.
+![afbeelding](https://github.com/user-attachments/assets/329ed1f2-0428-40e9-a667-3b54280b170e)
+
+The final step allows you to optionally allow other entities (individuals, Google groups, and so on) to access your service account. If you don't need to grant additional access, you can click DONE without entering any information.
+![afbeelding](https://github.com/user-attachments/assets/aac974e8-680b-4ff9-818d-79032419c30c)
+
+The service account is now listed on the Service Accounts page. You can change the service account's permissions, add or generate new keys, and grant access at any time.
+![afbeelding](https://github.com/user-attachments/assets/deffc777-5ab7-4323-a8cd-cd89aa5a0cba)
+
+Step 5: Create a JSON key for your service account
+
+You need to use this private key during the authentication process when you send a request to Speech-to-Text. To create a key, click on the service account and select the KEYS tab. Click ADD KEY -> Create new key. We recommend that you create a key in JSON format.
+![afbeelding](https://github.com/user-attachments/assets/a70d810d-0a5e-4066-a8b8-ed10e5b52188)
+
+A new key in the format of your choice is automatically downloaded. Store this file in a safe location and make a note of the file path. You will need to point the GOOGLE_APPLICATION_CREDENTIALS environment variable to this file when you go through the authentication process at the beginning of each new Speech-to-Text session. This is an essential step for authenticating requests to Speech-to-Text. The key's unique ID appears next to the name of the service account.
+![afbeelding](https://github.com/user-attachments/assets/f83dce6d-537e-43b0-b503-66c02dae31f9)
+
+Stap 6: Download file
+
+
+
+
 ## Tussen codes
 <details>
   <summary>Code 1: Verbinden met wifi</summary>
