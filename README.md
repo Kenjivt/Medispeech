@@ -620,80 +620,140 @@ Voordat de codes of componenten gebruikt kunnen worden, moeten eerst het spraak-
 
 ### Installatie Speech to Text
 
-De werking en installatie is grotendeels over genomen van wiki.seeedstudio (https://wiki.seeedstudio.com/xiao_esp32s3_speech2chatgpt/). De componenten die bij deze installatie vereist zijn, is een XIAO esp32 SENSE (belangrijk dat het niet de gewone esp32) en een 16gb SD kaart. 
-Eerst wordt de antenne op de XIAO geïnstalleerd, vervolgens wordt het SD slot op de XIAO geïnstalleerd. Voordat de SD kaart in het slot wordt gestoken, moet deze geformarteerd zijn.
+De werking en installatie is grotendeels overgenomen van [wiki.seeedstudio](https://wiki.seeedstudio.com/xiao_esp32s3_speech2chatgpt/).  
+De componenten die nodig zijn voor deze installatie:
+- Een **XIAO ESP32S3 SENSE** (belangrijk: niet de gewone ESP32S3)
+- Een **16GB SD-kaart**
+
+Eerst wordt de antenne op de XIAO geplaatst, vervolgens wordt het SD-kaartslot geïnstalleerd. Zorg ervoor dat de SD-kaart geformatteerd is voordat deze wordt geplaatst.
+
 <p>
   <img src="https://github.com/user-attachments/assets/52d4c004-91b1-483f-8381-a6441d0bd9df" width="362"/>
   <img src="https://github.com/user-attachments/assets/9e814670-f59e-4d3f-bf9e-f02cbaa15d11" width="300"/>
 </p>
 
-Stap 1: Nu de componenten klaar staan, beginnen we met de API in te stellen. Registreer u [hier](https://console.cloud.google.com/) voor een Google Cloud account.
+---
+
+### Stappenplan
+
+<details>
+<summary>Stap 1: API instellen</summary>
+
+Registreer [hier](https://console.cloud.google.com/) voor een Google Cloud account.
+
 ![afbeelding](https://github.com/user-attachments/assets/9cc48f45-d9bf-4a61-848c-7766a0398bbb)
 
+</details>
 
-Stap 2:  Go to the project selector page
+<details>
+<summary>Stap 2: Project selecteren</summary>
 
-You can either choose an existing project or create a new one. If you create a new project, you will be prompted to link a billing account to this project. If you are using a pre-existing project, make sure that you have billing enabled.
+Klik op **Project selector page**.  
+Kies een bestaand project of maak een nieuw project aan. Als je een nieuw project maakt, wordt gevraagd om een betaalaccount te koppelen. Bij een bestaand project moet **billing** geactiveerd zijn.
+
 ![afbeelding](https://github.com/user-attachments/assets/c0d33e7d-f815-4b43-938c-c76bbafc4f48)
 
-Step 3: Start a Speech-to-Text service
-Once you have selected a project and linked it to a billing account, you can enable the Speech-to-Text API. Go to the Search products and resources bar at the top of the page and type in speech. Select the Cloud Speech-to-Text API from the list of results.
+</details>
+
+<details>
+<summary>Stap 3: Speech-to-Text service starten</summary>
+
+- Typ in de zoekbalk bovenaan "speech".
+- Selecteer **Cloud Speech-to-Text API** uit de resultatenlijst.
+
 ![afbeelding](https://github.com/user-attachments/assets/217f145e-b0a2-4903-a114-e01e286704d1)
 
-Step 4: Create a service account
+</details>
 
-Create a new service account if your project doesn't already have one. You must create a service account in order to use Speech-to-Text. On the new pop-up page, select the Service account under CREATE CREDENTIALS.
+<details>
+<summary>Stap 4: Service account aanmaken</summary>
+
+- Klik op **CREATE CREDENTIALS** → **Service account**.
+- Geef een unieke naam op bij **Service account name**.
+- (Optioneel) Voeg een beschrijving toe.
+- Klik op **CREATE AND CONTINUE**.
+
 ![afbeelding](https://github.com/user-attachments/assets/89015b42-ec41-4835-876b-b34fbb73d742)
 ![afbeelding](https://github.com/user-attachments/assets/cced8d0d-5c62-43cb-bc7f-1914c520e284)
 
-In the service account name box, type a unique name for the new service account. Your input is automatically populated in the Service account ID box. The Service account description box is optional but recommended if you plan to associate multiple service accounts with your project. Enter a brief description of the service account into this box, then click CREATE AND CONTINUE.
-![afbeelding](https://github.com/user-attachments/assets/add2ab88-8acb-467c-86a3-3b4ecd996983)
+- Bij **Select a role**, kies **Owner**.
+- Klik op **CONTINUE**.
 
-We recommend that you assign one of the basic IAM roles to your service account. You can also assign multiple roles to a single service account if needed. See IAM roles for details on available roles and the permissions allowed to each. Click on the drop-down Select a role menu and scroll down to Owner. You can choose a role for this service account from the options that appear in the right-hand column. Click CONTINUE.
 ![afbeelding](https://github.com/user-attachments/assets/329ed1f2-0428-40e9-a667-3b54280b170e)
 
-The final step allows you to optionally allow other entities (individuals, Google groups, and so on) to access your service account. If you don't need to grant additional access, you can click DONE without entering any information.
+- Klik op **DONE** als je geen extra toegang wilt toewijzen.
+
 ![afbeelding](https://github.com/user-attachments/assets/aac974e8-680b-4ff9-818d-79032419c30c)
 
-The service account is now listed on the Service Accounts page. You can change the service account's permissions, add or generate new keys, and grant access at any time.
+- De service account verschijnt nu in de lijst.
+
 ![afbeelding](https://github.com/user-attachments/assets/deffc777-5ab7-4323-a8cd-cd89aa5a0cba)
 
-Step 5: Create a JSON key for your service account
+</details>
 
-You need to use this private key during the authentication process when you send a request to Speech-to-Text. To create a key, click on the service account and select the KEYS tab. Click ADD KEY -> Create new key. We recommend that you create a key in JSON format.
+<details>
+<summary>Stap 5: JSON-sleutel aanmaken</summary>
+
+- Klik op het aangemaakte service account.
+- Ga naar het tabblad **KEYS**.
+- Klik op **ADD KEY** → **Create new key** → kies **JSON**.
+
 ![afbeelding](https://github.com/user-attachments/assets/a70d810d-0a5e-4066-a8b8-ed10e5b52188)
 
-A new key in the format of your choice is automatically downloaded. Store this file in a safe location and make a note of the file path. You will need to point the GOOGLE_APPLICATION_CREDENTIALS environment variable to this file when you go through the authentication process at the beginning of each new Speech-to-Text session. This is an essential step for authenticating requests to Speech-to-Text. The key's unique ID appears next to the name of the service account.
+De sleutel wordt automatisch gedownload. Bewaar deze veilig. Deze JSON-sleutel is essentieel om toegang te krijgen tot de Speech-to-Text API.
+
 ![afbeelding](https://github.com/user-attachments/assets/f83dce6d-537e-43b0-b503-66c02dae31f9)
 
-Stap 6: Download file
+</details>
 
-Download de file bij de release, pak deze uit en beweer de file op een locatie die makkelijk terug te vinden is.
+<details>
+<summary>Stap 6: Bestand downloaden en voorbereiden</summary>
 
-Plaats de JSON fiile uit stap 5, bij de map NodejsServer
+- Download het bestand bij de **Release**-pagina.
+- Pak het uit.
+- Sla het bestand op een locatie op die gemakkelijk terug te vinden is.
+- Plaats de JSON-sleutel (uit stap 5) in de map **NodejsServer**.
+
 ![afbeelding](https://github.com/user-attachments/assets/f3fa42d4-ebaf-4050-88d4-15ed2746caa0)
 
-De stappen 1-6 zijn eenmalig, maar stap 7 moet alijtd worden uitgevoerd voor het gebruik van het device. 
+</details>
 
-Stap 7: Windows Powershell
+---
 
-Open Windows Powershell, kopieer het pad van de map NodejsServer, vervolgens plak dit in Powershell: cd "pad NodejsServer". Bv: cd "C:\Users\Beheerder\Desktop\XIAO-ESP32S3Sense-Speech2ChatGPT\NodejsServer"  
+## Belangrijk
+
+- **Stappen 1 t/m 6** zijn **eenmalig** nodig.
+- **Stap 7** moet **iedere keer** opnieuw worden uitgevoerd voordat het device gebruikt wordt.
+
+---
+
+<details>
+<summary>Stap 7: Windows Powershell gebruiken</summary>
+
+1. Open **Windows Powershell**.
+2. Kopieer het pad van de map **NodejsServer**.
+3. Typ het volgende en plak het pad (voorbeeld):
+cd "C:\Users\Beheerder\Desktop\XIAO-ESP32S3Sense-Speech2ChatGPT\NodejsServer"
+
 ![afbeelding](https://github.com/user-attachments/assets/88803eb6-5955-4a35-84c2-2e32b3dff204)
 
-Vervolgens kopieer het pad van de JSON file uit de map NodejsServer. Voeg hiervoor toe: $env:GOOGLE_APPLICATION_CREDENTIALS="pad JSON file" , plak dit in Windows Powershell. Bv: $env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Beheerder\Desktop\XIAO-ESP32S3Sense-Speech2ChatGPT\NodejsServer\solar-virtue-451018-q7-4417a0e3ca08.json" 
+5. Kopieer het pad van het JSON-bestand.
 
-Typ dit in Windows Powershell: node ./speechAPIServer.js 
+6. Stel het pad in met het volgende commando (vervang het pad door dat van jouw JSON-bestand):
+$env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Beheerder\Desktop\XIAO-ESP32S3Sense-Speech2ChatGPT\NodejsServer\solar-virtue-451018-q7-4417a0e3ca08.json"
 
-Er komt nu op "Listing at 8888"
+7. Start de server door dit commando uit te voeren:
+node ./speechAPIServer.js
+
+Er verschijnt nu het bericht:
+
+    Listing at 8888
+    
+
 ![afbeelding](https://github.com/user-attachments/assets/2d23a058-d987-4391-ba08-8793ec46c76f)
 
-
-
 De installatie is nu voltooid en het device kan worden gebruikt. 
-
-
-
-
+</details>
 
 ## Problemen installatie
 
