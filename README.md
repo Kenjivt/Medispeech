@@ -616,8 +616,16 @@ Onder de motorkap maakt het systeem gebruik van beveiligde HTTPS-verbindingen om
 
 ## Installatie
 
+Voordat de codes of componenten gebruikt kunnen worden, moeten eerst het spraak-naar-tekst-systeem en het LCD-scherm correct worden geïnstalleerd. Deze installaties moeten zorgvuldig worden uitgevoerd, anders zal het systeem niet naar behoren functioneren.
 
+### Installatie Speech to Text
 
+De werking en installatie is grotendeels over genomen van wiki.seeedstudio (https://wiki.seeedstudio.com/xiao_esp32s3_speech2chatgpt/). De componenten die bij deze installatie vereist zijn, is een XIAO esp32 SENSE (belangrijk dat het niet de gewone esp32) en een 16gb SD kaart. 
+Eerst wordt de antenne op de XIAO geïnstalleerd, vervolgens wordt het SD slot op de XIAO geïnstalleerd. Voordat de SD kaart in het slot wordt gestoken, moet deze geformarteerd zijn.
+<p>
+  <img src="https://github.com/user-attachments/assets/52d4c004-91b1-483f-8381-a6441d0bd9df" width="362"/>
+  <img src="https://github.com/user-attachments/assets/9e814670-f59e-4d3f-bf9e-f02cbaa15d11" width="300"/>
+</p>
 
 ## Tussen codes
 <details>
