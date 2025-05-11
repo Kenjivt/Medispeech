@@ -5,8 +5,8 @@ Voordat de codes of componenten gebruikt kunnen worden, moeten eerst het spraak-
 ## Installatie LCD-scherm
 
 De componenten die nodig zijn voor deze installatie:
-- Een **XIAO ESP32S3 SENSE** [Link](https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/seeed-studio-xiao-esp32-s3-sense)
-- Een **1,3'IPS_LCD 240*240(RGB)** [Link](https://www.tinytronics.nl/en/displays/tft/1.3-inch-ips-tft-display-240*240-pixels-spi-st7789v3)
+- **XIAO ESP32S3 SENSE** [Link](https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/seeed-studio-xiao-esp32-s3-sense)
+- **1,3'IPS_LCD 240*240(RGB)** [Link](https://www.tinytronics.nl/en/displays/tft/1.3-inch-ips-tft-display-240*240-pixels-spi-st7789v3)
 
 ## Stappenplan
 
