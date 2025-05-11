@@ -93,7 +93,7 @@ De sleutel wordt automatisch gedownload. Bewaar deze veilig. Deze JSON-sleutel i
 <details>
 <summary>Stap 6: Bestand downloaden en voorbereiden</summary>
 
-- Download het bestand bij de **Release**-pagina.
+- Download het bestand "XIAO-ESP32SSense-Speech2Text" bij de **Release**-pagina.
 - Pak het uit.
 - Sla het bestand op een locatie op die gemakkelijk terug te vinden is.
 - Plaats de JSON-sleutel (uit stap 5) in de map **NodejsServer**.
