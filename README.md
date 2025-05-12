@@ -721,27 +721,44 @@ Het gebruikte prototype in deze test bevat **geen actief speech-to-text systeem*
 
 ## Keuze componenten
 
+---
+
 ### Vergelijking van Microcontrollers
 
-De onderstaande tabel vergelijkt verschillende microcontrollers op basis van verschillende criteria die van belang zijn voor het kiezen van het juiste apparaat voor een specifiek project. De factoren die in aanmerking worden genomen zijn onder andere de noodzaak voor cloudverbinding (wat belangrijk kan zijn voor privacy en gegevensopslag), de snelheid en nauwkeurigheid van de microcontroller, de prijs, de compactheid (hoe kleiner het apparaat, hoe beter voor draagbaarheid), de beschikbaarheid van het product in winkels zoals Gotron in Gent of Kiwi Electronics, en het gebruiksgemak.
+De onderstaande tabel vergelijkt vijf microcontrollers op basis van relevante selectiecriteria voor draagbare, spraakgestuurde toepassingen binnen een medische context. Belangrijke factoren zijn cloudfunctionaliteit (voor opslag en verwerking), verwerkingssnelheid, nauwkeurigheid, prijs, formaat (draagbaarheid), beschikbaarheid (bij o.a. Gotron Gent, Kiwi Electronics) en gebruiksgemak.
 
+| Microcontroller               | Cloud nodig  | Snelheid    | Nauwkeurigheid | Prijs (€) | Compact       | Beschikbaar  | Gebruiksgemak    |
+|-------------------------------|--------------|-------------|----------------|-----------|---------------|--------------|------------------|
+| **XIAO ESP32S3**              | Nee / Ja     | Gemiddeld   | Laag           | 10 – 15   | Zeer klein    | Makkelijk    | Gemiddeld        |
+| **XIAO ESP32S3 Sense**        | Nee / Ja     | Gemiddeld   | Laag           | 15 – 20   | Zeer klein    | Makkelijk    | Gemiddeld        |
+| **Raspberry Pi 4**            | Nee          | Snel        | Goed           | 60 – 80   | Groot         | Makkelijk    | Moeilijk         |
+| **Raspberry Pi Zero 2 W (+ Vosk)** | Nee / Ja | Gemiddeld   | Goed           | 20 – 25   | Gemiddeld     | Makkelijk    | Moeilijk         |
+| **Jetson Nano**               | Nee          | Zeer snel   | Zeer goed      | 100+      | Groot         | Moeilijk     | Zeer moeilijk     |
 
+---
 
-| Microcontroller              | Cloud nodig  | Snelheid    | Nauwkeurigheid | Prijs (€) | Compact      | Beschikbaar  | Gebruik         |
-|------------------------------|--------------|-------------|----------------|-----------|--------------|--------------|-----------------|
-| XIAO ESP32S3                  | Nee / Ja     | Gemiddeld   | Laag           | 10 - 15   | Klein        | Makkelijk    | Gemiddeld       |
-| XIAO ESP32S3 Sense            | Nee / Ja     | Gemiddeld   | Laag           | 15 - 20   | Klein        | Makkelijk    | Gemiddeld       |
-| Raspberry Pi 4                | Nee          | Snel        | Goed           | 60 - 80   | Groot        | Makkelijk    | Moeilijk        |
-| Raspberry Pi Zero 2 W (+ Vosk)| Nee / Ja     | Gemiddeld   | Goed           | 20 - 25   | Gemiddeld    | Makkelijk    | Moeilijk        |
-| Jetson Nano                   | Nee          | Zeer snel   | Zeer goed      | 100+      | Groot        | Zeer moeilijk| Zeer moeilijk   |
+### Gekozen component: **XIAO ESP32S3 Sense**
 
-### Keuze: XIAO ESP32S3 / XIAO ESP32S3 Sense
+Op basis van prijs, formaat en praktische toepasbaarheid werd gekozen voor de **XIAO ESP32S3 Sense**. Deze microcontroller is:
 
-De **XIAO ESP32S3** en **XIAO ESP32S3 Sense** zijn de aanbevolen keuzes vanwege de gunstige prijs, compacte grootte, en de goede beschikbaarheid in winkels zoals Gotron en Kiwi Electronics, die snelle levering bieden. Beide apparaten bieden de mogelijkheid om de cloud te gebruiken, wat kan helpen bij het verbeteren van de nauwkeurigheid en prestaties. Het gebruiksgemak van de **XIAO ESP32S3** en **XIAO ESP32S3 Sense** is ook een belangrijk voordeel, vooral voor gebruikers die op zoek zijn naar een eenvoudig te implementeren oplossing.
+- **Compact en licht**, ideaal voor draagbaar gebruik in zorgcontext.
+- **Betaalbaar en goed beschikbaar**, o.a. bij Gotron en Kiwi Electronics.
+- **Cloud-compatibel**, wat uitbreidingsmogelijkheden biedt voor toekomstige data-opslag of verwerking.
+- **Gebruiksvriendelijk**, geschikt voor snelle implementatie zonder zware technische drempel.
 
-Hoewel de nauwkeurigheid standaard laag is, kan deze worden verhoogd door de **INMP441-microfoon** te gebruiken. Door deze microfoon te integreren, wordt niet alleen de nauwkeurigheid verbeterd, maar ook de lengte van de zinnen die kunnen worden verwerkt. Hoewel het gebruik van de cloud de snelheid kan verminderen, blijft de vertraging met een goede wifi-verbinding tussen 0,5 en 3 seconden, wat zeer minimaal is en niet veel impact heeft op de prestaties.
+Hoewel de standaard nauwkeurigheid van de ingebouwde microfoon beperkt is, kan dit sterk verbeterd worden door een **INMP441-microfoon** toe te voegen. Deze upgrade verhoogt zowel de **herkenningsnauwkeurigheid** als de **lengte van verwerkbare zinnen**, wat cruciaal is voor medische spraakopnames.
 
-De **XIAO ESP32S3 Sense** biedt extra voordelen: het heeft een ingebouwde microfoon en een micro-SD kaarthouder, wat extra functionaliteit biedt voor opslag van gegevens en het mogelijk maakt om op locatie meer data op te slaan. Dit maakt het een nog krachtigere keuze in vergelijking met de reguliere **XIAO ESP32S3**, vooral voor toepassingen die een grotere opslagcapaciteit of een geïntegreerde geluidsinvoer vereisen.
+Daarnaast beschikt de **XIAO ESP32S3 Sense** over:
+
+- **Ingebouwde microfoon**: Geen externe hardware nodig.
+- **Micro-SD kaartslot**: Voor lokale opslag van data zonder cloudafhankelijkheid.
+
+> Ondanks de iets hogere prijs, biedt de **XIAO ESP32S3 Sense** meer functionaliteit out-of-the-box, waardoor het de meest efficiënte keuze is voor een werkend prototype binnen dit project.
+
+**Netwerkvertraging bij cloudgebruik** blijft minimaal (tussen 0,5 en 3 seconden met stabiele wifi), wat aanvaardbaar is in de meeste zorgsituaties.
+
+---
+
 
 
 
