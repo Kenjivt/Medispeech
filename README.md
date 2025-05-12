@@ -550,6 +550,8 @@ De prototypes zijn ontworpen om de volgende aspecten te testen:
 
 Platform link: https://universiteitgent.protopie.cloud/p/8e34dc039e5b83ce3da77796
 
+![afbeelding](https://github.com/user-attachments/assets/980f0936-5f03-468b-a7b0-f5496ed092fe)
+
 </details>
 
 ---
@@ -615,46 +617,71 @@ De System Usability Scale (SUS) scores varieerden tussen **57% en 94%**. Dit wij
 
 ---
 
-### Development 3
-#### Focus
+## Development 3
 
-Tijdens Development 3 ligt de focus op de volgende gebruikers- en designvereisten: 
- 
-•	Er wordt onderzocht of het prototype met display duidelijk het batterijniveau kan weergeven en of het duidelijk weergegeven wordt wanneer een opname bezig is en wanneer een opname bezig is of niet. 
+### Focus
 
-•	Er wordt onderzocht in welke mate het display storend, makkelijk te zien en makkelijk te interpreteren is en hoe de bewoners/patiënten hierop reageren.
- 
-•	De knop moet accuraat functioneren en duidelijke feedback geven. Dit betekent dat de knop altijd correct moet reageren bij indrukken, zonder fouten. Daarnaast moet zowel tactiele als auditieve feedback worden gegeven om de interactie te optimaliseren. 
+In deze derde ontwikkelingsfase ligt de nadruk op het testen en optimaliseren van de volgende gebruikers- en designvereisten:
 
-•	Er wordt ook onderzocht of het prototype intuïtief en gebruiksvriendelijk is, met aandacht voor de complexiteit en de leercurve.
+- **Displayfunctionaliteit**  
+  Wordt onderzocht of het scherm duidelijk het batterijniveau weergeeft, of het helder is wanneer een opname bezig is, en of deze interactie logisch gecombineerd wordt met de knop.
 
-#### Plan van uitvoering
+- **Zichtbaarheid en interpretatie**  
+  Er wordt geëvalueerd in welke mate het display:
+  - Storend of juist ondersteunend is
+  - Makkelijk zichtbaar en interpreteerbaar is
+  - Door bewoners of patiënten als opvallend of hinderlijk wordt ervaren
 
-Om de effectiviteit van deze functionaliteiten te garanderen, worden gebruikerstesten uitgevoerd met verpleegkundigen. Ze gebruiken het prototype gedurende enkele shiften om zo de functies uit te testen in een zo realistisch mogelijke testomgeving om de ecologische validiteit te maximaliseren. Tijdens deze testen wordt feedback verzameld over:  
+- **Knopfunctionaliteit**  
+  De hoofdknop en verwijderknop moeten:
+  - Accuraat reageren
+  - Duidelijke feedback geven (tactiel/visueel)
+  - Ergonomisch geplaatst zijn (aangepast aan antropometrische data)
+  - Eenvoudig en comfortabel bedienbaar zijn zonder complexe handelingen
+  - Esthetisch passen in het ontwerp
 
-De interpretatie en transparantie van de lay-out van het display 
+- **Modelvoorkeur**  
+  Er wordt onderzocht welk model als meest functioneel en esthetisch wordt ervaren.
 
-De gebruiksvriendelijkheid, betrouwbaarheid en handeling van de hoofd- en verwijderknop.  
+- **Gebruiksvriendelijkheid van het prototype**  
+  Beoordeeld met behulp van de **System Usability Scale (SUS)** om de algemene intuïtiviteit van het systeem in kaart te brengen.
 
-Natuurlijke handeling van het systeem.  
+---
 
-Voor meer informatie is het mogelijk het protocol hier te raadplegen: [dev 2 protocol.pdf](https://github.com/user-attachments/files/19193331/dev.2.protocol.pdf)
+### Plan van uitvoering
 
-Gebruikersfeedback wordt geanalyseerd door middel van een System Usability Scale en wordt verder verwerkt in Development 3, waarbij de functionaliteiten verder worden geoptimaliseerd en uitgebreid.
-De vragen opgesteld voor de Usability Scale zijn hier terug te vinden: [SUS scale dev 2.pdf](https://github.com/user-attachments/files/19193404/SUS.scale.dev.2.pdf)
+De testopzet bestaat uit gebruikerstesten met verpleegkundigen die het prototype gedurende meerdere shiften gebruiken. Dit zorgt voor een realistische en praktijkgerichte evaluatie (ecologische validiteit).
 
+**Testonderdelen:**
+- Uitvoeren van vooraf vastgelegde taken met het prototype
+- Evaluatie van verschillende modellen m.b.v. kaartjes met kernwoorden
+- Observeren van het natuurlijke gebruik van de knoppen en display
+- Gebruik van de **System Usability Scale (SUS)** voor kwantitatieve feedback
+
+**Beoordeelde aspecten:**
+- Interpretatie en transparantie van de lay-out van het display
+- Gebruiksvriendelijkheid en betrouwbaarheid van de hoofdknop en verwijderknop
+- Natuurlijke handelingen en interactie met het systeem
+
+> Deze feedback wordt geanalyseerd en verwerkt in verdere optimalisaties binnen Development 3, met aandacht voor ook toekomstige vereisten zoals beveiliging en robuustheid.
+
+[dev 3 protocol.pdf](https://github.com/user-attachments/files/20164223/dev.3.protocol.pdf)  
+[SUS scale dev 3.pdf](https://github.com/user-attachments/files/20164213/SUS.scale.dev.3.pdf)
+
+---
 
 ### Model
 
-Het model waarmee gewerkt zal worden is hier onder op de foto te zien. Het speech-to-text systeem is in dit model niet werkzaam om de aandacht volledig op de focuspunten te leggen. De elektronica zit in een ge-3D-printe behuizing zodat de verpleegkundigen die het testen het makkelijk kunnen gebruiken. 
+Het gebruikte prototype in deze test bevat **geen actief speech-to-text systeem**, zodat alle aandacht kan gaan naar de vorm, knoppen en displayweergave. De elektronische componenten zijn geplaatst in een **ge-3D-printe behuizing** die het realistisch gebruik simuleert voor de testdoelgroep.
 
--> nog foto van model toe te voegen
+<details>
+  <summary>Prototype Development 3</summary>
 
-### Theoretische achtergrond
-### Analyse testen
-De informed consents zijn hier terug te vinden: nog te linken
+![afbeelding](https://github.com/user-attachments/assets/ecdf571a-1be8-47b5-96ec-7ecab3c6c752)
 
+</details>
 
+---
 
 ## Tabel functie & requirements
 
