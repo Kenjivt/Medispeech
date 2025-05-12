@@ -715,10 +715,6 @@ Het gebruikte prototype in deze test bevat **geen actief speech-to-text systeem*
 
 
 
-
-## Bill of materials
-
-
 ## Keuze componenten
 
 ---
@@ -762,7 +758,7 @@ Daarnaast beschikt de **XIAO ESP32S3 Sense** over:
 
 
 
-### Opties indicatie batterijlevel + opties feedback component (opname beig of niet):
+### Opties indicatie batterijlevel + opties feedback component (opname bezig of niet):
 
 In deze sectie worden verschillende opties besproken voor het weergeven van het batterijlevel en het bieden van feedback (bijvoorbeeld of de opname bezig is of niet). De tabel bevat componenten die variëren van eenvoudige LED's tot meer geavanceerde displays. Elke optie heeft zijn eigen voor- en nadelen op het gebied van prijs, gebruiksgemak, en technische complexiteit.
 
