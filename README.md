@@ -775,19 +775,6 @@ Batterijduur (uur) = Capaciteit (mAh) / Verbruik (mA)
 
 ## Bill of materials
 
-## Werking speech to text
-
-Medispeech maakt gebruik van een XIAO ESP32-Sense microcontroller. Dit is een compacte, energiezuinige module die beschikt over Wi-Fi-functionaliteit en een ingebouwde microfoon. Omdat de XIAO ESP32 beperkte rekenkracht heeft, is het niet mogelijk om de audio lokaal te verwerken. Daarom wordt de zware taak van spraakherkenning uitbesteed aan een externe clouddienst.
-
-Wanneer de gebruiker op de knop drukt, begint de XIAO ESP32-Sense met het opnemen van audio. De opgenomen audio wordt opgeslagen als een .wav-bestand op een SD-kaart die verbonden is met de microcontroller. Dit bestandsformaat is ideaal omdat het ongecomprimeerde audio bevat en daardoor geschikt is voor nauwkeurige spraakherkenning. Zodra de gebruiker nogmaals op de knop drukt, wordt de opname gestopt en klaargemaakt om te worden verzonden. Via de ingebouwde Wi-Fi-functionaliteit wordt het bestand vervolgens vanaf de SD-kaart doorgestuurd naar de Google Cloud Speech-to-Text API.
-
-De Google Cloud Speech-to-Text service maakt gebruik van geavanceerde kunstmatige intelligentie om de ontvangen audiobestanden om te zetten naar tekst. Deze technologie kan spraak nauwkeurig herkennen, ondersteunt meerdere talen en accenten, en is de eerste drie maanden gratis te gebruiken binnen bepaalde limieten. Zodra de spraakherkenning voltooid is, stuurt Google de herkende tekst terug naar het systeem.
-
-De ontvangen tekst wordt vervolgens weergegeven via de seriële monitor van de microcontroller, bijvoorbeeld zichtbaar in de Arduino IDE. In een verder uitgebouwd systeem kan de tekst ook rechtstreeks worden doorgestuurd naar het Medispeech platform, waar aanvullende functies zoals analyse, opslag of verdere verwerking beschikbaar zijn.
-
-Onder de motorkap maakt het systeem gebruik van beveiligde HTTPS-verbindingen om de audiobestanden te versturen en worden de communicatieparameters verpakt in JSON-structuren. Er zijn enkele beperkingen waarmee rekening moet worden gehouden, zoals maximale bestandsgrootte en opnameduur, die afhankelijk zijn van de instellingen van de Google Cloud API.
-
-![werking](https://github.com/user-attachments/assets/ab0fabef-1d96-424b-8963-7604f7335b72)
 
 ## Tussen codes
 <details> 
