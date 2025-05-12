@@ -372,196 +372,248 @@ Elke fase is visueel uitgewerkt om zorgverleners snel en efficiënt wegwijs te m
 
 ---
 
-## Developments 
+## Developments
+
 ### Development 1
+
 #### Doelstellingen
 
-De doelstellingen van deze test zijn om de prestaties en functionaliteit van het prototype te evalueren, met de nadruk op de volgende aspecten:
+Deze test had als doel de prestaties en functionaliteit van het eerste prototype te evalueren, met focus op de volgende aspecten:
 
-•	Spraak-naar-tekst conversie: Testen of de gesproken tekst binnen 5 seconden nauwkeurig wordt omgezet.
-  
-•	Compatibiliteit met medische technologie: Verifiëren of het prototype effectief werkt binnen een medische context.
-  
-•	Knopfunctionaliteit: Evalueren of de knop altijd correct reageert en duidelijke feedback (tactiel en auditief) biedt.
-  
-•	Gebruiksvriendelijkheid: Het testen van de intuïtiviteit van het prototype met de System Usability Scale (SUS), om te bepalen of het gemakkelijk te gebruiken is zonder uitgebreide training.
+- **Spraak-naar-tekst**: Nauwkeurige transcriptie binnen 5 seconden.
+- **Medische contextcompatibiliteit**: Werkt het toestel effectief binnen realistische zorgsituaties?
+- **Knopfunctionaliteit**: Reageert de knop correct en geeft deze voldoende tactiele en auditieve feedback?
+- **Gebruiksvriendelijkheid**: Evaluatie met de System Usability Scale (SUS) om de intuïtiviteit van het systeem te meten.
+
+---
 
 #### Protocol
 
-In dit protocol wordt gebruik gemaakt van gebruikerstests waarbij verpleegkundigen specifieke taken moeten uitvoeren, zoals het registreren van medicatietoediening aan een simulatiepatiënt. Het doel is om een realistische testomgeving te creëren waarin de effectiviteit van de spraakherkenning, de betrouwbaarheid van de knop, en de algehele bruikbaarheid van het systeem geëvalueerd worden. Gebruikersfeedback wordt verzameld aan de hand van een System Usability Scale (SUS) [SUS DEV1.pdf](https://github.com/user-attachments/files/19191583/SUS.DEV1.pdf) om het prototype verder te verbeteren in de volgende ontwikkelingsfase.
+Tijdens de gebruikerstesten voerden verpleegkundigen realistische zorgtaken uit, zoals het registreren van medicatietoediening aan een simulatiepatiënt. Het doel was om:
 
-Om de functionaliteiten te evalueren, worden realistische gebruikerstesten uitgevoerd met verpleegkundigen. Zij voeren een specifieke taak uit in een zo natuurgetrouw mogelijke testomgeving, om de ecologische validiteit te waarborgen. Tijdens de test wordt feedback verzameld over:
-• De nauwkeurigheid en snelheid van spraakherkenning
-• De gebruiksvriendelijkheid en betrouwbaarheid van de opnameknop
-• De natuurlijke interactie met het systeem
+- De ecologische validiteit van het prototype te testen.
+- Feedback te verzamelen over nauwkeurigheid, interactie en gebruiksgemak.
+- Resultaten te analyseren via de System Usability Scale (SUS).
 
-De feedback wordt geanalyseerd via de System Usability Scale (SUS) en verwerkt in Development 2. Latere iteraties zullen ook aspecten zoals beveiliging en robuustheid verder uitwerken. Deze gestructureerde aanpak garandeert stapsgewijze verbetering van het prototype.
+[SUS DEV1.pdf](https://github.com/user-attachments/files/19191583/SUS.DEV1.pdf)
 
-Voor meer gedetailleerde informatie:[Develop 1 protocol.pdf](https://github.com/user-attachments/files/19251145/Develop.1.protocol.pdf)
+De test richtte zich op drie kernpunten:
 
-Informed Consent dev 1: [Dev 1 - informed consent.pdf](https://github.com/user-attachments/files/19191607/Dev.1.-.informed.consent.pdf)
+- **Spraakherkenning**: Snelheid en nauwkeurigheid van transcriptie.
+- **Knop**: Gebruiksvriendelijkheid, betrouwbaarheid en interactie.
+- **Systeeminteractie**: Natuurlijke integratie in de zorgworkflow.
+
+De resultaten en gebruikersfeedback uit deze fase vormen de input voor Development 2.
+
+[Develop 1 protocol.pdf](https://github.com/user-attachments/files/19251145/Develop.1.protocol.pdf)  
+[Dev 1 - informed consent.pdf](https://github.com/user-attachments/files/19191607/Dev.1.-.informed.consent.pdf)
+
+---
 
 #### Prototypes
 
-De prototypes die in deze test worden gebruikt, zijn ontworpen om de belangrijkste functionele eisen te testen, zoals:
+De prototypes in deze test werden ontworpen om te voldoen aan drie functionele kerneisen:
 
-•	Spraakherkenning: Het prototype moet snel en nauwkeurig spraak omzetten naar tekst.
+- **Spraakherkenning**: Snel en accuraat spraak omzetten naar tekst.
+- **Knopfunctionaliteit**: Betrouwbare invoer met duidelijke feedback.
+- **Gebruiksgemak**: Gebruiksvriendelijkheid gemeten via de System Usability Scale (SUS).
 
-•	Knopfunctionaliteit: De knop moet betrouwbaar zijn, met duidelijke feedback.
+![Prototype afbeelding](https://github.com/user-attachments/assets/adf58374-2f54-46ce-9516-a8308d958fe3)
 
-•	Gebruiksvriendelijkheid: Het prototype wordt getest op gebruiksgemak, en de feedback van gebruikers wordt geanalyseerd met behulp van de System Usability Scale (SUS) om de intuïtiviteit van het ontwerp te beoordelen.
-
-
-![Afbeelding van WhatsApp op 2025-04-27 om 20 01 16_84ca8d34](https://github.com/user-attachments/assets/adf58374-2f54-46ce-9516-a8308d958fe3)
-
-
+---
 
 #### Resultaten
-Uit de gebruikersevaluaties blijkt dat het systeem functioneert, maar nog aanzienlijke verbeteringen nodig heeft. De belangrijkste bevindingen zijn:
 
-- **Spraakherkenning**: Werkt snel, maar is onnauwkeurig bij langere gesprekken en snelle articulatie. Medische termen worden slechts deels correct herkend. (SUS-score: 2/5)
-- **Nauwkeurigheid**: Hoge foutpercentages, vooral bij namen en complexere woorden. Foutieve omzettingen maken het systeem onbetrouwbaar. (SUS-score: 1-2/5)
-- **Drukknop**: Functioneert consistent, maar het ingedrukt moeten houden wordt als onhandig ervaren. Een aan/uit-mechanisme zou intuïtiever zijn. (SUS-score: 4/5)
-- **Vertraging**: Lange en opeenvolgende opnames worden traag verwerkt, wat een vlotte workflow belemmert.
-- **Gebruiksgemak**: In eerste instantie moeilijk te begrijpen, maar na gewenning intuïtiever. Regelmatige technische storingen beïnvloeden de betrouwbaarheid. (SUS-score: 2/5)
+De test toonde aan dat het systeem potentieel heeft, maar nog niet klaar is voor professioneel gebruik. Belangrijkste bevindingen:
+
+- **Spraakherkenning**:  
+  Snel, maar onnauwkeurig bij langere zinnen of snelle articulatie. Medische termen worden vaak fout herkend.  
+  *SUS-score: 2/5*
+
+- **Nauwkeurigheid**:  
+  Hoge foutpercentages, vooral bij namen en complexe woorden. Foutieve transcripties ondermijnen de betrouwbaarheid.  
+  *SUS-score: 1–2/5*
+
+- **Drukknop**:  
+  Functioneel en responsief. Het continu ingedrukt houden wordt als onpraktisch ervaren. Voorkeur gaat uit naar een aan/uit-mechanisme.  
+  *SUS-score: 4/5*
+
+- **Vertraging**:  
+  Opeenvolgende opnames worden traag verwerkt, wat een vloeiende workflow belemmert.
+
+- **Gebruiksgemak**:  
+  Moeilijk in het begin, maar verbetert na gewenning. Regelmatige technische storingen tasten het vertrouwen in het systeem aan.  
+  *SUS-score: 2/5*
+
+---
 
 #### Conclusie
-De gemiddelde System Usability Scale (SUS)-score varieerde tussen 40 en 60, wat aangeeft dat het systeem momenteel niet geschikt is voor professioneel gebruik. Gebruikers zien potentieel, maar geven aan dat essentiële verbeteringen nodig zijn voordat het breed inzetbaar is in de medische sector.
 
+De gemiddelde SUS-score lag tussen 40 en 60, wat wijst op onvoldoende bruikbaarheid voor professioneel gebruik. Gebruikers zien potentieel in het systeem, maar wezen op kritieke tekortkomingen die eerst moeten worden aangepakt voordat het toestel breed inzetbaar is in de zorgsector.
 
-#### Tabel functie & requirements
+---
 
-| Functie | Requirements | Voor development 1 | Na development 1 | 
-| ------- | ------------ | ---------- | -------- | 
-| Spraak naar tekst | 1. Zet spraak efficiënt en accuraat om in tekst | -- | + | 
-|  | 2. Ondersteunt medische terminologie | -- | + |
-|  | 3. Zorgt voor directe koppeling met administratiesystemen voor automatische verwerking | -- | - | 
-| Aan - uitzetten | 1. Hoofdknop valt op en geeft tactiele feedback | -- | + | 
-| Informatie weergeven | 1. Duidelijke boomstructuur waarin handelingen zijn weergegeven | -- | - | 
-|  | 2. Biedt snelle respons en duidelijke feedback (adhv kleur of icoontjes) aan de gebruiker | -- | - | 
+#### Functie- & Requirementsanalyse – Development 1
 
-#### Legende: 
+De onderstaande tabel geeft een overzicht van de belangrijkste functies, de bijbehorende requirements en de status vóór en na Development 1
 
-"--" : Aan de requirement is nog geen aandacht besteed en deze staat nog nergens.
+| Functie             | Requirements                                                                 | Voor Development 1 | Na Development 1 |
+|---------------------|------------------------------------------------------------------------------|---------------------|------------------|
+| **Spraak naar tekst** | 1. Zet spraak efficiënt en accuraat om in tekst                              | --                  | +                |
+|                     | 2. Ondersteunt medische terminologie                                         | --                  | +                |
+|                     | 3. Zorgt voor directe koppeling met administratiesystemen voor automatische verwerking | --                  | -                |
+| **Aan-/uitzetten**   | 1. Hoofdknop valt op en geeft tactiele feedback                              | --                  | +                |
+| **Informatie weergeven** | 1. Duidelijke boomstructuur waarin handelingen zijn weergegeven         | --                  | -                |
+|                     | 2. Biedt snelle respons en duidelijke feedback (adhv kleur of icoontjes)     | --                  | -                |
 
-"-" : Er is over nagedacht, maar nog geen concrete oplossing.
+#### Legende
 
-"+" : Een oplossing is tot stand gebracht, maar werkt nog niet optimaal.
+- `--` : Aan de requirement is nog geen aandacht besteed en deze komt nog niet voor in het ontwerp.  
+- `-`  : De requirement is overwogen, maar er is nog geen concrete oplossing.  
+- `+`  : Er is een eerste oplossing, maar die is nog niet volledig of optimaal.  
+- `++` : De requirement is volledig gerealiseerd.
 
-"++" : De requirement wordt volledig voldaan.
-
+---
 
 #### Aanbevolen verbeteringen
-1. **Optimalisatie van spraakherkenning**, met name voor medische terminologie en namen.
-2. **Vermindering van het foutpercentage** door betere verwerking van context en woorden.
-3. **Verkorting van de verwerkingstijd** om lange en opeenvolgende opnames sneller en correct om te zetten.
+
+1. **Optimalisatie van spraakherkenning**, vooral voor medische terminologie en namen.
+2. **Verlaging van het foutpercentage** door betere contextherkenning.
+3. **Snellere verwerkingstijd** voor lange en opeenvolgende opnames.
 4. **Herziening van de drukknopfunctionaliteit** naar een intuïtiever aan/uit-mechanisme.
-5. **Verhogen van de systeemconsistentie** en verminderen van technische storingen.
+5. **Verbetering van systeemstabiliteit** om technische storingen te minimaliseren.
+
+---
 
 #### Volgende stappen
-Deze bevindingen bieden waardevolle input voor verdere ontwikkeling. De volgende iteratie van het systeem moet zich richten op nauwkeurigheid, gebruiksgemak en stabiliteit om de bruikbaarheid in een professionele omgeving te verbeteren.
 
-Voor meer informatie: [Develop 1 analyse.pdf](https://github.com/user-attachments/files/19251142/Develop.1.analyse.pdf)
+De resultaten van Development 1 vormen een belangrijke basis voor verdere iteraties. De volgende ontwikkelingsfase zal zich richten op:
 
+- Verhoging van nauwkeurigheid en herkenningscapaciteit
+- Verbetering van gebruiksgemak en interface
+- Versterking van technische stabiliteit voor betrouwbaar professioneel gebruik
 
-### Development 2
-#### Doelstellingen
+[Develop 1 analyse.pdf](https://github.com/user-attachments/files/19251142/Develop.1.analyse.pdf)
 
-De testfase van Development 2 focust op het verder verfijnen van het Medispeech-prototype door kritisch te evalueren op gebruiksgerichte aspecten binnen een medische context. De volgende doelstellingen worden nagestreefd:
+---
 
-•	Spraakherkenning moet accuraat functioneren in medische contexten.
-Doelstelling: Testen of het systeem minstens 90% van de woorden correct herkent bij gebruik van medische termen, accenten en variërende stemtypes. De nadruk ligt op correcte herkenning van domeinspecifieke terminologie.
+## Development 2
 
-•	De omzetting van spraak naar tekst moet snel verlopen.
-Doelstelling: Evalueren of spraak binnen maximaal 5 seconden na het uitspreken correct wordt omgezet naar tekst. Idealiter gebeurt dit in realtime of quasi-realtime.
+### Doelstellingen
 
-•	De opnameknop moet betrouwbaar en intuïtief functioneren.
-Doelstelling: Nagaan of elke druk op de knop correct wordt geregistreerd. De knop moet duidelijke auditieve (geluidssignaal) en tactiele (trillingssignaal) feedback geven, zodat de gebruiker weet dat de opname gestart is.
+Tijdens de tweede ontwikkelingsfase ligt de focus op het verder verfijnen van het Medispeech-prototype. De doelstellingen richten zich op praktische bruikbaarheid en prestaties binnen een medische context:
 
-•	Het Medispeech-platform moet intuïtief en gebruiksvriendelijk zijn.
-Doelstelling: Gebruikers moeten zelfstandig en zonder handleiding met het systeem kunnen werken. De gebruiksvriendelijkheid wordt beoordeeld via de System Usability Scale (SUS), met een minimumscore van 70 als acceptabel.
+- **Spraakherkenning (medische context)**  
+  > Doel: Minstens 90% correcte herkenning van woorden, inclusief medische termen, accenten en variaties in stemtypes.
 
-•	De gebruikersinterface moet overzichtelijk en toegankelijk zijn.
-Doelstelling: Controleren of informatie logisch en gestructureerd wordt weergegeven. Navigatie moet vlot verlopen en het aantal handelingen om een taak uit te voeren moet zo laag mogelijk zijn.
+- **Snelle spraak-naar-tekst omzetting**  
+  > Doel: Omzetting binnen maximaal 5 seconden; realtime verwerking is het streefdoel.
 
-#### Protocol
+- **Betrouwbare opnameknop**  
+  > Doel: Elke druk wordt correct geregistreerd met duidelijke feedback (geluid/trilling).
 
-In dit protocol worden gebruikerstesten uitgevoerd waarbij verpleegkundigen concrete taken uitvoeren, zoals het registreren van medicatietoediening bij een simulatiepatiënt. Deze aanpak heeft als doel een zo realistisch mogelijke testomgeving te creëren om de prestaties van het systeem te beoordelen. Daarbij wordt specifiek gekeken naar de nauwkeurigheid van de spraakherkenning, de betrouwbaarheid van de opnameknop en de algemene gebruiksvriendelijkheid van het platform. De ervaringen van de gebruikers worden geëvalueerd aan de hand van de System Usability Scale (SUS) [SUS scale dev 2.pdf](https://github.com/user-attachments/files/19821151/SUS.scale.dev.2.pdf), zodat gerichte verbeteringen kunnen worden doorgevoerd in de volgende ontwikkelingsfase.
+- **Gebruiksvriendelijkheid van het platform**  
+  > Doel: Systeem moet zonder handleiding bediend kunnen worden. SUS-score ≥ 70 wordt als acceptabel beschouwd.
 
-De gebruikerstest start met een observatie waarin de verpleegkundige zelfstandig aan de slag gaat met het Medispeech-platform, zonder externe uitleg of begeleiding. Hiermee wordt geëvalueerd in welke mate het systeem intuïtief en gebruiksvriendelijk is.
-Vervolgens krijgt de gebruiker een aantal voorbeeldzinnen voorgeschoteld die ze kunnen inspreken. Dit helpt hen vertrouwd te raken met de structuur die vereist is voor correcte verwerking in ProtoPie (naam, functie, boodschap).
-Daarna krijgen ze de kans om zelf vrije zinnen te formuleren en in te spreken. Op basis hiervan wordt beoordeeld wat goed verloopt, waar het systeem beperkingen toont, en hoe gebruikers omgaan met variatie in spraakinput. Deze opbouw biedt inzicht in zowel de technische prestaties van het systeem als de natuurlijke interactie van de gebruiker ermee.
+- **Overzichtelijke interface**  
+  > Doel: Informatie moet logisch geordend zijn met minimale handelingen per taak.
 
-Voor meer gedetailleerde informatie: [Develop 2 protocol.pdf](https://github.com/user-attachments/files/19821172/Develop.2.protocol.pdf)
+---
 
-Informed Consent dev 2: [Dev 2 - informed consent.pdf](https://github.com/user-attachments/files/19821174/Dev.2.-.informed.consent.pdf)
+### Protocol
 
+Gebruikerstesten werden uitgevoerd met verpleegkundigen die realistische zorgtaken uitvoerden (bv. medicatietoediening). De evaluatie focuste op:
 
-#### Prototypes
+- Spraakherkenning
+- Opnameknop
+- Interactie met het Medispeech-platform
 
-De prototypes die in deze test worden gebruikt, zijn ontworpen om de belangrijkste functionele eisen te testen, zoals:
+De test begon met een observatie zonder uitleg, om intuïtiviteit te meten. Vervolgens werden voorbeeldzinnen ingesproken, gevolgd door vrije input om technische en gebruikersaspecten te evalueren.
 
-•	Spraakherkenning: Het prototype moet snel en nauwkeurig spraak omzetten naar tekst.
+[SUS scale dev 2.pdf](https://github.com/user-attachments/files/19821151/SUS.scale.dev.2.pdf)  
+[Develop 2 protocol.pdf](https://github.com/user-attachments/files/19821172/Develop.2.protocol.pdf)  
+[Dev 2 - informed consent.pdf](https://github.com/user-attachments/files/19821174/Dev.2.-.informed.consent.pdf)
 
-•	Knopfunctionaliteit: De knop moet betrouwbaar zijn, met duidelijke feedback.
+---
 
-•	Gebruiksvriendelijkheid: Het prototype wordt getest op gebruiksgemak, en de feedback van gebruikers wordt geanalyseerd met behulp van de System Usability Scale (SUS) om de intuïtiviteit van het ontwerp te beoordelen.
+### Prototypes
 
-•	Medispeech platform: Gebruikers moeten zelfstandig en zonder handleiding met het systeem kunnen werken.
+De prototypes zijn ontworpen om de volgende aspecten te testen:
+
+- **Spraakherkenning**: Nauwkeurigheid en snelheid van transcriptie.
+- **Knopfunctionaliteit**: Betrouwbaarheid en feedback.
+- **Gebruiksvriendelijkheid**: Beoordeeld met SUS.
+- **Medispeech-platform**: Test op zelfstandige bruikbaarheid zonder uitleg.
 
 <details>
-  <summary>Medispeech plaform development 2</summary>
- 
-Platform: https://universiteitgent.protopie.cloud/p/8e34dc039e5b83ce3da77796  
+  <summary>Medispeech platform (Development 2)</summary>
+
+Platform link: https://universiteitgent.protopie.cloud/p/8e34dc039e5b83ce3da77796
 
 </details>
 
+---
 
-#### Resultaten
-Uit de gebruikersevaluaties blijkt dat het Medispeech-platform over het algemeen positief werd ontvangen, met ruimte voor verbetering. De belangrijkste bevindingen zijn:
+### Resultaten
 
-•	Spraakherkenning: Verbeterd maar nog onnauwkeurig bij cijfers en namen. Door serverproblemen kon de echte spraakherkenning slechts beperkt getest worden. (SUS-score: 9-12/15)
+De evaluaties tonen een overwegend positief beeld, met enkele aandachtspunten:
 
-•	 Nauwkeurigheid: Enkele foutieve omzettingen en bugs blijven aanwezig, maar gebruiksgemak stijgt duidelijk. (SUS-score: 4/5)
+- **Spraakherkenning**:  
+  Verbeterd t.o.v. vorige versie, maar nog onnauwkeurig bij cijfers en namen. Door serverproblemen was de test beperkt.  
+  *SUS-score: 9–12/15*
 
-•	 Drukknop: In principe betrouwbaar, maar één gebruiker ondervond technische storingen (los contact ESP32). (SUS-score: 5/5 of technisch probleem)
+- **Nauwkeurigheid**:  
+  Minder bugs, gebruiksgemak nam toe ondanks enkele foutieve omzettingen.  
+  *SUS-score: 4/5*
 
-•	 Gebruiksgemak: Meestal intuïtief, maar technologische ervaring van gebruiker beïnvloedde de leercurve sterk. (SUS-score varieerde: 20/35 tot 34/35)
+- **Drukknop**:  
+  Functioneert goed, maar één gebruiker ervoer een hardwareprobleem (los contact met ESP32).  
+  *SUS-score: 5/5 of technisch issue*
 
-#### Conclusie
-De gemiddelde System Usability Scale (SUS)-score varieerde tussen 57% en 94%, wat een positief beeld schetst, maar aantoont dat verdere optimalisaties nodig zijn. Gebruikers zien duidelijk potentieel en raden het systeem aan voor zorginstellingen.
+- **Gebruiksgemak**:  
+  Overwegend intuïtief, al beïnvloedt technologische ervaring de leercurve.  
+  *SUS-score: 20/35 – 34/35*
 
-Voor meer informatie: [Develop 2 analyse.pdf](https://github.com/user-attachments/files/19931120/Develop.2.analyse.pdf)
+---
 
+### Conclusie
 
-#### Tabel functie & requirements
+De System Usability Scale (SUS) scores varieerden tussen **57% en 94%**. Dit wijst op een duidelijke verbetering t.o.v. Development 1. Gebruikers zien potentieel en bevelen het systeem aan voor verdere inzet in zorginstellingen, mits gerichte optimalisaties.
 
-| Functie | Requirements | Voor development 1 | Na development 1 | Na development 2 | 
-| ------- | ------------ | ---------- | -------- | -------- | 
-| Spraak naar tekst | 1. Zet spraak efficiënt en accuraat om in tekst | -- | + | + | 
-|  | 2. Ondersteunt medische terminologie | -- | + | x | 
-|  | 3. Zorgt voor directe koppeling met administratiesystemen voor automatische verwerking | -- | - | ++ | 
-| Aan - uitzetten | 1. Hoofdknop valt op en geeft tactiele feedback | -- | + | + | 
-| Bevestigen | 1. Compact en draagbaar, gemakkelijk te bevestigen aan een verplegersschort ( of andere ) | -- | - | + | 
-|  | 2. Te bevestigen in 10 seconden | -- | - | + | 
-| Informatie weergeven | 1. Duidelijke boomstructuur waarin handelingen zijn weergegeven | -- | - | ++ | 
-|  | 2. Biedt snelle respons en duidelijke feedback (adhv kleur of icoontjes) aan de gebruiker | -- | - | + | 
+[Develop 2 analyse.pdf](https://github.com/user-attachments/files/19931120/Develop.2.analyse.pdf)
 
-#### Legende: 
+---
 
-"--" : Aan de requirement is nog geen aandacht besteed en deze staat nog nergens.
+### Tabel: Functie & Requirements
 
-"-" : Er is over nagedacht, maar nog geen concrete oplossing.
+| Functie             | Requirements                                                                                      | Voor Dev 1 | Na Dev 1 | Na Dev 2 |
+|---------------------|---------------------------------------------------------------------------------------------------|------------|----------|----------|
+| **Spraak naar tekst** | 1. Zet spraak efficiënt en accuraat om in tekst                                                   | --         | +        | +        |
+|                     | 2. Ondersteunt medische terminologie                                                              | --         | +        | +        |
+|                     | 3. Koppeling met administratiesystemen voor automatische verwerking                              | --         | -        | ++       |
+| **Aan-/uitzetten**   | 1. Hoofdknop valt op en geeft tactiele feedback                                                   | --         | +        | +        |
+| **Bevestiging**      | 1. Compact, draagbaar en bevestigbaar aan verpleeguniform                                         | --         | -        | +        |
+|                     | 2. Te bevestigen binnen 10 seconden                                                               | --         | -        | +        |
+| **Informatie weergeven** | 1. Boomstructuur waarin handelingen logisch zijn weergegeven                             | --         | -        | ++       |
+|                     | 2. Snelle respons en duidelijke feedback via kleur/iconen                                         | --         | -        | +        |
 
-"+" : Een oplossing is tot stand gebracht, maar werkt nog niet optimaal.
+#### Legende
 
-"++" : De requirement wordt volledig voldaan.
+- `--` : Nog geen aandacht aan besteed  
+- `-`  : Overwogen, maar geen oplossing  
+- `+`  : Oplossing aanwezig, nog niet optimaal  
+- `++` : Volledig voldaan  
+- `x`  : Gedeeltelijk werkend, inconsistent of technisch beperkt
 
-#### Aanbevolen verbeteringen
-1. **Optimalisatie van spraakherkenning**, meer tolerant zijn voor variaties in articulatie en volgorde van spraak.
-2. **Kamernummer gebruiken**, mogelijkheid om kamernummer i.p.v. geboortedatum te gebruiken (logischer in zorginstellingen).
-3. **Fysieke betrouwbaarheid**, verstevigen van de verbinding tussen knop en ESP32-controller om loskomen te vermijden.
+---
 
+### Aanbevolen verbeteringen
+
+1. **Spraakherkenning optimaliseren** voor variatie in spraak en uitspraak.
+2. **Alternatieve identificatie** zoals kamernummer i.p.v. geboortedatum.
+3. **Fysieke betrouwbaarheid verbeteren**, vooral de aansluiting tussen knop en ESP32-controller.
+
+---
 
 ### Development 3
 #### Focus
