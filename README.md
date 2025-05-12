@@ -14,6 +14,8 @@ Verpleegkundigen verliezen veel tijd aan administratie, wat directe patiëntenzo
 
 Medispeech biedt hiervoor een oplossing: een draagbaar toestel dat spraak omzet in tekst. Het apparaat kan worden bevestigd aan een borstzakje of computer en maakt gebruik van spraakherkenning. Zo kunnen verpleegkundigen hun handelingen mondeling rapporteren terwijl ze zorg verlenen. De tekst wordt automatisch gegenereerd en doorgestuurd naar het juiste platform. Dit bespaart tijd, vermindert stress, en verhoogt de interactie met patiënten. Medispeech verlaagt dus de administratieve last én verhoogt de zorgkwaliteit.
 
+---
+
 ## Introductie
 
 ### Probleemstelling
@@ -31,6 +33,8 @@ Het voorgestelde systeem maakt gebruik van speech-to-text-technologie. Na elke h
 Het apparaat is compact en draagbaar, en kan eenvoudig aan de schort of computer worden bevestigd. Hierdoor kan informatie meteen na een handeling worden ingevoerd, zonder risico op vergeten stappen en met minimale workflowonderbreking.
 
 ![eerste](https://github.com/user-attachments/assets/bf4de28e-1a43-4e30-a852-5a66ae52fb3c)
+
+---
 
 ## Methodologie
 
@@ -50,6 +54,8 @@ Dit iteratieve proces werd na elke evaluatieronde herhaald. Zo ontstaat een prod
 ![Visuele voorstelling](https://github.com/user-attachments/assets/1f569bc6-096e-4721-a5f6-6ac174f5f4df)
 
 </details>
+
+---
 
 ## Discovery
 
@@ -104,6 +110,7 @@ De interviews leverden waardevolle, kwalitatieve inzichten op ter aanvulling van
 
 [Interview - protocol.pdf](https://github.com/user-attachments/files/18456220/Interview.-.protocol.pdf)
 
+---
 
 ## Resultaten
 
@@ -151,6 +158,7 @@ Staat positief tegenover technologie, zoals spraakinvoer, mits deze nauwkeurig e
 
 [Interview Rapport.pdf](https://github.com/user-attachments/files/18456142/Interview.Rapport.pdf)
 
+---
 
 ## Conclusies & Implicaties
 
@@ -172,36 +180,64 @@ Staat positief tegenover technologie, zoals spraakinvoer, mits deze nauwkeurig e
 
 Medispeech kan de administratiedruk aanzienlijk verlagen, waardoor zorgverleners meer tijd krijgen voor persoonlijke zorg. Dit verhoogt zowel het werkplezier als de kwaliteit van zorg. Het apparaat biedt een structurele verbetering voor efficiëntere workflows in de zorgsector.
 
+---
 
 ## Definition
-Dit onderdeel werd opgedeeld in twee fasen (waves), waarbij elke fase bestond uit 5 respondenten die werkzaam waren in een woonzorgcentrum of ziekenhuis.
 
-### Doestellingen
+Dit onderdeel werd opgesplitst in twee fases (*waves*), waarbij in elke fase 5 zorgverleners uit woonzorgcentra of ziekenhuizen betrokken waren.
+
+### Doelstellingen
+
 #### Wave 1 (N = 5)
-In de eerste wave wilden we vooral te weten komen welke vorm, knop en bevestiging het product nodig heeft voor een optimale werking. Welk silhouet (hoofdvorm) is het beste om mee te werken (eerder verticaal of horizontaal of nog anders). Is de knop om in te duwen, met touch (vingerherkenning?), om te draaien of om te schuiven? Kan de bevestiging gebeuren bij het zakje van de verpleegkundigen of moet het ergens anders bevestigd worden? Welke bevestiging lijkt het beste?
+
+In deze fase lag de focus op de fysieke vormgeving van het apparaat:
+
+- Welke hoofdvorm is het meest geschikt (verticaal, horizontaal, alternatief)?
+- Welke soort knop werkt het best (indrukken, touch, schuifmechanisme, draaiknop)?
+- Wat is de optimale bevestigingsmethode (aan het borstzakje of elders)?
+- Wat maakt een bevestiging gebruiksvriendelijk?
+
+Het doel was om inzicht te krijgen in voorkeuren van zorgverleners op vlak van vorm, interactie en bevestiging.
 
 #### Wave 2 (N = 5)
-In wave twee hebben we gefocust op het speech-to-text systeem. We wilden weten welke categorisering hier belangrijk is die in het systeem aanwezig moet zijn. Wat er moest gebeuren als er een foute opname gebeurde of als een opname toch per ongeluk gestart werd. Wat als er foute zaken werden geregistreerd. Hoe moet het  feedbacksysteem werken (licht, geluid, met trilling)?
 
+In deze fase werd de nadruk gelegd op de werking van het speech-to-text-systeem:
 
-### Materiaal & methoden
+- Welke categorieën moeten herkenbaar zijn in het systeem?
+- Wat moet er gebeuren bij foutieve of per ongeluk gestarte opnames?
+- Hoe moet foutieve input worden aangepast of verwijderd?
+- Welk type feedback (licht, geluid, trilling) is het meest geschikt?
+
+Deze interviews boden inzicht in hoe het systeem zich in realistische werksituaties moet gedragen.
+
+---
+
+### Materiaal & Methodologie
+
 #### Wave 1 (N = 5)
-In wave 1 werden er 5 respondenten ondervraagd die werken in een woonzorgcentrum of ziekenhuis.  Bepaalde werden gerekruteerd door mails te sturen naar woonzorgcentra en ziekenhuizen, andere waren kennissen. Er werden op voorhand 4 prototypes gemaakt met telkens een verschillende vorm, bevestigingssysteem en knop (zie foto’s hieronder). Eerst werden ze snel uit karton geprototyped, daarna ge-3D-print. Deze werden dan voorgelegd aan de respondenten. Zij konden dan een tabel invullen om zo overzichtelijk weer te geven welk systeem voor elk onderdeel (vorm, knop, bevestiging)  het beste leek en welke de positieve en negatieve punten waren aan elk systeem. Dit deden we om te achterhalen welke reden er precies achter zat waarom ze het ene boven het andere verkozen. We vroegen hen om er een actie mee uit te voeren die ze tijdens het werk ook zouden doen. Zo konden zij de beste keuze maken en konden wij zien hoe er gehandeld werd met het product en hoe vlot dat ging. Daarna werd ook besproken wat ze zelf zouden veranderen aan de prototypes. 
+
+Vijf zorgverleners werden gerekruteerd via e-mail en persoonlijke connecties. Er werden vier verschillende prototypes ontwikkeld met variatie in vorm, knoptype en bevestiging (zie foto’s hieronder). 
+
+De prototypes werden eerst vervaardigd uit karton en daarna 3D-geprint. De deelnemers kregen de prototypes in handen, voerden een simulatie uit van een typische handeling, en vulden vervolgens een evaluatietabel in met positieve en negatieve aspecten per ontwerp.
+
+Doel:
+- Begrijpen waarom een ontwerp verkozen werd boven andere
+- Waarnemen hoe vlot interactie met het product verliep
+- Vastleggen van verbetersuggesties vanuit de gebruikerservaring
 
 <details>
   <summary>Prototypes wave 1</summary>
- 
+
 ![model 1](https://github.com/user-attachments/assets/b11f77d9-629a-43e0-bbbd-b6ffe1b55d7e)
 ![model 2](https://github.com/user-attachments/assets/3bbc46b4-7540-45d6-acc3-e64f4944c0e7)
 ![model 3](https://github.com/user-attachments/assets/a5407a44-2996-4889-bcf3-7f9629cede31)
 ![model 4](https://github.com/user-attachments/assets/7fe56192-26cf-4047-ab2b-5d9510e73015)
 
-
 </details>
 
 <details>
   <summary>Ingevulde tabellen</summary>
- 
+
 ![tabel 1x](https://github.com/user-attachments/assets/7eb123c5-736f-47d2-b2ad-ebcf421f509f)
 ![tabel 2x](https://github.com/user-attachments/assets/083f3a82-ed4c-4b26-91df-a460a1c98ec0)
 ![tabel 3](https://github.com/user-attachments/assets/3a172ec7-2f36-4009-9968-9629924985ac)
@@ -209,73 +245,101 @@ In wave 1 werden er 5 respondenten ondervraagd die werken in een woonzorgcentrum
 
 </details>
 
-Voor meer gedetailleerde informatie:[Wave 1 protocol.pdf](https://github.com/user-attachments/files/18456237/Wave.1.protocol.pdf)
+[Wave 1 protocol.pdf](https://github.com/user-attachments/files/18456237/Wave.1.protocol.pdf)  
+[Wave 1 - informed consent.pdf](https://github.com/user-attachments/files/18456486/Wave.1.-.informed.consent.pdf)
 
-Informed Consent wave 1:[Wave 1 - informed consent.pdf](https://github.com/user-attachments/files/18456486/Wave.1.-.informed.consent.pdf)
-
+---
 
 #### Wave 2 (N = 5)
-In wave 2 werden de prototypes verbeterd op basis van de zaken die we geleerd hadden in wave 1. De zaken uit wave 1 werden opnieuw bevraagd ter controle of de aangepaste/gekozen systemen als positief werden ontvangen. Dit maal werd er meer doorgevraagd naar hoe het systeem achter het product dient te werken. Er werd opnieuw gevraagd om na te spelen hoe ze het tijdens hun werk zouden doen. Tijdens het interview werd er genoteerd wat er belangrijk was. Er werd opnieuw gebruik gemaakt van prototypes (zie foto's hieronder). Die dienden echter meer als voorstelling van de nieuwste versie van ons product zodat we dat opnieuw konden valideren. De prototypes werden nog gebruikt om verwijderknop en feedbackmechanisme te bevragen. Er werden ook zaken bevraagd die niet aan de hand van prototypes kon voorgesteld worden. 
-We vergeleken de notities van elk interview met elkaar. Hieruit konden we dan een conclusie trekken en ons toespitsen op een bepaald systeem en dat verder uitwerken. 
+
+De prototypes werden aangepast op basis van feedback uit wave 1. Er werd opnieuw geëvalueerd of de aangepaste keuzes positief werden ervaren.
+
+Nieuwe focuspunten in deze fase:
+- Validatie van het verbeterde design
+- Simulaties van realistische zorgsituaties
+- Gedetailleerde bevraging over feedbackmechanismen en foutafhandeling
+- Evaluatie van een *verwijderknop*
+- Discussie over systemen die moeilijk te prototypen zijn
+
+De prototypes werden vooral gebruikt als visuele ondersteuning om scenario’s bespreekbaar te maken. Na elk interview werden de notities vergeleken om tot een onderbouwde keuze te komen voor verdere ontwikkeling.
 
 <details>
   <summary>Prototypes wave 2</summary>
- 
+
 ![modellen](https://github.com/user-attachments/assets/5720582b-8653-48a2-a0e4-8a2357cbd600)
+
 </details>
 
-Voor meer gedetailleerde informatie:[Wave 2 protocol.pdf](https://github.com/user-attachments/files/18456246/Wave.2.protocol.pdf)
-
-Informed Consent wave 2: [Wave 2 - informed consent.pdf](https://github.com/user-attachments/files/18456513/Wave.2.-.informed.consent.pdf)
-
-### Resultaten
-
-#### Wave 1 (N = 5)
-
-##### Formaat:
-Het apparaat moet compact en licht zijn, maar ook stevig en merkbaar aanwezig. Afgeronde hoeken zorgen voor een veiligere uitstraling. Het horizontaal georiënteerde en cirkelvormige prototype leken het beste. 
-
-Stef, 35jaar: “Patiënten zouden zich kunnen bezeren aan de scherpe randen in model 1.”
-
-##### Bevestiging: 
-Het apparaat moet stevig blijven zitten, zelfs bij intensieve bewegingen, maar mag niet hinderlijk zijn. Opties voor bevestiging op verschillende plekken, zoals borstzakjes of direct aan kleding, worden geïntegreerd. De ketting, het schuifsysteem en de veiligheidsspeld worden als minder goed aanvaren. Alleen de magneetjes worden als een goede optie aanzien. 
-
-Katrien, 52jaar: “Ouderen kunnen nog altijd sterk zijn en in agressie durven grijpen naar de ketting…”
-
-Stef, 35jaar: “We hadden vroeger ook naamkaartjes die bevestigd werden op onze schort, maar we vonden die dan steeds terug bij het verversen van het beddengoed.”
-
-##### Knop: 
-De knop is intuïtief, stevig en goed zichtbaar, met visuele en tactiele feedback. Het moet simpel te gebruiken zijn. Zo weinig mogelijk stappen doorlopen om iets op te nemen. Het materiaal van de knop moet van kwaliteit zijn omdat die veel gebruikt zal worden. 
-
-Stephanie, 48jaar: “Als we per ongeluk erg haperen mag de opname niet gestart worden.”
-
-Extra: Hygiëne + batterij: Het product moet bestand zijn tegen regelmatige schoonmaakbeurten met ontsmettingsmiddelen, zonder verkleuring of schade. Er wordt het best gewerkt met een oplaadbakje zodat dit snel in en uit te halen is. Wanneer de batterij bijna plat is wordt een melding gegeven aan de hand van een knipperend lichtje of een trilling. 
-
-Voor meer gedetailleerde informatie:[Wave 1 rapport.pdf](https://github.com/user-attachments/files/18456167/Wave.1.rapport.pdf)
-
-Vooraf opgestelde scenario's die in beide waves getest konden worden:[Scenarios.pdf](https://github.com/user-attachments/files/18456508/Scenarios.pdf)
+[Wave 2 protocol.pdf](https://github.com/user-attachments/files/18456246/Wave.2.protocol.pdf)  
+[Wave 2 - informed consent.pdf](https://github.com/user-attachments/files/18456513/Wave.2.-.informed.consent.pdf)
 
 
-#### Wave 2 (N = 5)
-##### Knop: 
-Er is brede overeenstemming over de voorkeur voor een fysieke aan-uitknop, waarbij per ongeluk inschakelen wordt voorkomen, en visuele en/of tactiele feedback essentieel is om de status van het apparaat duidelijk te maken. Een duidelijk klikgeluid is wenselijk bij het indrukken.
+---
 
-##### Feedback: 
-Een groen licht voor 'aan' en een rood licht voor 'uit' dat een paar tellen aanhoud, daarna mag het volledig uitgaan.
+## Resultaten
 
-##### Verwijderknop: 
-Een verwijderknop wordt als essentieel beschouwd om foutieve opnames snel te corrigeren, met duidelijke visuele of auditieve feedback om aan te geven of de actie succesvol was. 
+### Wave 1 (N = 5)
 
-##### Boomstructuur: 
-Het zou makkelijk zijn als alles in een logische structuur wordt geordend zodat alle informatie makkelijk terug te vinden is. Er is ook een voorkeur voor het apparaat om gegevens op een centrale locatie te laten controleren, zoals via een app of computerinterface, zodat verpleegkundigen hun informatie na de shift kunnen verifiëren. 
+#### Formaat
 
-##### Badge-veiligheidsfunctie: 
-De badge-veiligheidsfunctie koppelt spraakopnames automatisch aan de juiste gebruiker, waardoor ongeautoriseerd gebruik wordt voorkomen en gegevens betrouwbaar worden beheerd. Dit voorkomt verwarring en vergemakkelijkt het terugvinden van opnames bij gebruik door meerdere medewerkers.
+Het apparaat moet compact, licht en stevig zijn, met afgeronde hoeken voor een veilige uitstraling. Een horizontale of cirkelvormige vorm werd als het meest geschikt ervaren.
 
-Voor meer gedetailleerde informatie:[Wave 2 rapport.pdf](https://github.com/user-attachments/files/18456188/Wave.2.rapport.pdf)
+> Stef, 35 jaar: “Patiënten zouden zich kunnen bezeren aan de scherpe randen in model 1.”
 
-### Design Requierments (conclusies) + gekozen oplossingen (PvE)
-Deze sectie behandelt de wensen van de klant en hoe deze zijn vertaald naar concrete ontwerpvereisten, gebaseerd op de feedback verkregen uit gebruikerstests uitgevoerd in wave 1 en wave 2. De tabel biedt een helder overzicht van de eisen en wensen van de klant, en de gekozen oplossingen die het ontwerp moeten realiseren. Hierbij wordt zowel gekeken naar functionele aspecten, zoals het omzetten van spraak naar tekst en het waarborgen van privacy, als naar praktische zaken zoals gebruiksgemak, draagbaarheid en batterijduur. Elke oplossing is geprioriteerd om te voldoen aan de belangrijkste behoeften van de klant, zodat het uiteindelijke product zowel efficiënt als gebruiksvriendelijk is.
+#### Bevestiging
+
+Het apparaat moet goed blijven zitten bij intensieve beweging, zonder hinder te veroorzaken. Bevestiging aan het borstzakje of kleding heeft de voorkeur. Ketting, schuifsysteem en veiligheidsspeld werden afgekeurd. Alleen magneetjes werden als betrouwbaar beschouwd.
+
+> Katrien, 52 jaar: “Ouderen kunnen nog altijd sterk zijn en in agressie durven grijpen naar de ketting…”
+
+> Stef, 35 jaar: “We hadden vroeger ook naamkaartjes die bevestigd werden op onze schort, maar we vonden die dan steeds terug bij het verversen van het beddengoed.”
+
+#### Knop
+
+De knop moet intuïtief, stevig, zichtbaar en eenvoudig te gebruiken zijn, met duidelijke visuele en tactiele feedback. Er mogen zo weinig mogelijk stappen nodig zijn om iets op te nemen. Hoogwaardig materiaal is belangrijk voor duurzaamheid.
+
+> Stephanie, 48 jaar: “Als we per ongeluk erg haperen mag de opname niet gestart worden.”
+
+#### Hygiëne & Batterij
+
+- Het apparaat moet bestand zijn tegen ontsmetting met alcohol zonder verkleuring of schade.
+- Het opladen moet eenvoudig zijn, idealiter via een laadstation.
+- Bij lage batterijstatus moet er een melding komen via knipperend licht of trilling.
+
+[Wave 1 rapport.pdf](https://github.com/user-attachments/files/18456167/Wave.1.rapport.pdf)  
+[Scenarios.pdf](https://github.com/user-attachments/files/18456508/Scenarios.pdf)
+
+---
+
+### Wave 2 (N = 5)
+
+#### Knop
+
+Voorkeur voor een fysieke aan-uitknop die onbedoeld gebruik voorkomt. Visuele en tactiele feedback is essentieel, met een duidelijk hoorbaar klikgeluid bij het indrukken.
+
+#### Feedback
+
+Een groen licht bij opname (‘aan’) en rood licht bij stop (‘uit’) dat enkele seconden zichtbaar blijft, daarna dooft het licht automatisch.
+
+#### Verwijderknop
+
+Een verwijderknop wordt als noodzakelijk beschouwd om foutieve opnames snel te wissen. Feedback (licht of geluid) moet aangeven of dit succesvol was.
+
+#### Boomstructuur
+
+Informatie moet logisch geordend zijn en eenvoudig terugvindbaar via hiërarchische structuur. Er is voorkeur voor synchronisatie met een centrale interface (app/computer) om opnames te controleren na de shift.
+
+#### Badge-veiligheidsfunctie
+
+De badge koppelt spraakopnames aan de juiste gebruiker, voorkomt ongeautoriseerd gebruik en vergemakkelijkt het terugvinden van opnames bij teamgebruik.
+
+[Wave 2 rapport.pdf](https://github.com/user-attachments/files/18456188/Wave.2.rapport.pdf)
+
+---
+
+## Design Requirements & Gekozen Oplossingen (PvE)
+
+De onderstaande tabel toont hoe gebruikersfeedback uit Wave 1 en 2 is vertaald naar ontwerpcriteria. Er wordt onderscheid gemaakt tussen eisen en wensen, en de gekozen oplossing is telkens gelinkt aan een prioriteit.
 
 <details>
   <summary>Tabel klantenwensen en oplossingen</summary>
@@ -296,11 +360,17 @@ Deze sectie behandelt de wensen van de klant en hoe deze zijn vertaald naar conc
 
 </details>
 
+---
 
-### HTA
-Dit stroomdiagram biedt een gedetailleerde stap-voor-stap handleiding voor het gebruik van het Medispeech-apparaat. Het is ontworpen om gebruikers door het proces van het bevestigen, inschakelen, gebruiken en uitschakelen van het apparaat te leiden, met duidelijke instructies voor elke fase van het gebruik. Het diagram begint met het bevestigen van het apparaat aan het medische uniform en eindigt met het uitschakelen van het apparaat nadat de taak is voltooid. Deze visuele gids helpt gebruikers op een efficiënte manier te navigeren door de verschillende stappen, zodat het gebruik van Medispeech snel en probleemloos verloopt.
+## HTA (Hierarchical Task Analysis)
+
+Onderstaand stroomdiagram toont een stapsgewijze handleiding voor het gebruik van het Medispeech-apparaat. Het leidt gebruikers door het volledige proces: van het bevestigen van het toestel tot het inschakelen, gebruiken en uiteindelijk uitschakelen na afloop van een taak.
+
+Elke fase is visueel uitgewerkt om zorgverleners snel en efficiënt wegwijs te maken in het gebruik van het toestel. De HTA helpt om het gebruik intuïtief, vlot en foutloos te laten verlopen in een drukke werkomgeving.
+
 ![HTA](https://github.com/user-attachments/assets/ac3508b2-156e-4b52-b313-fa3e176bedbf)
 
+---
 
 ## Developments 
 ### Development 1
