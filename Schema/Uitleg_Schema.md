@@ -29,8 +29,8 @@ Het weergegeven scherm in het schema is **niet het exacte model** dat in Medispe
 
 ## Belangrijke instructies voor gebruik
 
-1. **Sluit alleen XIAO B aan op de computer.**  
-   (XIAO A **niet** verbinden met USB)
+1. **Sluit alleen XIAO B aan op de computer tijdens het gebruik.**  
+   (XIAO A **niet** verbinden met USB, alleen tijdens uploaden)
 
 2. **Upload de LCD-code naar XIAO A.**
 
